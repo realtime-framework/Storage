@@ -9,3 +9,8 @@ To get your free application Realtime Cloud Storage key please sign-up [here](ht
  
 ## Documentation
 The complete Realtime Cloud Storage API reference is available [here](http://framework.realtime.co/storage/#documentation)
+
+## License
+Copyright 2013, Realtime.co.
+
+Licensed under the MIT license: [http://www.opensource.org/licenses/mit-license.php](http://www.opensource.org/licenses/mit-license.php)
