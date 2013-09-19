@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE14470817E1E3F80053BC90 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE14470717E1E3F80053BC90 /* UIKit.framework */; };
+		CE14470A17E1E3F80053BC90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE14470917E1E3F80053BC90 /* Foundation.framework */; };
+		CE14470C17E1E3F80053BC90 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE14470B17E1E3F80053BC90 /* CoreGraphics.framework */; };
+		CE14471217E1E3F80053BC90 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE14471017E1E3F80053BC90 /* InfoPlist.strings */; };
+		CE14471417E1E3F80053BC90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE14471317E1E3F80053BC90 /* main.m */; };
+		CE14471A17E1E3F80053BC90 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CE14471917E1E3F80053BC90 /* Default.png */; };
+		CE14471C17E1E3F80053BC90 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE14471B17E1E3F80053BC90 /* Default@2x.png */; };
+		CE14471E17E1E3F80053BC90 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE14471D17E1E3F80053BC90 /* Default-568h@2x.png */; };
+		CE14472F17E1E43A0053BC90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE14472B17E1E43A0053BC90 /* AppDelegate.m */; };
+		CE14473017E1E43A0053BC90 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE14472C17E1E43A0053BC90 /* MainStoryboard.storyboard */; };
+		CE14473117E1E43A0053BC90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE14472E17E1E43A0053BC90 /* ViewController.m */; };
+		CE14473617E1E4730053BC90 /* check_all.png in Resources */ = {isa = PBXBuildFile; fileRef = CE14473217E1E4730053BC90 /* check_all.png */; };
+		CE14473717E1E4730053BC90 /* check_del.png in Resources */ = {isa = PBXBuildFile; fileRef = CE14473317E1E4730053BC90 /* check_del.png */; };
+		CE14473817E1E4730053BC90 /* check_off.png in Resources */ = {isa = PBXBuildFile; fileRef = CE14473417E1E4730053BC90 /* check_off.png */; };
+		CE14473917E1E4730053BC90 /* check_on.png in Resources */ = {isa = PBXBuildFile; fileRef = CE14473517E1E4730053BC90 /* check_on.png */; };
+		CE14473D17E1E48A0053BC90 /* TodoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE14473A17E1E48A0053BC90 /* TodoCell.xib */; };
+		CE14473E17E1E48A0053BC90 /* TodoTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE14473C17E1E48A0053BC90 /* TodoTableCell.m */; };
+		CE14474717E1E60B0053BC90 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE14474117E1E5FB0053BC90 /* CFNetwork.framework */; };
+		CE14474817E1E60B0053BC90 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CE14474217E1E5FB0053BC90 /* libicucore.dylib */; };
+		CE14474917E1E60B0053BC90 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE14474317E1E5FB0053BC90 /* Security.framework */; };
+		CE144B1617E370B20053BC90 /* RealTimeCloudStorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE144B1517E370B20053BC90 /* RealTimeCloudStorage.framework */; };
+		CEA6627717E78BA5003EC749 /* Realtime.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA6627617E78BA5003EC749 /* Realtime.png */; };
+		CEA6627917E78BB5003EC749 /* Realtime_retina.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA6627817E78BB5003EC749 /* Realtime_retina.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE14470417E1E3F80053BC90 /* Storage Todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Storage Todo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE14470717E1E3F80053BC90 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE14470917E1E3F80053BC90 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE14470B17E1E3F80053BC90 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE14470F17E1E3F80053BC90 /* RealTimeCloudStorageExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RealTimeCloudStorageExample-Info.plist"; sourceTree = "<group>"; };
+		CE14471117E1E3F80053BC90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE14471317E1E3F80053BC90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE14471517E1E3F80053BC90 /* RealTimeCloudStorageExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RealTimeCloudStorageExample-Prefix.pch"; sourceTree = "<group>"; };
+		CE14471917E1E3F80053BC90 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CE14471B17E1E3F80053BC90 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CE14471D17E1E3F80053BC90 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CE14472A17E1E43A0053BC90 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		CE14472B17E1E43A0053BC90 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		CE14472C17E1E43A0053BC90 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard.storyboard; path = ../MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CE14472D17E1E43A0053BC90 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		CE14472E17E1E43A0053BC90 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
+		CE14473217E1E4730053BC90 /* check_all.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check_all.png; sourceTree = "<group>"; };
+		CE14473317E1E4730053BC90 /* check_del.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check_del.png; sourceTree = "<group>"; };
+		CE14473417E1E4730053BC90 /* check_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check_off.png; sourceTree = "<group>"; };
+		CE14473517E1E4730053BC90 /* check_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check_on.png; sourceTree = "<group>"; };
+		CE14473A17E1E48A0053BC90 /* TodoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TodoCell.xib; sourceTree = "<group>"; };
+		CE14473B17E1E48A0053BC90 /* TodoTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoTableCell.h; sourceTree = "<group>"; };
+		CE14473C17E1E48A0053BC90 /* TodoTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoTableCell.m; sourceTree = "<group>"; };
+		CE14474117E1E5FB0053BC90 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CE14474217E1E5FB0053BC90 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		CE14474317E1E5FB0053BC90 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CE144B1517E370B20053BC90 /* RealTimeCloudStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealTimeCloudStorage.framework; sourceTree = "<group>"; };
+		CEA6627617E78BA5003EC749 /* Realtime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Realtime.png; sourceTree = "<group>"; };
+		CEA6627817E78BB5003EC749 /* Realtime_retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Realtime_retina.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE14470117E1E3F80053BC90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE14474717E1E60B0053BC90 /* CFNetwork.framework in Frameworks */,
+				CE14474817E1E60B0053BC90 /* libicucore.dylib in Frameworks */,
+				CE14474917E1E60B0053BC90 /* Security.framework in Frameworks */,
+				CE14470817E1E3F80053BC90 /* UIKit.framework in Frameworks */,
+				CE14470A17E1E3F80053BC90 /* Foundation.framework in Frameworks */,
+				CE14470C17E1E3F80053BC90 /* CoreGraphics.framework in Frameworks */,
+				CE144B1617E370B20053BC90 /* RealTimeCloudStorage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE1446FB17E1E3F80053BC90 = {
+			isa = PBXGroup;
+			children = (
+				CEA6627817E78BB5003EC749 /* Realtime_retina.png */,
+				CEA6627617E78BA5003EC749 /* Realtime.png */,
+				CE14470D17E1E3F80053BC90 /* RealTimeCloudStorageExample */,
+				CE14470617E1E3F80053BC90 /* Frameworks */,
+				CE14470517E1E3F80053BC90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE14470517E1E3F80053BC90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE14470417E1E3F80053BC90 /* Storage Todo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE14470617E1E3F80053BC90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE144B1517E370B20053BC90 /* RealTimeCloudStorage.framework */,
+				CE14474117E1E5FB0053BC90 /* CFNetwork.framework */,
+				CE14474217E1E5FB0053BC90 /* libicucore.dylib */,
+				CE14474317E1E5FB0053BC90 /* Security.framework */,
+				CE14470717E1E3F80053BC90 /* UIKit.framework */,
+				CE14470917E1E3F80053BC90 /* Foundation.framework */,
+				CE14470B17E1E3F80053BC90 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE14470D17E1E3F80053BC90 /* RealTimeCloudStorageExample */ = {
+			isa = PBXGroup;
+			children = (
+				CE14473A17E1E48A0053BC90 /* TodoCell.xib */,
+				CE14473B17E1E48A0053BC90 /* TodoTableCell.h */,
+				CE14473C17E1E48A0053BC90 /* TodoTableCell.m */,
+				CE14472A17E1E43A0053BC90 /* AppDelegate.h */,
+				CE14472B17E1E43A0053BC90 /* AppDelegate.m */,
+				CE14472C17E1E43A0053BC90 /* MainStoryboard.storyboard */,
+				CE14472D17E1E43A0053BC90 /* ViewController.h */,
+				CE14472E17E1E43A0053BC90 /* ViewController.m */,
+				CE14470E17E1E3F80053BC90 /* Supporting Files */,
+			);
+			path = RealTimeCloudStorageExample;
+			sourceTree = "<group>";
+		};
+		CE14470E17E1E3F80053BC90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE14473217E1E4730053BC90 /* check_all.png */,
+				CE14473317E1E4730053BC90 /* check_del.png */,
+				CE14473417E1E4730053BC90 /* check_off.png */,
+				CE14473517E1E4730053BC90 /* check_on.png */,
+				CE14470F17E1E3F80053BC90 /* RealTimeCloudStorageExample-Info.plist */,
+				CE14471017E1E3F80053BC90 /* InfoPlist.strings */,
+				CE14471317E1E3F80053BC90 /* main.m */,
+				CE14471517E1E3F80053BC90 /* RealTimeCloudStorageExample-Prefix.pch */,
+				CE14471917E1E3F80053BC90 /* Default.png */,
+				CE14471B17E1E3F80053BC90 /* Default@2x.png */,
+				CE14471D17E1E3F80053BC90 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE14470317E1E3F80053BC90 /* RealTimeCloudStorageExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE14472717E1E3F80053BC90 /* Build configuration list for PBXNativeTarget "RealTimeCloudStorageExample" */;
+			buildPhases = (
+				CE14470017E1E3F80053BC90 /* Sources */,
+				CE14470117E1E3F80053BC90 /* Frameworks */,
+				CE14470217E1E3F80053BC90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealTimeCloudStorageExample;
+			productName = RealTimeCloudStorageExample;
+			productReference = CE14470417E1E3F80053BC90 /* Storage Todo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE1446FC17E1E3F80053BC90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = RealTime;
+			};
+			buildConfigurationList = CE1446FF17E1E3F80053BC90 /* Build configuration list for PBXProject "RealTimeCloudStorageExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE1446FB17E1E3F80053BC90;
+			productRefGroup = CE14470517E1E3F80053BC90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE14470317E1E3F80053BC90 /* RealTimeCloudStorageExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE14470217E1E3F80053BC90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE14471217E1E3F80053BC90 /* InfoPlist.strings in Resources */,
+				CE14471A17E1E3F80053BC90 /* Default.png in Resources */,
+				CE14471C17E1E3F80053BC90 /* Default@2x.png in Resources */,
+				CE14471E17E1E3F80053BC90 /* Default-568h@2x.png in Resources */,
+				CE14473017E1E43A0053BC90 /* MainStoryboard.storyboard in Resources */,
+				CE14473617E1E4730053BC90 /* check_all.png in Resources */,
+				CE14473717E1E4730053BC90 /* check_del.png in Resources */,
+				CE14473817E1E4730053BC90 /* check_off.png in Resources */,
+				CE14473917E1E4730053BC90 /* check_on.png in Resources */,
+				CE14473D17E1E48A0053BC90 /* TodoCell.xib in Resources */,
+				CEA6627717E78BA5003EC749 /* Realtime.png in Resources */,
+				CEA6627917E78BB5003EC749 /* Realtime_retina.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE14470017E1E3F80053BC90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE14471417E1E3F80053BC90 /* main.m in Sources */,
+				CE14472F17E1E43A0053BC90 /* AppDelegate.m in Sources */,
+				CE14473117E1E43A0053BC90 /* ViewController.m in Sources */,
+				CE14473E17E1E48A0053BC90 /* TodoTableCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE14471017E1E3F80053BC90 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE14471117E1E3F80053BC90 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE14472517E1E3F80053BC90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE14472617E1E3F80053BC90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE14472817E1E3F80053BC90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RealTimeCloudStorageExample/RealTimeCloudStorageExample-Prefix.pch";
+				INFOPLIST_FILE = "RealTimeCloudStorageExample/RealTimeCloudStorageExample-Info.plist";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "Storage Todo";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE14472917E1E3F80053BC90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RealTimeCloudStorageExample/RealTimeCloudStorageExample-Prefix.pch";
+				INFOPLIST_FILE = "RealTimeCloudStorageExample/RealTimeCloudStorageExample-Info.plist";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "Storage Todo";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE1446FF17E1E3F80053BC90 /* Build configuration list for PBXProject "RealTimeCloudStorageExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE14472517E1E3F80053BC90 /* Debug */,
+				CE14472617E1E3F80053BC90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE14472717E1E3F80053BC90 /* Build configuration list for PBXNativeTarget "RealTimeCloudStorageExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE14472817E1E3F80053BC90 /* Debug */,
+				CE14472917E1E3F80053BC90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE1446FC17E1E3F80053BC90 /* Project object */;
+}

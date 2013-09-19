@@ -1,0 +1,32 @@
+{
+  "name": "realtime-storage-todo",
+  "version": "1.0.1",
+  "description": "The Realtime Framework Cloud Storage Todo sample for Node.js",
+  "homepage": "http://storage.realtime.co/",
+  "keywords": [
+    "todo",
+    "realtime",
+    "real-time",
+    "ibt",
+    "pubsub",
+    "publish",
+    "subscribe",
+    "messaging",
+    "cloud",
+    "storage",
+    "baas",
+    "mbaas"
+  ],
+  "author": {
+    "name": "Realtime.co",
+    "email": "support@realtime.co"
+  },
+  "dependencies": {
+    "read": ">= 0.1.1",
+    "realtime-storage": ">= 1.0.0"
+  },
+  "main": "todo-storage",
+  "engines": {
+    "node": ">= 0.6.0"
+  }
+}
