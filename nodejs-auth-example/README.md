@@ -1,5 +1,5 @@
 ## The Realtime Cloud Storage authentication example for NodeJS
-This example uses the Realtime Cloud Storage NodeJS SDK create a role and authenticate a token. Don't forget to enter your Realtime Cloud Storage application key and private key.
+This example uses the Realtime Cloud Storage NodeJS SDK to create a security role and authenticate a token. Don't forget to enter your Realtime Cloud Storage application key and private key.
 
     node authenticationExample.js
 
