@@ -52,7 +52,7 @@
     
     //initialize a Storage Reference
     //for security change the @"2Ze1dz" for your application key
-    storage = [[StorageRef alloc] init:@"2Ze1dz" privateKey:nil authenticationToken:@"PM.Anonymous" isCluster:true isSecure:false url:@"http://storage-balancer.realtime.co/server/ssl/1.0"];
+    storage = [[StorageRef alloc] init:@"2Ze1dz" privateKey:nil authenticationToken:@"PM.Anonymous"];
     
     //generate random list name
     listName = [self genRandStringLength:6];

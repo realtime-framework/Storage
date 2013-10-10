@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CE14470317E1E3F80053BC90"
-               BuildableName = "RealTimeCloudStorageExample.app"
+               BuildableName = "Storage Todo.app"
                BlueprintName = "RealTimeCloudStorageExample"
                ReferencedContainer = "container:RealTimeCloudStorageExample.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CE14470317E1E3F80053BC90"
-            BuildableName = "RealTimeCloudStorageExample.app"
+            BuildableName = "Storage Todo.app"
             BlueprintName = "RealTimeCloudStorageExample"
             ReferencedContainer = "container:RealTimeCloudStorageExample.xcodeproj">
          </BuildableReference>
@@ -52,7 +52,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CE14470317E1E3F80053BC90"
-            BuildableName = "RealTimeCloudStorageExample.app"
+            BuildableName = "Storage Todo.app"
             BlueprintName = "RealTimeCloudStorageExample"
             ReferencedContainer = "container:RealTimeCloudStorageExample.xcodeproj">
          </BuildableReference>
@@ -70,7 +70,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CE14470317E1E3F80053BC90"
-            BuildableName = "RealTimeCloudStorageExample.app"
+            BuildableName = "Storage Todo.app"
             BlueprintName = "RealTimeCloudStorageExample"
             ReferencedContainer = "container:RealTimeCloudStorageExample.xcodeproj">
          </BuildableReference>
