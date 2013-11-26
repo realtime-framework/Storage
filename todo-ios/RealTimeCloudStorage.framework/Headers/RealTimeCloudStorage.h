@@ -600,6 +600,27 @@ typedef enum StorageOrder:NSInteger {StorageOrder_NULL, StorageOrder_ASC, Storag
  */
 - (ItemRef*) set: (NSDictionary*)attributes success: (void (^)(ItemSnapshot *success)) aSuccessCallback error:(void (^)(NSError *error)) anErrorCallback;
 
+
+/**
+ *   Increments a given attribute of an item. If the attribute doesn't exist, it is set to zero before the operation.
+ *
+ *   @param property The name of the item attribute.
+ *   @param value The number to add. Defaults to 1 if invalid.
+ *   @param success The block object to call with the snapshot of affected item as an argument, when the operation is completed.
+ *   @param error The block object to call if an exception occurred.
+ */
+- (ItemRef*) incr:(NSString *)property withValue:(NSInteger)value success:(void (^)(ItemSnapshot *success)) aSuccessCallback error:(void (^)(NSError *error)) aErrorCallback;
+
+/**
+ *   Decrements a given attribute of an item. If the attribute doesn't exist, it is set to zero before the operation.
+ *
+ *   @param property The name of the item attribute.
+ *   @param value The number to add. Defaults to 1 if invalid.
+ *   @param success The block object to call with the snapshot of affected item as an argument, when the operation is completed.
+ *   @param error The block object to call if an exception occurred.
+ */
+- (ItemRef*) decr:(NSString *)property withValue:(NSInteger)value success:(void (^)(ItemSnapshot *success)) aSuccessCallback error:(void (^)(NSError *error)) aErrorCallback;
+
 /**
  * Attach a listener to run block object every time the event type occurs for this item.
  *
@@ -661,9 +682,10 @@ typedef enum StorageOrder:NSInteger {StorageOrder_NULL, StorageOrder_ASC, Storag
     ItemRef *iRef;
     NSDictionary *iVal;
     TableRef *tRef;
+    StorageContext *context;
 }
 
-- (id)initWithRefAndVal:(TableRef*) aTableRef val:(NSDictionary*) aVal;
+- (id)initWithRefContextAndVal:(TableRef*) aTableRef storageContext:(StorageContext*)aContext val:(NSDictionary*) aVal;
 
 /**
  * Returns an item reference
