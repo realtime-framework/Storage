@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A4F4B041844FDD8004D62D2 /* RealTimeCloudStorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE144B1517E370B20053BC90 /* RealTimeCloudStorage.framework */; };
 		CE14470817E1E3F80053BC90 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE14470717E1E3F80053BC90 /* UIKit.framework */; };
 		CE14470A17E1E3F80053BC90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE14470917E1E3F80053BC90 /* Foundation.framework */; };
 		CE14470C17E1E3F80053BC90 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE14470B17E1E3F80053BC90 /* CoreGraphics.framework */; };
@@ -27,7 +28,6 @@
 		CE14474717E1E60B0053BC90 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE14474117E1E5FB0053BC90 /* CFNetwork.framework */; };
 		CE14474817E1E60B0053BC90 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CE14474217E1E5FB0053BC90 /* libicucore.dylib */; };
 		CE14474917E1E60B0053BC90 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE14474317E1E5FB0053BC90 /* Security.framework */; };
-		CE144B1617E370B20053BC90 /* RealTimeCloudStorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE144B1517E370B20053BC90 /* RealTimeCloudStorage.framework */; };
 		CEA6627717E78BA5003EC749 /* Realtime.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA6627617E78BA5003EC749 /* Realtime.png */; };
 		CEA6627917E78BB5003EC749 /* Realtime_retina.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA6627817E78BB5003EC749 /* Realtime_retina.png */; };
 /* End PBXBuildFile section */
@@ -69,13 +69,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A4F4B041844FDD8004D62D2 /* RealTimeCloudStorage.framework in Frameworks */,
 				CE14474717E1E60B0053BC90 /* CFNetwork.framework in Frameworks */,
 				CE14474817E1E60B0053BC90 /* libicucore.dylib in Frameworks */,
 				CE14474917E1E60B0053BC90 /* Security.framework in Frameworks */,
 				CE14470817E1E3F80053BC90 /* UIKit.framework in Frameworks */,
 				CE14470A17E1E3F80053BC90 /* Foundation.framework in Frameworks */,
 				CE14470C17E1E3F80053BC90 /* CoreGraphics.framework in Frameworks */,
-				CE144B1617E370B20053BC90 /* RealTimeCloudStorage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +304,8 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
+					/Users/iosdev/svnProjects/iOSDev/realtime.storage/apis/objectivec/trunk/example/RealTimeCloudStorageExample,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RealTimeCloudStorageExample/RealTimeCloudStorageExample-Prefix.pch";
@@ -320,7 +321,8 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
+					/Users/iosdev/svnProjects/iOSDev/realtime.storage/apis/objectivec/trunk/example/RealTimeCloudStorageExample,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RealTimeCloudStorageExample/RealTimeCloudStorageExample-Prefix.pch";

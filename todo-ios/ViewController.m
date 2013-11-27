@@ -218,6 +218,13 @@
     return [timestampsToShow count];
 }
 
+
+- (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+	
+	[tableView deselectRowAtIndexPath:indexPath animated:NO];
+}
+
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     static NSString *CellIdentifier = @"TodoCell";
     TodoTableCell *cell;    
@@ -226,6 +233,8 @@
         NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"TodoCell" owner:self options:nil];
         cell = [nib objectAtIndex:0];
     }
+	
+	[cell setSelectionStyle:UITableViewCellSelectionStyleNone];
 
     NSDictionary *dic = [items objectForKey:[timestampsToShow objectAtIndex:indexPath.row]];
     cell.cellLabel.text = [dic objectForKey:@"task"];
@@ -239,7 +248,7 @@
     //assign actions for buttons in tableview cell
     [cell.imgButton addTarget:self action:@selector(stateButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
     [cell.delButton addTarget:self action:@selector(deleteButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
-
+	
     //assign buttons tags as a task's timestamp
     int timestamp = [[timestampsToShow objectAtIndex:indexPath.row] intValue];
     [cell.imgButton setTag: timestamp];
