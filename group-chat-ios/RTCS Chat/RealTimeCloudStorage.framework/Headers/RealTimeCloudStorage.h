@@ -2,7 +2,9 @@
 //  RealtimeCloudStorage.h
 //  RealtimeCloudStorage
 //
-//  Created by Realtime on 30/07/2013.
+//	Version 1.0.2
+//
+//  Created by Realtime on 15/01/2014.
 //  Copyright (c) 2013 RealTime. All rights reserved.
 //
 
