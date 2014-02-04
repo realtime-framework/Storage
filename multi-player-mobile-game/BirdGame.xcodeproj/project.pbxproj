@@ -604,7 +604,7 @@
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/iosdev/svnProjects/realtime.ios/trunk/examples/BirdGame/Source/libs,
+					"$(SRCROOT)/**",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -620,9 +620,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/iosdev/Projects/SpriteBuilder/BirdGame/Source/libs/OrtcClient,
-					/Users/iosdev/Projects/SpriteBuilder/BirdGame/Source/libs/SRWebSocket,
-					/Users/iosdev/svnProjects/realtime.ios/trunk/examples/BirdGame/Source/libs/OrtcClient,
+					"$(SRCROOT)/Source/libs/OrtcClient",
+					"$(SRCROOT)/Source/libs/SRWebSocket",
+					"$(SRCROOT)/Source/libs/**",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
@@ -647,7 +647,7 @@
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/iosdev/svnProjects/realtime.ios/trunk/examples/BirdGame/Source/libs,
+					"$(SRCROOT)/**",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Source/Prefix.pch;
@@ -662,9 +662,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/iosdev/Projects/SpriteBuilder/BirdGame/Source/libs/OrtcClient,
-					/Users/iosdev/Projects/SpriteBuilder/BirdGame/Source/libs/SRWebSocket,
-					/Users/iosdev/svnProjects/realtime.ios/trunk/examples/BirdGame/Source/libs/OrtcClient,
+					"$(SRCROOT)/Source/libs/OrtcClient",
+					"$(SRCROOT)/Source/libs/SRWebSocket",
+					"$(SRCROOT)/Source/libs/**",
 				);
 				OTHER_LDFLAGS = (
 					"-lz",
