@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCResponder.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCResponder</TokenIdentifier>
+			<Abstract type="html">CCResponder is the base class for all nodes.
+It exposes the touch and mouse interface to any node, which enables user interaction</Abstract>
+			<DeclaredIn>CCResponder.h</DeclaredIn>
+            
+			
+			<NodeRef refid="106"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCResponder/setUserInteractionEnabled:</TokenIdentifier>
+			<Abstract type="html">Enabled user interaction on a node, like touch</Abstract>
+			<DeclaredIn>CCResponder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, getter=isUserInteractionEnabled) BOOL userInteractionEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/userInteractionEnabled</Anchor>
+            <NodeRef refid="106"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCResponder/isUserInteractionEnabled</TokenIdentifier>
+			<Abstract type="html">Enabled user interaction on a node, like touch</Abstract>
+			<DeclaredIn>CCResponder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, getter=isUserInteractionEnabled) BOOL userInteractionEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/userInteractionEnabled</Anchor>
+            <NodeRef refid="106"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCResponder/userInteractionEnabled</TokenIdentifier>
+			<Abstract type="html">Enabled user interaction on a node, like touch</Abstract>
+			<DeclaredIn>CCResponder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, getter=isUserInteractionEnabled) BOOL userInteractionEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/userInteractionEnabled</Anchor>
+            <NodeRef refid="106"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCResponder/setMultipleTouchEnabled:</TokenIdentifier>
+			<Abstract type="html">Enabled multiple touches inside a single node</Abstract>
+			<DeclaredIn>CCResponder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, getter=isMultipleTouchEnabled) BOOL multipleTouchEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/multipleTouchEnabled</Anchor>
+            <NodeRef refid="106"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCResponder/isMultipleTouchEnabled</TokenIdentifier>
+			<Abstract type="html">Enabled multiple touches inside a single node</Abstract>
+			<DeclaredIn>CCResponder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, getter=isMultipleTouchEnabled) BOOL multipleTouchEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/multipleTouchEnabled</Anchor>
+            <NodeRef refid="106"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCResponder/multipleTouchEnabled</TokenIdentifier>
+			<Abstract type="html">Enabled multiple touches inside a single node</Abstract>
+			<DeclaredIn>CCResponder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, getter=isMultipleTouchEnabled) BOOL multipleTouchEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/multipleTouchEnabled</Anchor>
+            <NodeRef refid="106"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCResponder/setClaimsUserInteraction:</TokenIdentifier>
+			<Abstract type="html">Locks the touch to the node if touch moved outside
+If a touch is moved inside a node that does not claim user interaction, a touchesBegan will be generated</Abstract>
+			<DeclaredIn>CCResponder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL claimsUserInteraction</Declaration>
+			
+			
+			<Anchor>//api/name/claimsUserInteraction</Anchor>
+            <NodeRef refid="106"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCResponder/claimsUserInteraction</TokenIdentifier>
+			<Abstract type="html">Locks the touch to the node if touch moved outside
+If a touch is moved inside a node that does not claim user interaction, a touchesBegan will be generated</Abstract>
+			<DeclaredIn>CCResponder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL claimsUserInteraction</Declaration>
+			
+			
+			<Anchor>//api/name/claimsUserInteraction</Anchor>
+            <NodeRef refid="106"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCResponder/claimsUserInteraction</TokenIdentifier>
+			<Abstract type="html">Locks the touch to the node if touch moved outside
+If a touch is moved inside a node that does not claim user interaction, a touchesBegan will be generated</Abstract>
+			<DeclaredIn>CCResponder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL claimsUserInteraction</Declaration>
+			
+			
+			<Anchor>//api/name/claimsUserInteraction</Anchor>
+            <NodeRef refid="106"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCResponder/setExclusiveTouch:</TokenIdentifier>
+			<Abstract type="html">All other touches will be cancelled / ignored, if a node with exclusive touch, is active</Abstract>
+			<DeclaredIn>CCResponder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, getter=isExclusiveTouch) BOOL exclusiveTouch</Declaration>
+			
+			
+			<Anchor>//api/name/exclusiveTouch</Anchor>
+            <NodeRef refid="106"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCResponder/isExclusiveTouch</TokenIdentifier>
+			<Abstract type="html">All other touches will be cancelled / ignored, if a node with exclusive touch, is active</Abstract>
+			<DeclaredIn>CCResponder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, getter=isExclusiveTouch) BOOL exclusiveTouch</Declaration>
+			
+			
+			<Anchor>//api/name/exclusiveTouch</Anchor>
+            <NodeRef refid="106"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCResponder/exclusiveTouch</TokenIdentifier>
+			<Abstract type="html">All other touches will be cancelled / ignored, if a node with exclusive touch, is active</Abstract>
+			<DeclaredIn>CCResponder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, getter=isExclusiveTouch) BOOL exclusiveTouch</Declaration>
+			
+			
+			<Anchor>//api/name/exclusiveTouch</Anchor>
+            <NodeRef refid="106"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

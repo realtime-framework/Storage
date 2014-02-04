@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCLabelAtlas.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCLabelAtlas</TokenIdentifier>
+			<Abstract type="html">CCLabelAtlas is a subclass of CCAtlasNode.</Abstract>
+			<DeclaredIn>CCLabelAtlas.h</DeclaredIn>
+            
+			
+			<NodeRef refid="83"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCLabelAtlas/labelWithString:charMapFile:itemWidth:itemHeight:startCharMap:</TokenIdentifier>
+			<Abstract type="html">creates the CCLabelAtlas with a string, a char map file(the atlas), the width and height of each element in points and the starting char of the atlas</Abstract>
+			<DeclaredIn>CCLabelAtlas.h</DeclaredIn>
+			
+			<Declaration>+ (id)labelWithString:(NSString *)string charMapFile:(NSString *)charmapfile itemWidth:(NSUInteger)w itemHeight:(NSUInteger)h startCharMap:(NSUInteger)firstElement</Declaration>
+			
+			
+			<Anchor>//api/name/labelWithString:charMapFile:itemWidth:itemHeight:startCharMap:</Anchor>
+            <NodeRef refid="83"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCLabelAtlas/labelWithString:fntFile:</TokenIdentifier>
+			<Abstract type="html">creates the CCLabelAtlas with a string and a configuration file</Abstract>
+			<DeclaredIn>CCLabelAtlas.h</DeclaredIn>
+			
+			<Declaration>+ (id)labelWithString:(NSString *)string fntFile:(NSString *)fontFile</Declaration>
+			
+			
+			<Anchor>//api/name/labelWithString:fntFile:</Anchor>
+            <NodeRef refid="83"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLabelAtlas/initWithString:charMapFile:itemWidth:itemHeight:startCharMap:</TokenIdentifier>
+			<Abstract type="html">initializes the CCLabelAtlas with a string, a char map file(the atlas), the width and height in points of each element and the starting char of the atlas</Abstract>
+			<DeclaredIn>CCLabelAtlas.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithString:(NSString *)string charMapFile:(NSString *)charmapfile itemWidth:(NSUInteger)w itemHeight:(NSUInteger)h startCharMap:(NSUInteger)firstElement</Declaration>
+			
+			
+			<Anchor>//api/name/initWithString:charMapFile:itemWidth:itemHeight:startCharMap:</Anchor>
+            <NodeRef refid="83"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLabelAtlas/initWithString:texture:itemWidth:itemHeight:startCharMap:</TokenIdentifier>
+			<Abstract type="html">initializes the CCLabelAtlas with a string, a texture, the width and height in points of each element and the starting char of the atlas</Abstract>
+			<DeclaredIn>CCLabelAtlas.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithString:(NSString *)theString texture:(CCTexture *)texture itemWidth:(NSUInteger)w itemHeight:(NSUInteger)h startCharMap:(NSUInteger)c</Declaration>
+			
+			
+			<Anchor>//api/name/initWithString:texture:itemWidth:itemHeight:startCharMap:</Anchor>
+            <NodeRef refid="83"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLabelAtlas/initWithString:fntFile:</TokenIdentifier>
+			<Abstract type="html">initializes the CCLabelAtlas with a string and a configuration file</Abstract>
+			<DeclaredIn>CCLabelAtlas.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithString:(NSString *)string fntFile:(NSString *)fontFile</Declaration>
+			
+			
+			<Anchor>//api/name/initWithString:fntFile:</Anchor>
+            <NodeRef refid="83"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

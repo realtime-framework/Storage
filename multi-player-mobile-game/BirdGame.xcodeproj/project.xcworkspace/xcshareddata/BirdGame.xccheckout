@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E3653EFD-5B98-45D7-A825-0E8DD1188C67</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BirdGame</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E617D049-5C01-4163-BDA2-584F9928E3FF</key>
+		<string>svn://svn.ibt.lan/svn/realtime.storage</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>apis/objectivec/trunk/example/BirdGame/BirdGame.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E617D049-5C01-4163-BDA2-584F9928E3FF</key>
+		<string>../../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>E617D049-5C01-4163-BDA2-584F9928E3FF</key>
+		<string>svn://svn.ibt.lan/svn/realtime.storage</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>svn://svn.ibt.lan/svn/realtime.storage/apis/objectivec/trunk/example/BirdGame/BirdGame.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E617D049-5C01-4163-BDA2-584F9928E3FF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E617D049-5C01-4163-BDA2-584F9928E3FF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>realtime</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCPointArray.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCPointArray</TokenIdentifier>
+			<Abstract type="html">An Array that contain control points.</Abstract>
+			<DeclaredIn>CCActionCatmullRom.h</DeclaredIn>
+            
+			
+			<NodeRef refid="101"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPointArray/setControlPoints:</TokenIdentifier>
+			<Abstract type="html">Array that contains the control points</Abstract>
+			<DeclaredIn>CCActionCatmullRom.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, strong) NSMutableArray *controlPoints</Declaration>
+			
+			
+			<Anchor>//api/name/controlPoints</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPointArray/controlPoints</TokenIdentifier>
+			<Abstract type="html">Array that contains the control points</Abstract>
+			<DeclaredIn>CCActionCatmullRom.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, strong) NSMutableArray *controlPoints</Declaration>
+			
+			
+			<Anchor>//api/name/controlPoints</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCPointArray/controlPoints</TokenIdentifier>
+			<Abstract type="html">Array that contains the control points</Abstract>
+			<DeclaredIn>CCActionCatmullRom.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, strong) NSMutableArray *controlPoints</Declaration>
+			
+			
+			<Anchor>//api/name/controlPoints</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCPointArray/arrayWithCapacity:</TokenIdentifier>
+			<Abstract type="html">creates and initializes a Points array with capacity</Abstract>
+			<DeclaredIn>CCActionCatmullRom.h</DeclaredIn>
+			
+			<Declaration>+ (id)arrayWithCapacity:(NSUInteger)capacity</Declaration>
+			
+			
+			<Anchor>//api/name/arrayWithCapacity:</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPointArray/initWithCapacity:</TokenIdentifier>
+			<Abstract type="html">initializes a Catmull Rom config with a capacity hint</Abstract>
+			<DeclaredIn>CCActionCatmullRom.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithCapacity:(NSUInteger)capacity</Declaration>
+			
+			
+			<Anchor>//api/name/initWithCapacity:</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPointArray/addControlPoint:</TokenIdentifier>
+			<Abstract type="html">appends a control point</Abstract>
+			<DeclaredIn>CCActionCatmullRom.h</DeclaredIn>
+			
+			<Declaration>- (void)addControlPoint:(CGPoint)controlPoint</Declaration>
+			
+			
+			<Anchor>//api/name/addControlPoint:</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPointArray/insertControlPoint:atIndex:</TokenIdentifier>
+			<Abstract type="html">inserts a controlPoint at index</Abstract>
+			<DeclaredIn>CCActionCatmullRom.h</DeclaredIn>
+			
+			<Declaration>- (void)insertControlPoint:(CGPoint)controlPoint atIndex:(NSUInteger)index</Declaration>
+			
+			
+			<Anchor>//api/name/insertControlPoint:atIndex:</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPointArray/replaceControlPoint:atIndex:</TokenIdentifier>
+			<Abstract type="html">replaces an existing controlPoint at index</Abstract>
+			<DeclaredIn>CCActionCatmullRom.h</DeclaredIn>
+			
+			<Declaration>- (void)replaceControlPoint:(CGPoint)controlPoint atIndex:(NSUInteger)index</Declaration>
+			
+			
+			<Anchor>//api/name/replaceControlPoint:atIndex:</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPointArray/getControlPointAtIndex:</TokenIdentifier>
+			<Abstract type="html">get the value of a controlPoint at a given index</Abstract>
+			<DeclaredIn>CCActionCatmullRom.h</DeclaredIn>
+			
+			<Declaration>- (CGPoint)getControlPointAtIndex:(NSInteger)index</Declaration>
+			
+			
+			<Anchor>//api/name/getControlPointAtIndex:</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPointArray/removeControlPointAtIndex:</TokenIdentifier>
+			<Abstract type="html">deletes a control point at a given index</Abstract>
+			<DeclaredIn>CCActionCatmullRom.h</DeclaredIn>
+			
+			<Declaration>- (void)removeControlPointAtIndex:(NSUInteger)index</Declaration>
+			
+			
+			<Anchor>//api/name/removeControlPointAtIndex:</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPointArray/count</TokenIdentifier>
+			<Abstract type="html">returns the number of objects of the control point array</Abstract>
+			<DeclaredIn>CCActionCatmullRom.h</DeclaredIn>
+			
+			<Declaration>- (NSUInteger)count</Declaration>
+			
+			
+			<Anchor>//api/name/count</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPointArray/reverse</TokenIdentifier>
+			<Abstract type="html">returns a new copy of the array reversed. User is responsible for releasing this copy</Abstract>
+			<DeclaredIn>CCActionCatmullRom.h</DeclaredIn>
+			
+			<Declaration>- (CCPointArray *)reverse</Declaration>
+			
+			
+			<Anchor>//api/name/reverse</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCPointArray/reverseInline</TokenIdentifier>
+			<Abstract type="html">reverse the current control point array inline, without generating a new one</Abstract>
+			<DeclaredIn>CCActionCatmullRom.h</DeclaredIn>
+			
+			<Declaration>- (void)reverseInline</Declaration>
+			
+			
+			<Anchor>//api/name/reverseInline</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

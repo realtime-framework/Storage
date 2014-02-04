@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/CCFileUtilsSearchMode.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/CCFileUtilsSearchMode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+            
+			
+			<NodeRef refid="138"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CCFileUtilsSearchModeSuffix</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CCFileUtilsSearchModeSuffix</Declaration>
+            
+            <DeclaredIn>CCFileUtils.h</DeclaredIn>
+            
+            <NodeRef refid="138"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CCFileUtilsSearchModeDirectory</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CCFileUtilsSearchModeDirectory</Declaration>
+            
+            <DeclaredIn>CCFileUtils.h</DeclaredIn>
+            
+            <NodeRef refid="138"/>
+        </Token>
+        
+	</File>
+</Tokens>

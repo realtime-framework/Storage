@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCActionMoveBy.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCActionMoveBy</TokenIdentifier>
+			<Abstract type="html">  Moves a CCNode object x,y pixels by modifying it&apos;s position attribute.
+x and y are relative to the position of the object.
+Several CCMoveBy actions can be concurrently called, and the resulting
+movement will be the sum of individual movements.</Abstract>
+			<DeclaredIn>CCActionInterval.h</DeclaredIn>
+            <Availability type="html">(
+    &quot;v2.1beta2-custom&quot;
+)</Availability>
+			
+			<NodeRef refid="41"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCActionMoveBy/actionWithDuration:position:</TokenIdentifier>
+			<Abstract type="html">creates the action</Abstract>
+			<DeclaredIn>CCActionInterval.h</DeclaredIn>
+			
+			<Declaration>+ (id)actionWithDuration:(CCTime)duration position:(CGPoint)deltaPosition</Declaration>
+			
+			
+			<Anchor>//api/name/actionWithDuration:position:</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCActionMoveBy/initWithDuration:position:</TokenIdentifier>
+			<Abstract type="html">initializes the action</Abstract>
+			<DeclaredIn>CCActionInterval.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithDuration:(CCTime)duration position:(CGPoint)deltaPosition</Declaration>
+			
+			
+			<Anchor>//api/name/initWithDuration:position:</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

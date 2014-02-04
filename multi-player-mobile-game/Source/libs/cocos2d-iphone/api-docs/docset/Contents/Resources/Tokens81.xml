@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCGLProgram.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCGLProgram</TokenIdentifier>
+			<Abstract type="html">CCGLProgram
+Class that implements a glProgram</Abstract>
+			<DeclaredIn>CCGLProgram.h</DeclaredIn>
+            <Availability type="html">(
+    &quot;v2.0.0&quot;
+)</Availability>
+			
+			<NodeRef refid="81"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCGLProgram/programWithVertexShaderByteArray:fragmentShaderByteArray:</TokenIdentifier>
+			<Abstract type="html">creates the CCGLProgram with a vertex and fragment from byte arrays</Abstract>
+			<DeclaredIn>CCGLProgram.h</DeclaredIn>
+			
+			<Declaration>+ (id)programWithVertexShaderByteArray:(const GLchar *)vShaderByteArray fragmentShaderByteArray:(const GLchar *)fShaderByteArray</Declaration>
+			
+			
+			<Anchor>//api/name/programWithVertexShaderByteArray:fragmentShaderByteArray:</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCGLProgram/programWithVertexShaderFilename:fragmentShaderFilename:</TokenIdentifier>
+			<Abstract type="html">creates the CCGLProgram with a vertex and fragment with contents of filenames</Abstract>
+			<DeclaredIn>CCGLProgram.h</DeclaredIn>
+			
+			<Declaration>+ (id)programWithVertexShaderFilename:(NSString *)vShaderFilename fragmentShaderFilename:(NSString *)fShaderFilename</Declaration>
+			
+			
+			<Anchor>//api/name/programWithVertexShaderFilename:fragmentShaderFilename:</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCGLProgram/initWithVertexShaderByteArray:fragmentShaderByteArray:</TokenIdentifier>
+			<Abstract type="html">Initializes the CCGLProgram with a vertex and fragment with bytes array</Abstract>
+			<DeclaredIn>CCGLProgram.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithVertexShaderByteArray:(const GLchar *)vShaderByteArray fragmentShaderByteArray:(const GLchar *)fShaderByteArray</Declaration>
+			
+			
+			<Anchor>//api/name/initWithVertexShaderByteArray:fragmentShaderByteArray:</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCGLProgram/initWithVertexShaderFilename:fragmentShaderFilename:</TokenIdentifier>
+			<Abstract type="html">Initializes the CCGLProgram with a vertex and fragment with contents of filenames</Abstract>
+			<DeclaredIn>CCGLProgram.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithVertexShaderFilename:(NSString *)vShaderFilename fragmentShaderFilename:(NSString *)fShaderFilename</Declaration>
+			
+			
+			<Anchor>//api/name/initWithVertexShaderFilename:fragmentShaderFilename:</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCGLProgram/addAttribute:index:</TokenIdentifier>
+			<Abstract type="html">  It will add a new attribute to the shader </Abstract>
+			<DeclaredIn>CCGLProgram.h</DeclaredIn>
+			
+			<Declaration>- (void)addAttribute:(NSString *)attributeName index:(GLuint)index</Declaration>
+			
+			
+			<Anchor>//api/name/addAttribute:index:</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCGLProgram/link</TokenIdentifier>
+			<Abstract type="html">links the glProgram</Abstract>
+			<DeclaredIn>CCGLProgram.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)link</Declaration>
+			
+			
+			<Anchor>//api/name/link</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCGLProgram/use</TokenIdentifier>
+			<Abstract type="html">it will call glUseProgram()</Abstract>
+			<DeclaredIn>CCGLProgram.h</DeclaredIn>
+			
+			<Declaration>- (void)use</Declaration>
+			
+			
+			<Anchor>//api/name/use</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCGLProgram/updateUniforms</TokenIdentifier>
+			<Abstract type="html">It will create 4 uniforms:
+	- kCCUniformPMatrix
+	- kCCUniformMVMatrix
+	- kCCUniformMVPMatrix
+	- kCCUniformSampler</Abstract>
+			<DeclaredIn>CCGLProgram.h</DeclaredIn>
+			
+			<Declaration>- (void)updateUniforms</Declaration>
+			
+			
+			<Anchor>//api/name/updateUniforms</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCGLProgram/uniformLocationForName:</TokenIdentifier>
+			<Abstract type="html">calls retrieves the named uniform location for this shader program.</Abstract>
+			<DeclaredIn>CCGLProgram.h</DeclaredIn>
+			
+			<Declaration>- (GLint)uniformLocationForName:(NSString *)name</Declaration>
+			
+			
+			<Anchor>//api/name/uniformLocationForName:</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCGLProgram/setUniformLocation:withI1:</TokenIdentifier>
+			<Abstract type="html">calls glUniform1i only if the values are different than the previous call for this same shader program.</Abstract>
+			<DeclaredIn>CCGLProgram.h</DeclaredIn>
+			
+			<Declaration>- (void)setUniformLocation:(GLint)location withI1:(GLint)i1</Declaration>
+			
+			
+			<Anchor>//api/name/setUniformLocation:withI1:</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCGLProgram/setUniformLocation:withF1:</TokenIdentifier>
+			<Abstract type="html">calls glUniform1f only if the values are different than the previous call for this same shader program.</Abstract>
+			<DeclaredIn>CCGLProgram.h</DeclaredIn>
+			
+			<Declaration>- (void)setUniformLocation:(GLint)location withF1:(GLfloat)f1</Declaration>
+			
+			
+			<Anchor>//api/name/setUniformLocation:withF1:</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCGLProgram/setUniformLocation:withF1:f2:</TokenIdentifier>
+			<Abstract type="html">calls glUniform2f only if the values are different than the previous call for this same shader program.</Abstract>
+			<DeclaredIn>CCGLProgram.h</DeclaredIn>
+			
+			<Declaration>- (void)setUniformLocation:(GLint)location withF1:(GLfloat)f1 f2:(GLfloat)f2</Declaration>
+			
+			
+			<Anchor>//api/name/setUniformLocation:withF1:f2:</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCGLProgram/setUniformLocation:withF1:f2:f3:</TokenIdentifier>
+			<Abstract type="html">calls glUniform3f only if the values are different than the previous call for this same shader program.</Abstract>
+			<DeclaredIn>CCGLProgram.h</DeclaredIn>
+			
+			<Declaration>- (void)setUniformLocation:(GLint)location withF1:(GLfloat)f1 f2:(GLfloat)f2 f3:(GLfloat)f3</Declaration>
+			
+			
+			<Anchor>//api/name/setUniformLocation:withF1:f2:f3:</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCGLProgram/setUniformLocation:withF1:f2:f3:f4:</TokenIdentifier>
+			<Abstract type="html">calls glUniform4f only if the values are different than the previous call for this same shader program.</Abstract>
+			<DeclaredIn>CCGLProgram.h</DeclaredIn>
+			
+			<Declaration>- (void)setUniformLocation:(GLint)location withF1:(GLfloat)f1 f2:(GLfloat)f2 f3:(GLfloat)f3 f4:(GLfloat)f4</Declaration>
+			
+			
+			<Anchor>//api/name/setUniformLocation:withF1:f2:f3:f4:</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCGLProgram/setUniformLocation:with2fv:count:</TokenIdentifier>
+			<Abstract type="html">calls glUniform2fv only if the values are different than the previous call for this same shader program.</Abstract>
+			<DeclaredIn>CCGLProgram.h</DeclaredIn>
+			
+			<Declaration>- (void)setUniformLocation:(GLint)location with2fv:(GLfloat *)floats count:(NSUInteger)numberOfArrays</Declaration>
+			
+			
+			<Anchor>//api/name/setUniformLocation:with2fv:count:</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCGLProgram/setUniformLocation:with3fv:count:</TokenIdentifier>
+			<Abstract type="html">calls glUniform3fv only if the values are different than the previous call for this same shader program.</Abstract>
+			<DeclaredIn>CCGLProgram.h</DeclaredIn>
+			
+			<Declaration>- (void)setUniformLocation:(GLint)location with3fv:(GLfloat *)floats count:(NSUInteger)numberOfArrays</Declaration>
+			
+			
+			<Anchor>//api/name/setUniformLocation:with3fv:count:</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCGLProgram/setUniformLocation:with4fv:count:</TokenIdentifier>
+			<Abstract type="html">calls glUniform4fv only if the values are different than the previous call for this same shader program.</Abstract>
+			<DeclaredIn>CCGLProgram.h</DeclaredIn>
+			
+			<Declaration>- (void)setUniformLocation:(GLint)location with4fv:(GLvoid *)floats count:(NSUInteger)numberOfArrays</Declaration>
+			
+			
+			<Anchor>//api/name/setUniformLocation:with4fv:count:</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCGLProgram/setUniformLocation:withMatrix4fv:count:</TokenIdentifier>
+			<Abstract type="html">calls glUniformMatrix4fv only if the values are different than the previous call for this same shader program.</Abstract>
+			<DeclaredIn>CCGLProgram.h</DeclaredIn>
+			
+			<Declaration>- (void)setUniformLocation:(GLint)location withMatrix4fv:(GLvoid *)matrix_array count:(NSUInteger)numberOfMatrix</Declaration>
+			
+			
+			<Anchor>//api/name/setUniformLocation:withMatrix4fv:count:</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCGLProgram/setUniformsForBuiltins</TokenIdentifier>
+			<Abstract type="html">will update the builtin uniforms if they are different than the previous call for this same shader program.</Abstract>
+			<DeclaredIn>CCGLProgram.h</DeclaredIn>
+			
+			<Declaration>- (void)setUniformsForBuiltins</Declaration>
+			
+			
+			<Anchor>//api/name/setUniformsForBuiltins</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCGLProgram/setUniformForModelViewProjectionMatrix</TokenIdentifier>
+			<Abstract type="html">Deprecated alias for setUniformsForBuiltins</Abstract>
+			<DeclaredIn>CCGLProgram.h</DeclaredIn>
+			
+			<Declaration>- (void)setUniformForModelViewProjectionMatrix</Declaration>
+			
+			
+			<Anchor>//api/name/setUniformForModelViewProjectionMatrix</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCGLProgram/vertexShaderLog</TokenIdentifier>
+			<Abstract type="html">returns the vertexShader error log</Abstract>
+			<DeclaredIn>CCGLProgram.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)vertexShaderLog</Declaration>
+			
+			
+			<Anchor>//api/name/vertexShaderLog</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCGLProgram/fragmentShaderLog</TokenIdentifier>
+			<Abstract type="html">returns the fragmentShader error log</Abstract>
+			<DeclaredIn>CCGLProgram.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)fragmentShaderLog</Declaration>
+			
+			
+			<Anchor>//api/name/fragmentShaderLog</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCGLProgram/programLog</TokenIdentifier>
+			<Abstract type="html">returns the program error log</Abstract>
+			<DeclaredIn>CCGLProgram.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)programLog</Declaration>
+			
+			
+			<Anchor>//api/name/programLog</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

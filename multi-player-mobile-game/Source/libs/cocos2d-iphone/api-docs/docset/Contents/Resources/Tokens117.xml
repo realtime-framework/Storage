@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCTextureAtlas.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCTextureAtlas</TokenIdentifier>
+			<Abstract type="html">A class that implements a Texture Atlas.
+Supported features:
+   * The atlas file can be a PVRTC, PNG or any other format supported by Texture2D
+   * Quads can be updated in runtime
+   * Quads can be added in runtime
+   * Quads can be removed in runtime
+   * Quads can be re-ordered in runtime
+   * The TextureAtlas capacity can be increased or decreased in runtime
+   * OpenGL component: V3F, C4B, T2F.
+The quads are rendered using an OpenGL ES VBO.
+To render the quads using an interleaved vertex array list, you should modify the ccConfig.h file</Abstract>
+			<DeclaredIn>CCTextureAtlas.h</DeclaredIn>
+            
+			
+			<NodeRef refid="117"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTextureAtlas/setTotalQuads:</TokenIdentifier>
+			<Abstract type="html">quantity of quads that are going to be drawn</Abstract>
+			<DeclaredIn>CCTextureAtlas.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSUInteger totalQuads</Declaration>
+			
+			
+			<Anchor>//api/name/totalQuads</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTextureAtlas/totalQuads</TokenIdentifier>
+			<Abstract type="html">quantity of quads that are going to be drawn</Abstract>
+			<DeclaredIn>CCTextureAtlas.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSUInteger totalQuads</Declaration>
+			
+			
+			<Anchor>//api/name/totalQuads</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTextureAtlas/totalQuads</TokenIdentifier>
+			<Abstract type="html">quantity of quads that are going to be drawn</Abstract>
+			<DeclaredIn>CCTextureAtlas.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSUInteger totalQuads</Declaration>
+			
+			
+			<Anchor>//api/name/totalQuads</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTextureAtlas/setCapacity:</TokenIdentifier>
+			<Abstract type="html">quantity of quads that can be stored with the current texture atlas size</Abstract>
+			<DeclaredIn>CCTextureAtlas.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSUInteger capacity</Declaration>
+			
+			
+			<Anchor>//api/name/capacity</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTextureAtlas/capacity</TokenIdentifier>
+			<Abstract type="html">quantity of quads that can be stored with the current texture atlas size</Abstract>
+			<DeclaredIn>CCTextureAtlas.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSUInteger capacity</Declaration>
+			
+			
+			<Anchor>//api/name/capacity</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTextureAtlas/capacity</TokenIdentifier>
+			<Abstract type="html">quantity of quads that can be stored with the current texture atlas size</Abstract>
+			<DeclaredIn>CCTextureAtlas.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSUInteger capacity</Declaration>
+			
+			
+			<Anchor>//api/name/capacity</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTextureAtlas/setTexture:</TokenIdentifier>
+			<Abstract type="html">Texture of the texture atlas</Abstract>
+			<DeclaredIn>CCTextureAtlas.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CCTexture *texture</Declaration>
+			
+			
+			<Anchor>//api/name/texture</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTextureAtlas/texture</TokenIdentifier>
+			<Abstract type="html">Texture of the texture atlas</Abstract>
+			<DeclaredIn>CCTextureAtlas.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CCTexture *texture</Declaration>
+			
+			
+			<Anchor>//api/name/texture</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTextureAtlas/texture</TokenIdentifier>
+			<Abstract type="html">Texture of the texture atlas</Abstract>
+			<DeclaredIn>CCTextureAtlas.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CCTexture *texture</Declaration>
+			
+			
+			<Anchor>//api/name/texture</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTextureAtlas/setQuads:</TokenIdentifier>
+			<Abstract type="html">Quads that are going to be rendered</Abstract>
+			<DeclaredIn>CCTextureAtlas.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) ccV3F_C4B_T2F_Quad *quads</Declaration>
+			
+			
+			<Anchor>//api/name/quads</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTextureAtlas/quads</TokenIdentifier>
+			<Abstract type="html">Quads that are going to be rendered</Abstract>
+			<DeclaredIn>CCTextureAtlas.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) ccV3F_C4B_T2F_Quad *quads</Declaration>
+			
+			
+			<Anchor>//api/name/quads</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTextureAtlas/quads</TokenIdentifier>
+			<Abstract type="html">Quads that are going to be rendered</Abstract>
+			<DeclaredIn>CCTextureAtlas.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) ccV3F_C4B_T2F_Quad *quads</Declaration>
+			
+			
+			<Anchor>//api/name/quads</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCTextureAtlas/textureAtlasWithFile:capacity:</TokenIdentifier>
+			<Abstract type="html">creates a TextureAtlas with an filename and with an initial capacity for Quads.
+The TextureAtlas capacity can be increased in runtime.</Abstract>
+			<DeclaredIn>CCTextureAtlas.h</DeclaredIn>
+			
+			<Declaration>+ (id)textureAtlasWithFile:(NSString *)file capacity:(NSUInteger)capacity</Declaration>
+			
+			
+			<Anchor>//api/name/textureAtlasWithFile:capacity:</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTextureAtlas/initWithFile:capacity:</TokenIdentifier>
+			<Abstract type="html">initializes a TextureAtlas with a filename and with a certain capacity for Quads.
+The TextureAtlas capacity can be increased in runtime.</Abstract>
+			<DeclaredIn>CCTextureAtlas.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithFile:(NSString *)file capacity:(NSUInteger)capacity</Declaration>
+			
+			
+			<Anchor>//api/name/initWithFile:capacity:</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCTextureAtlas/textureAtlasWithTexture:capacity:</TokenIdentifier>
+			<Abstract type="html">creates a TextureAtlas with a previously initialized Texture2D object, and
+with an initial capacity for n Quads.
+The TextureAtlas capacity can be increased in runtime.</Abstract>
+			<DeclaredIn>CCTextureAtlas.h</DeclaredIn>
+			
+			<Declaration>+ (id)textureAtlasWithTexture:(CCTexture *)tex capacity:(NSUInteger)capacity</Declaration>
+			
+			
+			<Anchor>//api/name/textureAtlasWithTexture:capacity:</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTextureAtlas/initWithTexture:capacity:</TokenIdentifier>
+			<Abstract type="html">initializes a TextureAtlas with a previously initialized Texture2D object, and
+with an initial capacity for Quads.
+The TextureAtlas capacity can be increased in runtime.</Abstract>
+			<DeclaredIn>CCTextureAtlas.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithTexture:(CCTexture *)tex capacity:(NSUInteger)capacity</Declaration>
+			
+			
+			<Anchor>//api/name/initWithTexture:capacity:</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTextureAtlas/updateQuad:atIndex:</TokenIdentifier>
+			<Abstract type="html">updates a Quad (texture, vertex and color) at a certain index
+* index must be between 0 and the atlas capacity - 1</Abstract>
+			<DeclaredIn>CCTextureAtlas.h</DeclaredIn>
+			
+			<Declaration>- (void)updateQuad:(ccV3F_C4B_T2F_Quad *)quad atIndex:(NSUInteger)index</Declaration>
+			
+			
+			<Anchor>//api/name/updateQuad:atIndex:</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTextureAtlas/insertQuad:atIndex:</TokenIdentifier>
+			<Abstract type="html">Inserts a Quad (texture, vertex and color) at a certain index
+index must be between 0 and the atlas capacity - 1</Abstract>
+			<DeclaredIn>CCTextureAtlas.h</DeclaredIn>
+			
+			<Declaration>- (void)insertQuad:(ccV3F_C4B_T2F_Quad *)quad atIndex:(NSUInteger)index</Declaration>
+			
+			
+			<Anchor>//api/name/insertQuad:atIndex:</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTextureAtlas/insertQuads:atIndex:amount:</TokenIdentifier>
+			<Abstract type="html">Inserts a c array of quads at a given index
+index must be between 0 and the atlas capacity - 1
+this method doesn&apos;t enlarge the array when amount + index &gt; totalQuads</Abstract>
+			<DeclaredIn>CCTextureAtlas.h</DeclaredIn>
+			
+			<Declaration>- (void)insertQuads:(ccV3F_C4B_T2F_Quad *)quads atIndex:(NSUInteger)index amount:(NSUInteger)amount</Declaration>
+			
+			
+			<Anchor>//api/name/insertQuads:atIndex:amount:</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTextureAtlas/insertQuadFromIndex:atIndex:</TokenIdentifier>
+			<Abstract type="html">Removes the quad that is located at a certain index and inserts it at a new index
+This operation is faster than removing and inserting in a quad in 2 different steps</Abstract>
+			<DeclaredIn>CCTextureAtlas.h</DeclaredIn>
+			
+			<Declaration>- (void)insertQuadFromIndex:(NSUInteger)fromIndex atIndex:(NSUInteger)newIndex</Declaration>
+			
+			
+			<Anchor>//api/name/insertQuadFromIndex:atIndex:</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTextureAtlas/removeQuadAtIndex:</TokenIdentifier>
+			<Abstract type="html">removes a quad at a given index number.
+The capacity remains the same, but the total number of quads to be drawn is reduced in 1</Abstract>
+			<DeclaredIn>CCTextureAtlas.h</DeclaredIn>
+			
+			<Declaration>- (void)removeQuadAtIndex:(NSUInteger)index</Declaration>
+			
+			
+			<Anchor>//api/name/removeQuadAtIndex:</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTextureAtlas/removeQuadsAtIndex:amount:</TokenIdentifier>
+			<Abstract type="html">removes a amount of quads starting from index</Abstract>
+			<DeclaredIn>CCTextureAtlas.h</DeclaredIn>
+			
+			<Declaration>- (void)removeQuadsAtIndex:(NSUInteger)index amount:(NSUInteger)amount</Declaration>
+			
+			
+			<Anchor>//api/name/removeQuadsAtIndex:amount:</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTextureAtlas/removeAllQuads</TokenIdentifier>
+			<Abstract type="html">removes all Quads.
+The TextureAtlas capacity remains untouched. No memory is freed.
+The total number of quads to be drawn will be 0</Abstract>
+			<DeclaredIn>CCTextureAtlas.h</DeclaredIn>
+			
+			<Declaration>- (void)removeAllQuads</Declaration>
+			
+			
+			<Anchor>//api/name/removeAllQuads</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTextureAtlas/resizeCapacity:</TokenIdentifier>
+			<Abstract type="html">resize the capacity of the CCTextureAtlas.
+The new capacity can be lower or higher than the current one
+It returns YES if the resize was successful.
+If it fails to resize the capacity it will return NO with a new capacity of 0.</Abstract>
+			<DeclaredIn>CCTextureAtlas.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)resizeCapacity:(NSUInteger)n</Declaration>
+			
+			
+			<Anchor>//api/name/resizeCapacity:</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTextureAtlas/increaseTotalQuadsWith:</TokenIdentifier>
+			<Abstract type="html">Used internally by CCParticleBatchNode
+don&apos;t use this unless you know what you&apos;re doing</Abstract>
+			<DeclaredIn>CCTextureAtlas.h</DeclaredIn>
+			
+			<Declaration>- (void)increaseTotalQuadsWith:(NSUInteger)amount</Declaration>
+			
+			
+			<Anchor>//api/name/increaseTotalQuadsWith:</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTextureAtlas/moveQuadsFromIndex:amount:atIndex:</TokenIdentifier>
+			<Abstract type="html">Moves an amount of quads from oldIndex at newIndex</Abstract>
+			<DeclaredIn>CCTextureAtlas.h</DeclaredIn>
+			
+			<Declaration>- (void)moveQuadsFromIndex:(NSUInteger)oldIndex amount:(NSUInteger)amount atIndex:(NSUInteger)newIndex</Declaration>
+			
+			
+			<Anchor>//api/name/moveQuadsFromIndex:amount:atIndex:</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTextureAtlas/moveQuadsFromIndex:to:</TokenIdentifier>
+			<Abstract type="html">Moves quads from index till totalQuads to the newIndex
+Used internally by CCParticleBatchNode
+This method doesn&apos;t enlarge the array if newIndex + quads to be moved &gt; capacity</Abstract>
+			<DeclaredIn>CCTextureAtlas.h</DeclaredIn>
+			
+			<Declaration>- (void)moveQuadsFromIndex:(NSUInteger)index to:(NSUInteger)newIndex</Declaration>
+			
+			
+			<Anchor>//api/name/moveQuadsFromIndex:to:</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTextureAtlas/fillWithEmptyQuadsFromIndex:amount:</TokenIdentifier>
+			<Abstract type="html">Ensures that after a realloc quads are still empty
+Used internally by CCParticleBatchNode</Abstract>
+			<DeclaredIn>CCTextureAtlas.h</DeclaredIn>
+			
+			<Declaration>- (void)fillWithEmptyQuadsFromIndex:(NSUInteger)index amount:(NSUInteger)amount</Declaration>
+			
+			
+			<Anchor>//api/name/fillWithEmptyQuadsFromIndex:amount:</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTextureAtlas/drawNumberOfQuads:</TokenIdentifier>
+			<Abstract type="html">draws n quads
+n can&apos;t be greater than the capacity of the Atlas</Abstract>
+			<DeclaredIn>CCTextureAtlas.h</DeclaredIn>
+			
+			<Declaration>- (void)drawNumberOfQuads:(NSUInteger)n</Declaration>
+			
+			
+			<Anchor>//api/name/drawNumberOfQuads:</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTextureAtlas/drawNumberOfQuads:fromIndex:</TokenIdentifier>
+			<Abstract type="html">draws n quads from an index (offset).
+n + start can&apos;t be greater than the capacity of the atlas</Abstract>
+			<DeclaredIn>CCTextureAtlas.h</DeclaredIn>
+			
+			<Declaration>- (void)drawNumberOfQuads:(NSUInteger)n fromIndex:(NSUInteger)start</Declaration>
+			
+			
+			<Anchor>//api/name/drawNumberOfQuads:fromIndex:</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTextureAtlas/drawQuads</TokenIdentifier>
+			<Abstract type="html">draws all the Atlas&apos;s Quads</Abstract>
+			<DeclaredIn>CCTextureAtlas.h</DeclaredIn>
+			
+			<Declaration>- (void)drawQuads</Declaration>
+			
+			
+			<Anchor>//api/name/drawQuads</Anchor>
+            <NodeRef refid="117"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

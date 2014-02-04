@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCScheduler.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCScheduler</TokenIdentifier>
+			<Abstract type="html">CCScheduler is responsible of triggering the scheduled callbacks.
+You should not use NSTimer. Instead use this class.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+            
+			
+			<NodeRef refid="109"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCScheduler/setTimeScale:</TokenIdentifier>
+			<Abstract type="html">Modifies the time of all scheduled callbacks.
+You can use this property to create a &apos;slow motion&apos; or &apos;fast forward&apos; effect.
+Default is 1.0. To create a &apos;slow motion&apos; effect, use values below 1.0.
+To create a &apos;fast forward&apos; effect, use values higher than 1.0.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CCTime timeScale</Declaration>
+			
+			
+			<Anchor>//api/name/timeScale</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCScheduler/timeScale</TokenIdentifier>
+			<Abstract type="html">Modifies the time of all scheduled callbacks.
+You can use this property to create a &apos;slow motion&apos; or &apos;fast forward&apos; effect.
+Default is 1.0. To create a &apos;slow motion&apos; effect, use values below 1.0.
+To create a &apos;fast forward&apos; effect, use values higher than 1.0.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CCTime timeScale</Declaration>
+			
+			
+			<Anchor>//api/name/timeScale</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCScheduler/timeScale</TokenIdentifier>
+			<Abstract type="html">Modifies the time of all scheduled callbacks.
+You can use this property to create a &apos;slow motion&apos; or &apos;fast forward&apos; effect.
+Default is 1.0. To create a &apos;slow motion&apos; effect, use values below 1.0.
+To create a &apos;fast forward&apos; effect, use values higher than 1.0.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CCTime timeScale</Declaration>
+			
+			
+			<Anchor>//api/name/timeScale</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCScheduler/setPaused:</TokenIdentifier>
+			<Abstract type="html">Will pause / resume the CCScheduler.
+It won&apos;t dispatch any message to any target/selector, block if it is paused.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL paused</Declaration>
+			
+			
+			<Anchor>//api/name/paused</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCScheduler/paused</TokenIdentifier>
+			<Abstract type="html">Will pause / resume the CCScheduler.
+It won&apos;t dispatch any message to any target/selector, block if it is paused.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL paused</Declaration>
+			
+			
+			<Anchor>//api/name/paused</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCScheduler/paused</TokenIdentifier>
+			<Abstract type="html">Will pause / resume the CCScheduler.
+It won&apos;t dispatch any message to any target/selector, block if it is paused.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL paused</Declaration>
+			
+			
+			<Anchor>//api/name/paused</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCScheduler/setCurrentTime:</TokenIdentifier>
+			<Abstract type="html">Current time the scheduler is calling a block for.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CCTime currentTime</Declaration>
+			
+			
+			<Anchor>//api/name/currentTime</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCScheduler/currentTime</TokenIdentifier>
+			<Abstract type="html">Current time the scheduler is calling a block for.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CCTime currentTime</Declaration>
+			
+			
+			<Anchor>//api/name/currentTime</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCScheduler/currentTime</TokenIdentifier>
+			<Abstract type="html">Current time the scheduler is calling a block for.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CCTime currentTime</Declaration>
+			
+			
+			<Anchor>//api/name/currentTime</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCScheduler/setLastUpdateTime:</TokenIdentifier>
+			<Abstract type="html">Time of the most recent update: calls.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CCTime lastUpdateTime</Declaration>
+			
+			
+			<Anchor>//api/name/lastUpdateTime</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCScheduler/lastUpdateTime</TokenIdentifier>
+			<Abstract type="html">Time of the most recent update: calls.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CCTime lastUpdateTime</Declaration>
+			
+			
+			<Anchor>//api/name/lastUpdateTime</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCScheduler/lastUpdateTime</TokenIdentifier>
+			<Abstract type="html">Time of the most recent update: calls.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CCTime lastUpdateTime</Declaration>
+			
+			
+			<Anchor>//api/name/lastUpdateTime</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCScheduler/setLastFixedUpdateTime:</TokenIdentifier>
+			<Abstract type="html">Time of the most recent fixedUpdate: calls.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CCTime lastFixedUpdateTime</Declaration>
+			
+			
+			<Anchor>//api/name/lastFixedUpdateTime</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCScheduler/lastFixedUpdateTime</TokenIdentifier>
+			<Abstract type="html">Time of the most recent fixedUpdate: calls.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CCTime lastFixedUpdateTime</Declaration>
+			
+			
+			<Anchor>//api/name/lastFixedUpdateTime</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCScheduler/lastFixedUpdateTime</TokenIdentifier>
+			<Abstract type="html">Time of the most recent fixedUpdate: calls.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CCTime lastFixedUpdateTime</Declaration>
+			
+			
+			<Anchor>//api/name/lastFixedUpdateTime</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCScheduler/setMaxTimeStep:</TokenIdentifier>
+			<Abstract type="html">Maximum allowed time step.
+If the CPU can&apos;t keep up with the game, time will slow down.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CCTime maxTimeStep</Declaration>
+			
+			
+			<Anchor>//api/name/maxTimeStep</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCScheduler/maxTimeStep</TokenIdentifier>
+			<Abstract type="html">Maximum allowed time step.
+If the CPU can&apos;t keep up with the game, time will slow down.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CCTime maxTimeStep</Declaration>
+			
+			
+			<Anchor>//api/name/maxTimeStep</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCScheduler/maxTimeStep</TokenIdentifier>
+			<Abstract type="html">Maximum allowed time step.
+If the CPU can&apos;t keep up with the game, time will slow down.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CCTime maxTimeStep</Declaration>
+			
+			
+			<Anchor>//api/name/maxTimeStep</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCScheduler/setFixedTimeStep:</TokenIdentifier>
+			<Abstract type="html">The time between fixedUpdate: calls.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CCTime fixedTimeStep</Declaration>
+			
+			
+			<Anchor>//api/name/fixedTimeStep</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCScheduler/fixedTimeStep</TokenIdentifier>
+			<Abstract type="html">The time between fixedUpdate: calls.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CCTime fixedTimeStep</Declaration>
+			
+			
+			<Anchor>//api/name/fixedTimeStep</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCScheduler/fixedTimeStep</TokenIdentifier>
+			<Abstract type="html">The time between fixedUpdate: calls.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CCTime fixedTimeStep</Declaration>
+			
+			
+			<Anchor>//api/name/fixedTimeStep</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCScheduler/update:</TokenIdentifier>
+			<Abstract type="html">&apos;update&apos; the scheduler.
+You should NEVER call this method, unless you know what you are doing.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>- (void)update:(CCTime)dt</Declaration>
+			
+			
+			<Anchor>//api/name/update:</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCScheduler/unscheduleTarget:</TokenIdentifier>
+			<Abstract type="html">Unschedules all selectors and blocks for a given target.
+This also includes the &quot;update&quot; selector.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>- (void)unscheduleTarget:(NSObject&lt;CCSchedulerTarget&gt; *)target</Declaration>
+			
+			
+			<Anchor>//api/name/unscheduleTarget:</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

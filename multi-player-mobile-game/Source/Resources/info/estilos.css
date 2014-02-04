@@ -1,0 +1,48 @@
+body{
+	background-color: #FF5F00;
+	margin:0;
+	/*margin: 95pt 0 0 85pt;*/
+	padding: 20px 10px 30px 10px;
+	/*padding: 95pt 60pt 0 85pt;*/
+	
+	font-family: 'helvetica neue', helvetica;
+	font-size: 14px;
+	color: #FFFFFF;
+	text-align:justify;
+	text-justify:inter-word;
+}
+h1{
+	font-weight: bold;
+	font-size: 20px;
+	text-align:center;
+	margin: 0 3% 5px 2%;
+}
+
+h2{
+	font-size: 18px;
+	font-weight: normal;
+	text-align:center;
+	margin: 0 3% 15px 2%;
+}
+
+h3{
+	font-size: 16px;
+	font-weight: normal;
+	text-align:center;
+	margin: 0 3% 15px 2%;
+}
+
+.h3_color{
+	color: #C2C2C2;
+}
+
+p{
+	margin: 0 3% 15px 2%;
+}
+
+a {
+	font-weight: bold;
+	text-decoration:underline;
+	color: #FFFFFF;
+}
+

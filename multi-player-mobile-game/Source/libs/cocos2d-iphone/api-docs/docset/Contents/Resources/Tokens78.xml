@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCDrawNode.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCDrawNode</TokenIdentifier>
+			<Abstract type="html">CCDrawNode
+Node that draws dots, segments and polygons.
+Faster than the &quot;drawing primitives&quot; since they it draws everything in one single batch.</Abstract>
+			<DeclaredIn>CCDrawNode.h</DeclaredIn>
+            <Availability type="html">(
+    &quot;v2.1&quot;
+)</Availability>
+			
+			<NodeRef refid="78"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCDrawNode/drawDot:radius:color:</TokenIdentifier>
+			<Abstract type="html">draw a dot at a position, with a given radius and color</Abstract>
+			<DeclaredIn>CCDrawNode.h</DeclaredIn>
+			
+			<Declaration>- (void)drawDot:(CGPoint)pos radius:(CGFloat)radius color:(ccColor4F)color</Declaration>
+			
+			
+			<Anchor>//api/name/drawDot:radius:color:</Anchor>
+            <NodeRef refid="78"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCDrawNode/drawSegmentFrom:to:radius:color:</TokenIdentifier>
+			<Abstract type="html">draw a segment with a radius and color</Abstract>
+			<DeclaredIn>CCDrawNode.h</DeclaredIn>
+			
+			<Declaration>- (void)drawSegmentFrom:(CGPoint)a to:(CGPoint)b radius:(CGFloat)radius color:(ccColor4F)color</Declaration>
+			
+			
+			<Anchor>//api/name/drawSegmentFrom:to:radius:color:</Anchor>
+            <NodeRef refid="78"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCDrawNode/drawPolyWithVerts:count:fillColor:borderWidth:borderColor:</TokenIdentifier>
+			<Abstract type="html">draw a polygon with a fill color and line color</Abstract>
+			<DeclaredIn>CCDrawNode.h</DeclaredIn>
+			
+			<Declaration>- (void)drawPolyWithVerts:(const CGPoint *)verts count:(NSUInteger)count fillColor:(ccColor4F)fill borderWidth:(CGFloat)width borderColor:(ccColor4F)line</Declaration>
+			
+			
+			<Anchor>//api/name/drawPolyWithVerts:count:fillColor:borderWidth:borderColor:</Anchor>
+            <NodeRef refid="78"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCDrawNode/clear</TokenIdentifier>
+			<Abstract type="html">Clear the geometry in the node&apos;s buffer.</Abstract>
+			<DeclaredIn>CCDrawNode.h</DeclaredIn>
+			
+			<Declaration>- (void)clear</Declaration>
+			
+			
+			<Anchor>//api/name/clear</Anchor>
+            <NodeRef refid="78"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

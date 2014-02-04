@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCActionSkewTo.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCActionSkewTo</TokenIdentifier>
+			<Abstract type="html">Skews a CCNode object to given angles by modifying its skewX and skewY attributes</Abstract>
+			<DeclaredIn>CCActionInterval.h</DeclaredIn>
+            <Availability type="html">(
+    &quot;v1.0&quot;
+)</Availability>
+			
+			<NodeRef refid="56"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCActionSkewTo/actionWithDuration:skewX:skewY:</TokenIdentifier>
+			<Abstract type="html">creates the action</Abstract>
+			<DeclaredIn>CCActionInterval.h</DeclaredIn>
+			
+			<Declaration>+ (id)actionWithDuration:(CCTime)t skewX:(float)sx skewY:(float)sy</Declaration>
+			
+			
+			<Anchor>//api/name/actionWithDuration:skewX:skewY:</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCActionSkewTo/initWithDuration:skewX:skewY:</TokenIdentifier>
+			<Abstract type="html">initializes the action with duration, skew X and skew Y</Abstract>
+			<DeclaredIn>CCActionInterval.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithDuration:(CCTime)t skewX:(float)sx skewY:(float)sy</Declaration>
+			
+			
+			<Anchor>//api/name/initWithDuration:skewX:skewY:</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

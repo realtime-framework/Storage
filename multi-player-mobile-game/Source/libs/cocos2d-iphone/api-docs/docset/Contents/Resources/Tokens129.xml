@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/CCDirectorDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/CCDirectorDelegate</TokenIdentifier>
+			<Abstract type="html">CCDirector delegate</Abstract>
+			<DeclaredIn>CCProtocols.h</DeclaredIn>
+            
+			
+			<NodeRef refid="129"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCDirectorDelegate/updateProjection</TokenIdentifier>
+			<Abstract type="html">Called by CCDirector when the projection is updated, and &quot;custom&quot; projection is used</Abstract>
+			<DeclaredIn>CCProtocols.h</DeclaredIn>
+			
+			<Declaration>- (void)updateProjection</Declaration>
+			
+			
+			<Anchor>//api/name/updateProjection</Anchor>
+            <NodeRef refid="129"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCDirectorDelegate/shouldAutorotateToInterfaceOrientation:</TokenIdentifier>
+			<Abstract type="html">Returns a Boolean value indicating whether the CCDirector supports the specified orientation. Default value is YES (supports all possible orientations)</Abstract>
+			<DeclaredIn>CCProtocols.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation</Declaration>
+			
+			
+			<Anchor>//api/name/shouldAutorotateToInterfaceOrientation:</Anchor>
+            <NodeRef refid="129"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCDirectorDelegate/directorDidReshapeProjection:</TokenIdentifier>
+			<Abstract type="html">Called when projection is resized (due to layoutSubviews on the view). This is important to respond to in order to setup your scene with the proper dimensions (which only exist after the first call to layoutSubviews) so that you can set your scene as early as possible to avoid startup flicker</Abstract>
+			<DeclaredIn>CCProtocols.h</DeclaredIn>
+			
+			<Declaration>- (void)directorDidReshapeProjection:(CCDirector *)director</Declaration>
+			
+			
+			<Anchor>//api/name/directorDidReshapeProjection:</Anchor>
+            <NodeRef refid="129"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

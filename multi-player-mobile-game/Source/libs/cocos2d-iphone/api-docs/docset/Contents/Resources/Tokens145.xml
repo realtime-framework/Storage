@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/CCSystemVersion.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/CCSystemVersion</TokenIdentifier>
+			<Abstract type="html">OS version definitions. Includes both iOS and Mac OS versions</Abstract>
+			<DeclaredIn>CCConfiguration.h</DeclaredIn>
+            
+			
+			<NodeRef refid="145"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CCSystemVersion_iOS_4_0</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CCSystemVersion_iOS_4_0</Declaration>
+            
+            <DeclaredIn>CCConfiguration.h</DeclaredIn>
+            
+            <NodeRef refid="145"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CCSystemVersion_iOS_4_0_1</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CCSystemVersion_iOS_4_0_1</Declaration>
+            
+            <DeclaredIn>CCConfiguration.h</DeclaredIn>
+            
+            <NodeRef refid="145"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CCSystemVersion_iOS_4_1</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CCSystemVersion_iOS_4_1</Declaration>
+            
+            <DeclaredIn>CCConfiguration.h</DeclaredIn>
+            
+            <NodeRef refid="145"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CCSystemVersion_iOS_4_2</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CCSystemVersion_iOS_4_2</Declaration>
+            
+            <DeclaredIn>CCConfiguration.h</DeclaredIn>
+            
+            <NodeRef refid="145"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CCSystemVersion_iOS_4_2_1</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CCSystemVersion_iOS_4_2_1</Declaration>
+            
+            <DeclaredIn>CCConfiguration.h</DeclaredIn>
+            
+            <NodeRef refid="145"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CCSystemVersion_iOS_4_3</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CCSystemVersion_iOS_4_3</Declaration>
+            
+            <DeclaredIn>CCConfiguration.h</DeclaredIn>
+            
+            <NodeRef refid="145"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CCSystemVersion_iOS_4_3_1</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CCSystemVersion_iOS_4_3_1</Declaration>
+            
+            <DeclaredIn>CCConfiguration.h</DeclaredIn>
+            
+            <NodeRef refid="145"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CCSystemVersion_iOS_4_3_2</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CCSystemVersion_iOS_4_3_2</Declaration>
+            
+            <DeclaredIn>CCConfiguration.h</DeclaredIn>
+            
+            <NodeRef refid="145"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CCSystemVersion_iOS_4_3_3</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CCSystemVersion_iOS_4_3_3</Declaration>
+            
+            <DeclaredIn>CCConfiguration.h</DeclaredIn>
+            
+            <NodeRef refid="145"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CCSystemVersion_iOS_4_3_4</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CCSystemVersion_iOS_4_3_4</Declaration>
+            
+            <DeclaredIn>CCConfiguration.h</DeclaredIn>
+            
+            <NodeRef refid="145"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CCSystemVersion_iOS_4_3_5</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CCSystemVersion_iOS_4_3_5</Declaration>
+            
+            <DeclaredIn>CCConfiguration.h</DeclaredIn>
+            
+            <NodeRef refid="145"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CCSystemVersion_iOS_5_0</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CCSystemVersion_iOS_5_0</Declaration>
+            
+            <DeclaredIn>CCConfiguration.h</DeclaredIn>
+            
+            <NodeRef refid="145"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CCSystemVersion_iOS_5_0_1</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CCSystemVersion_iOS_5_0_1</Declaration>
+            
+            <DeclaredIn>CCConfiguration.h</DeclaredIn>
+            
+            <NodeRef refid="145"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CCSystemVersion_iOS_5_1_0</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CCSystemVersion_iOS_5_1_0</Declaration>
+            
+            <DeclaredIn>CCConfiguration.h</DeclaredIn>
+            
+            <NodeRef refid="145"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CCSystemVersion_iOS_6_0</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CCSystemVersion_iOS_6_0</Declaration>
+            
+            <DeclaredIn>CCConfiguration.h</DeclaredIn>
+            
+            <NodeRef refid="145"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CCSystemVersion_iOS_7_0</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CCSystemVersion_iOS_7_0</Declaration>
+            
+            <DeclaredIn>CCConfiguration.h</DeclaredIn>
+            
+            <NodeRef refid="145"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CCSystemVersion_Mac_10_6</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CCSystemVersion_Mac_10_6</Declaration>
+            
+            <DeclaredIn>CCConfiguration.h</DeclaredIn>
+            
+            <NodeRef refid="145"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CCSystemVersion_Mac_10_7</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CCSystemVersion_Mac_10_7</Declaration>
+            
+            <DeclaredIn>CCConfiguration.h</DeclaredIn>
+            
+            <NodeRef refid="145"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CCSystemVersion_Mac_10_8</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CCSystemVersion_Mac_10_8</Declaration>
+            
+            <DeclaredIn>CCConfiguration.h</DeclaredIn>
+            
+            <NodeRef refid="145"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CCSystemVersion_Mac_10_9</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CCSystemVersion_Mac_10_9</Declaration>
+            
+            <DeclaredIn>CCConfiguration.h</DeclaredIn>
+            
+            <NodeRef refid="145"/>
+        </Token>
+        
+	</File>
+</Tokens>

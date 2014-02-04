@@ -1,0 +1,1406 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>CCLabelTTF Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 961)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">Cocos2d </a></h1>
+				<a id="developerHome" href="../index.html">Cocos2d-iPhone.org</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">CCLabelTTF Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/adjustsFontSizeToFit">&nbsp;&nbsp;&nbsp;&nbsp;adjustsFontSizeToFit</option>
+	
+	<option value="//api/name/attributedString">&nbsp;&nbsp;&nbsp;&nbsp;attributedString</option>
+	
+	<option value="//api/name/baselineAdjustment">&nbsp;&nbsp;&nbsp;&nbsp;baselineAdjustment</option>
+	
+	<option value="//api/name/dimensions">&nbsp;&nbsp;&nbsp;&nbsp;dimensions</option>
+	
+	<option value="//api/name/fontColor">&nbsp;&nbsp;&nbsp;&nbsp;fontColor</option>
+	
+	<option value="//api/name/fontName">&nbsp;&nbsp;&nbsp;&nbsp;fontName</option>
+	
+	<option value="//api/name/fontSize">&nbsp;&nbsp;&nbsp;&nbsp;fontSize</option>
+	
+	<option value="//api/name/horizontalAlignment">&nbsp;&nbsp;&nbsp;&nbsp;horizontalAlignment</option>
+	
+	<option value="//api/name/minimumFontSize">&nbsp;&nbsp;&nbsp;&nbsp;minimumFontSize</option>
+	
+	<option value="//api/name/outlineColor">&nbsp;&nbsp;&nbsp;&nbsp;outlineColor</option>
+	
+	<option value="//api/name/outlineWidth">&nbsp;&nbsp;&nbsp;&nbsp;outlineWidth</option>
+	
+	<option value="//api/name/shadowBlurRadius">&nbsp;&nbsp;&nbsp;&nbsp;shadowBlurRadius</option>
+	
+	<option value="//api/name/shadowColor">&nbsp;&nbsp;&nbsp;&nbsp;shadowColor</option>
+	
+	<option value="//api/name/shadowOffset">&nbsp;&nbsp;&nbsp;&nbsp;shadowOffset</option>
+	
+	<option value="//api/name/string">&nbsp;&nbsp;&nbsp;&nbsp;string</option>
+	
+	<option value="//api/name/verticalAlignment">&nbsp;&nbsp;&nbsp;&nbsp;verticalAlignment</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/labelWithAttributedString:">&nbsp;&nbsp;&nbsp;&nbsp;+ labelWithAttributedString:</option>
+	
+	<option value="//api/name/labelWithAttributedString:dimensions:">&nbsp;&nbsp;&nbsp;&nbsp;+ labelWithAttributedString:dimensions:</option>
+	
+	<option value="//api/name/labelWithString:fontName:fontSize:">&nbsp;&nbsp;&nbsp;&nbsp;+ labelWithString:fontName:fontSize:</option>
+	
+	<option value="//api/name/labelWithString:fontName:fontSize:dimensions:">&nbsp;&nbsp;&nbsp;&nbsp;+ labelWithString:fontName:fontSize:dimensions:</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/initWithAttributedString:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithAttributedString:</option>
+	
+	<option value="//api/name/initWithAttributedString:dimensions:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithAttributedString:dimensions:</option>
+	
+	<option value="//api/name/initWithString:fontName:fontSize:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithString:fontName:fontSize:</option>
+	
+	<option value="//api/name/initWithString:fontName:fontSize:dimensions:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithString:fontName:fontSize:dimensions:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/adjustsFontSizeToFit">adjustsFontSizeToFit</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/attributedString">attributedString</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/baselineAdjustment">baselineAdjustment</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dimensions">dimensions</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/fontColor">fontColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/fontName">fontName</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/fontSize">fontSize</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/horizontalAlignment">horizontalAlignment</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/minimumFontSize">minimumFontSize</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/outlineColor">outlineColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/outlineWidth">outlineWidth</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/shadowBlurRadius">shadowBlurRadius</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/shadowColor">shadowColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/shadowOffset">shadowOffset</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/string">string</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/verticalAlignment">verticalAlignment</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/labelWithAttributedString:">labelWithAttributedString:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/labelWithAttributedString:dimensions:">labelWithAttributedString:dimensions:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/labelWithString:fontName:fontSize:">labelWithString:fontName:fontSize:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/labelWithString:fontName:fontSize:dimensions:">labelWithString:fontName:fontSize:dimensions:</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithAttributedString:">initWithAttributedString:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithAttributedString:dimensions:">initWithAttributedString:dimensions:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithString:fontName:fontSize:">initWithString:fontName:fontSize:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithString:fontName:fontSize:dimensions:">initWithString:fontName:fontSize:dimensions:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="CCLabelTTF Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">CCLabelTTF Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/CCSprite.html">CCSprite</a> : <a href="../Classes/CCNodeRGBA.html">CCNodeRGBA</a> : <a href="../Classes/CCNode.html">CCNode</a> : <a href="../Classes/CCResponder.html">CCResponder</a> : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value"><a href="../Protocols/CCLabelProtocol.html">CCLabelProtocol</a></td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">CCLabelTTF.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>CCLabel is a subclass of CCTextureNode that knows how to render text labels</p>
+
+<p>All features from CCTextureNode are valid in CCLabel</p>
+
+<p>CCLabel objects are slow. Consider using <a href="../Classes/CCLabelAtlas.html">CCLabelAtlas</a> or <a href="../Classes/CCLabelBMFont.html">CCLabelBMFont</a> instead.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/string">&nbsp;&nbsp;string</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/attributedString">&nbsp;&nbsp;attributedString</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/fontName">&nbsp;&nbsp;fontName</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/fontSize">&nbsp;&nbsp;fontSize</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/fontColor">&nbsp;&nbsp;fontColor</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dimensions">&nbsp;&nbsp;dimensions</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/horizontalAlignment">&nbsp;&nbsp;horizontalAlignment</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/verticalAlignment">&nbsp;&nbsp;verticalAlignment</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/shadowColor">&nbsp;&nbsp;shadowColor</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/shadowOffset">&nbsp;&nbsp;shadowOffset</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/shadowBlurRadius">&nbsp;&nbsp;shadowBlurRadius</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/outlineColor">&nbsp;&nbsp;outlineColor</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/outlineWidth">&nbsp;&nbsp;outlineWidth</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/adjustsFontSizeToFit">&nbsp;&nbsp;adjustsFontSizeToFit</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/minimumFontSize">&nbsp;&nbsp;minimumFontSize</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/baselineAdjustment">&nbsp;&nbsp;baselineAdjustment</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/labelWithString:fontName:fontSize:">+&nbsp;labelWithString:fontName:fontSize:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/labelWithString:fontName:fontSize:dimensions:">+&nbsp;labelWithString:fontName:fontSize:dimensions:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/labelWithAttributedString:">+&nbsp;labelWithAttributedString:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/labelWithAttributedString:dimensions:">+&nbsp;labelWithAttributedString:dimensions:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithString:fontName:fontSize:">&ndash;&nbsp;initWithString:fontName:fontSize:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithString:fontName:fontSize:dimensions:">&ndash;&nbsp;initWithString:fontName:fontSize:dimensions:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithAttributedString:">&ndash;&nbsp;initWithAttributedString:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithAttributedString:dimensions:">&ndash;&nbsp;initWithAttributedString:dimensions:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/adjustsFontSizeToFit" title="adjustsFontSizeToFit"></a>
+	<h3 class="subsubtitle method-title">adjustsFontSizeToFit</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>If set, the label will be scaled down to fit into the size provided by the <a href="#//api/name/dimensions">dimensions</a> property. Only has an effect if <a href="#//api/name/dimensions">dimensions</a> are set.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) BOOL adjustsFontSizeToFit</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCLabelTTF.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/attributedString" title="attributedString"></a>
+	<h3 class="subsubtitle method-title">attributedString</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Changes text of the label, draws the <a href="#//api/name/string">string</a> with given attributes. The attributes used will override the alignment, color and shadow as set by the properties of the label. Attributed strings are only available on Mac and iOS 6 or later.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSAttributedString *attributedString</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<div class="warning"><p><strong>Warning:</strong> Changing the <a href="#//api/name/string">string</a> is as expensive as creating a new CCLabelTTF. To obtain better performance use <a href="../Classes/CCLabelAtlas.html">CCLabelAtlas</a> or <a href="../Classes/CCLabelBMFont.html">CCLabelBMFont</a>.</p></div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCLabelTTF.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/baselineAdjustment" title="baselineAdjustment"></a>
+	<h3 class="subsubtitle method-title">baselineAdjustment</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Adjusts the fonts baseline, the value is set in points.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) float baselineAdjustment</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCLabelTTF.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dimensions" title="dimensions"></a>
+	<h3 class="subsubtitle method-title">dimensions</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Dimensions of the label in Points</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) CGSize dimensions</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCLabelTTF.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/fontColor" title="fontColor"></a>
+	<h3 class="subsubtitle method-title">fontColor</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Font color. If not using shadow or outline, it is more efficient to use the color property.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) ccColor4B fontColor</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCLabelTTF.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/fontName" title="fontName"></a>
+	<h3 class="subsubtitle method-title">fontName</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Font name used in the label</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSString *fontName</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCLabelTTF.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/fontSize" title="fontSize"></a>
+	<h3 class="subsubtitle method-title">fontSize</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Font size used in the label</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) float fontSize</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCLabelTTF.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/horizontalAlignment" title="horizontalAlignment"></a>
+	<h3 class="subsubtitle method-title">horizontalAlignment</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The alignment of the label</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) CCTextAlignment horizontalAlignment</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCLabelTTF.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/minimumFontSize" title="minimumFontSize"></a>
+	<h3 class="subsubtitle method-title">minimumFontSize</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Used together with <a href="#//api/name/adjustsFontSizeToFit">adjustsFontSizeToFit</a>. Fonts will not be scaled down below this size (the label will instead be clipped).</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) float minimumFontSize</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCLabelTTF.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/outlineColor" title="outlineColor"></a>
+	<h3 class="subsubtitle method-title">outlineColor</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The color of the label&rsquo;s outline. Default is transparent/no outline.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) ccColor4B outlineColor</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCLabelTTF.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/outlineWidth" title="outlineWidth"></a>
+	<h3 class="subsubtitle method-title">outlineWidth</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The width of the label&rsquo;s outline. Default is 0/no outline.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) float outlineWidth</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCLabelTTF.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/shadowBlurRadius" title="shadowBlurRadius"></a>
+	<h3 class="subsubtitle method-title">shadowBlurRadius</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The blur radius of the shadow, default is 0.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) float shadowBlurRadius</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCLabelTTF.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/shadowColor" title="shadowColor"></a>
+	<h3 class="subsubtitle method-title">shadowColor</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The color of a text shadow. If the color is transparent, no shadow will be used.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) ccColor4B shadowColor</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCLabelTTF.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/shadowOffset" title="shadowOffset"></a>
+	<h3 class="subsubtitle method-title">shadowOffset</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The offset of the shadow (in the type specified by <a href="#//api/name/shadowOffsetType">shadowOffsetType</a>), default is (0,0).</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) CGPoint shadowOffset</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCLabelTTF.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/string" title="string"></a>
+	<h3 class="subsubtitle method-title">string</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Changes the text of the label.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSString *string</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<div class="warning"><p><strong>Warning:</strong> Changing the string is as expensive as creating a new CCLabelTTF. To obtain better performance use <a href="../Classes/CCLabelAtlas.html">CCLabelAtlas</a> or <a href="../Classes/CCLabelBMFont.html">CCLabelBMFont</a>.</p></div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCLabelTTF.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/verticalAlignment" title="verticalAlignment"></a>
+	<h3 class="subsubtitle method-title">verticalAlignment</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>The vertical alignment of the label</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) CCVerticalTextAlignment verticalAlignment</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCLabelTTF.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/labelWithAttributedString:" title="labelWithAttributedString:"></a>
+	<h3 class="subsubtitle method-title">labelWithAttributedString:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Creates a CCLabelTTF with an attributed <a href="#//api/name/string">string</a>. Only supported on Mac and iOS 6 or later.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (id)labelWithAttributedString:(NSAttributedString *)<em>attrString</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCLabelTTF.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/labelWithAttributedString:dimensions:" title="labelWithAttributedString:dimensions:"></a>
+	<h3 class="subsubtitle method-title">labelWithAttributedString:dimensions:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Creates a CCLabelTTF with an attributed <a href="#//api/name/string">string</a> and the desired <a href="#//api/name/dimensions">dimensions</a>. Only supported on Mac and iOS 6 or later.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (id)labelWithAttributedString:(NSAttributedString *)<em>attrString</em> dimensions:(CGSize)<em>dimensions</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCLabelTTF.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/labelWithString:fontName:fontSize:" title="labelWithString:fontName:fontSize:"></a>
+	<h3 class="subsubtitle method-title">labelWithString:fontName:fontSize:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Creates a CCLabelTTF with a font name and font size in points</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (id)labelWithString:(NSString *)<em>string</em> fontName:(NSString *)<em>name</em> fontSize:(CGFloat)<em>size</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCLabelTTF.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/labelWithString:fontName:fontSize:dimensions:" title="labelWithString:fontName:fontSize:dimensions:"></a>
+	<h3 class="subsubtitle method-title">labelWithString:fontName:fontSize:dimensions:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Creates a CCLabelTTF with a font name, font size in points and the desired <a href="#//api/name/dimensions">dimensions</a>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (id)labelWithString:(NSString *)<em>string</em> fontName:(NSString *)<em>name</em> fontSize:(CGFloat)<em>size</em> dimensions:(CGSize)<em>dimensions</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCLabelTTF.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithAttributedString:" title="initWithAttributedString:"></a>
+	<h3 class="subsubtitle method-title">initWithAttributedString:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Initializes the CCLabelTTF with an attributed <a href="#//api/name/string">string</a>. Only supported on Mac and iOS 6 or later.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithAttributedString:(NSAttributedString *)<em>attrString</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCLabelTTF.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithAttributedString:dimensions:" title="initWithAttributedString:dimensions:"></a>
+	<h3 class="subsubtitle method-title">initWithAttributedString:dimensions:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Initializes the CCLabelTTF with an attributed <a href="#//api/name/string">string</a> and the desired <a href="#//api/name/dimensions">dimensions</a>. Only supported on Mac and iOS 6 or later.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithAttributedString:(NSAttributedString *)<em>attrString</em> dimensions:(CGSize)<em>dimensions</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCLabelTTF.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithString:fontName:fontSize:" title="initWithString:fontName:fontSize:"></a>
+	<h3 class="subsubtitle method-title">initWithString:fontName:fontSize:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Initializes the CCLabelTTF with a font name and font size in points.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithString:(NSString *)<em>string</em> fontName:(NSString *)<em>name</em> fontSize:(CGFloat)<em>size</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCLabelTTF.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithString:fontName:fontSize:dimensions:" title="initWithString:fontName:fontSize:dimensions:"></a>
+	<h3 class="subsubtitle method-title">initWithString:fontName:fontSize:dimensions:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Initializes the CCLabelTTF with a font name, font size in points and the desired <a href="#//api/name/dimensions">dimensions</a>.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithString:(NSString *)<em>string</em> fontName:(NSString *)<em>name</em> fontSize:(CGFloat)<em>size</em> dimensions:(CGSize)<em>dimensions</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCLabelTTF.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Cocos2d-iPhone.org. All rights reserved. (Last updated: 2013-12-23)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 961)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

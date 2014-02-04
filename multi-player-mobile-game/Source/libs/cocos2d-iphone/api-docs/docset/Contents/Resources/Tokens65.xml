@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCAnimationFrame.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCAnimationFrame</TokenIdentifier>
+			<Abstract type="html">CCAnimationFrame
+A frame of the animation. It contains information like:
+	- sprite frame name
+	- # of delay units.
+	- offset</Abstract>
+			<DeclaredIn>CCAnimation.h</DeclaredIn>
+            <Availability type="html">(
+    &quot;v2.0&quot;
+)</Availability>
+			
+			<NodeRef refid="65"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCAnimationFrame/setSpriteFrame:</TokenIdentifier>
+			<Abstract type="html">CCSpriteFrameName to be used</Abstract>
+			<DeclaredIn>CCAnimation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, strong) CCSpriteFrame *spriteFrame</Declaration>
+			
+			
+			<Anchor>//api/name/spriteFrame</Anchor>
+            <NodeRef refid="65"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCAnimationFrame/spriteFrame</TokenIdentifier>
+			<Abstract type="html">CCSpriteFrameName to be used</Abstract>
+			<DeclaredIn>CCAnimation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, strong) CCSpriteFrame *spriteFrame</Declaration>
+			
+			
+			<Anchor>//api/name/spriteFrame</Anchor>
+            <NodeRef refid="65"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCAnimationFrame/spriteFrame</TokenIdentifier>
+			<Abstract type="html">CCSpriteFrameName to be used</Abstract>
+			<DeclaredIn>CCAnimation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, strong) CCSpriteFrame *spriteFrame</Declaration>
+			
+			
+			<Anchor>//api/name/spriteFrame</Anchor>
+            <NodeRef refid="65"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCAnimationFrame/setDelayUnits:</TokenIdentifier>
+			<Abstract type="html">  how many units of time the frame takes </Abstract>
+			<DeclaredIn>CCAnimation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) float delayUnits</Declaration>
+			
+			
+			<Anchor>//api/name/delayUnits</Anchor>
+            <NodeRef refid="65"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCAnimationFrame/delayUnits</TokenIdentifier>
+			<Abstract type="html">  how many units of time the frame takes </Abstract>
+			<DeclaredIn>CCAnimation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) float delayUnits</Declaration>
+			
+			
+			<Anchor>//api/name/delayUnits</Anchor>
+            <NodeRef refid="65"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCAnimationFrame/delayUnits</TokenIdentifier>
+			<Abstract type="html">  how many units of time the frame takes </Abstract>
+			<DeclaredIn>CCAnimation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) float delayUnits</Declaration>
+			
+			
+			<Anchor>//api/name/delayUnits</Anchor>
+            <NodeRef refid="65"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCAnimationFrame/setUserInfo:</TokenIdentifier>
+			<Abstract type="html">  A CCAnimationFrameDisplayedNotification notification will be broadcasted when the frame is displayed with this dictionary as UserInfo. If UserInfo is nil, then no notification will be broadcasted. </Abstract>
+			<DeclaredIn>CCAnimation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, strong) NSDictionary *userInfo</Declaration>
+			
+			
+			<Anchor>//api/name/userInfo</Anchor>
+            <NodeRef refid="65"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCAnimationFrame/userInfo</TokenIdentifier>
+			<Abstract type="html">  A CCAnimationFrameDisplayedNotification notification will be broadcasted when the frame is displayed with this dictionary as UserInfo. If UserInfo is nil, then no notification will be broadcasted. </Abstract>
+			<DeclaredIn>CCAnimation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, strong) NSDictionary *userInfo</Declaration>
+			
+			
+			<Anchor>//api/name/userInfo</Anchor>
+            <NodeRef refid="65"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCAnimationFrame/userInfo</TokenIdentifier>
+			<Abstract type="html">  A CCAnimationFrameDisplayedNotification notification will be broadcasted when the frame is displayed with this dictionary as UserInfo. If UserInfo is nil, then no notification will be broadcasted. </Abstract>
+			<DeclaredIn>CCAnimation.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, strong) NSDictionary *userInfo</Declaration>
+			
+			
+			<Anchor>//api/name/userInfo</Anchor>
+            <NodeRef refid="65"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCAnimationFrame/initWithSpriteFrame:delayUnits:userInfo:</TokenIdentifier>
+			<Abstract type="html">initializes the animation frame with a spriteframe, number of delay units and a notification user info</Abstract>
+			<DeclaredIn>CCAnimation.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithSpriteFrame:(CCSpriteFrame *)spriteFrame delayUnits:(float)delayUnits userInfo:(NSDictionary *)userInfo</Declaration>
+			
+			
+			<Anchor>//api/name/initWithSpriteFrame:delayUnits:userInfo:</Anchor>
+            <NodeRef refid="65"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

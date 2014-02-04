@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCFileUtils.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCFileUtils</TokenIdentifier>
+			<Abstract type="html">Helper class to handle file operations</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+            
+			
+			<NodeRef refid="80"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCFileUtils/setBundle:</TokenIdentifier>
+			<Abstract type="html">NSBundle used by CCFileUtils. By default it uses [NSBundle mainBundle].</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, strong) NSBundle *bundle</Declaration>
+			
+			
+			<Anchor>//api/name/bundle</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCFileUtils/bundle</TokenIdentifier>
+			<Abstract type="html">NSBundle used by CCFileUtils. By default it uses [NSBundle mainBundle].</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, strong) NSBundle *bundle</Declaration>
+			
+			
+			<Anchor>//api/name/bundle</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCFileUtils/bundle</TokenIdentifier>
+			<Abstract type="html">NSBundle used by CCFileUtils. By default it uses [NSBundle mainBundle].</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, strong) NSBundle *bundle</Declaration>
+			
+			
+			<Anchor>//api/name/bundle</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCFileUtils/setFileManager:</TokenIdentifier>
+			<Abstract type="html">NSFileManager used by CCFileUtils. By default it uses its own instance.</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, strong) NSFileManager *fileManager</Declaration>
+			
+			
+			<Anchor>//api/name/fileManager</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCFileUtils/fileManager</TokenIdentifier>
+			<Abstract type="html">NSFileManager used by CCFileUtils. By default it uses its own instance.</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, strong) NSFileManager *fileManager</Declaration>
+			
+			
+			<Anchor>//api/name/fileManager</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCFileUtils/fileManager</TokenIdentifier>
+			<Abstract type="html">NSFileManager used by CCFileUtils. By default it uses its own instance.</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, strong) NSFileManager *fileManager</Declaration>
+			
+			
+			<Anchor>//api/name/fileManager</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCFileUtils/setEnableiPhoneResourcesOniPad:</TokenIdentifier>
+			<Abstract type="html">Whether of not the fallback suffixes is enabled.
+When enabled it will try to search for the following suffixes in the following order until one is found:
+* On iPad HD  : iPad HD, iPad, iPhone HD, Resources without resolution
+* On iPad     : iPad, iPhone HD, Resources without resolution
+* On iPhone HD: iPhone HD, Resources without resolution
+* On Mac HD   : Mac HD, Mac, Resources without resolution
+* On Mac      : Mac, Resources without resolution</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, getter=isEnablediPhoneResourcesOniPad) BOOL enableiPhoneResourcesOniPad</Declaration>
+			
+			
+			<Anchor>//api/name/enableiPhoneResourcesOniPad</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCFileUtils/isEnablediPhoneResourcesOniPad</TokenIdentifier>
+			<Abstract type="html">Whether of not the fallback suffixes is enabled.
+When enabled it will try to search for the following suffixes in the following order until one is found:
+* On iPad HD  : iPad HD, iPad, iPhone HD, Resources without resolution
+* On iPad     : iPad, iPhone HD, Resources without resolution
+* On iPhone HD: iPhone HD, Resources without resolution
+* On Mac HD   : Mac HD, Mac, Resources without resolution
+* On Mac      : Mac, Resources without resolution</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, getter=isEnablediPhoneResourcesOniPad) BOOL enableiPhoneResourcesOniPad</Declaration>
+			
+			
+			<Anchor>//api/name/enableiPhoneResourcesOniPad</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCFileUtils/enableiPhoneResourcesOniPad</TokenIdentifier>
+			<Abstract type="html">Whether of not the fallback suffixes is enabled.
+When enabled it will try to search for the following suffixes in the following order until one is found:
+* On iPad HD  : iPad HD, iPad, iPhone HD, Resources without resolution
+* On iPad     : iPad, iPhone HD, Resources without resolution
+* On iPhone HD: iPhone HD, Resources without resolution
+* On Mac HD   : Mac HD, Mac, Resources without resolution
+* On Mac      : Mac, Resources without resolution</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, getter=isEnablediPhoneResourcesOniPad) BOOL enableiPhoneResourcesOniPad</Declaration>
+			
+			
+			<Anchor>//api/name/enableiPhoneResourcesOniPad</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCFileUtils/setDirectoriesDict:</TokenIdentifier>
+			<Abstract type="html">Dictionary that contians the search directories for the different devices. Default values:
+- iPhone: &quot;resources-iphone&quot;
+- iPhone HD: &quot;resources-hd&quot;
+- iPhone5 : &quot;resources-wide&quot;
+- iPhone5 HD: &quot;resources-widehd&quot;
+- iPad: &quot;resources-ipad&quot;
+- iPad HD: &quot;resources-ipadhd&quot;
+- Mac: &quot;resources-mac&quot;
+- Mac HD: &quot;resources-machd&quot;</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSMutableDictionary *directoriesDict</Declaration>
+			
+			
+			<Anchor>//api/name/directoriesDict</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCFileUtils/directoriesDict</TokenIdentifier>
+			<Abstract type="html">Dictionary that contians the search directories for the different devices. Default values:
+- iPhone: &quot;resources-iphone&quot;
+- iPhone HD: &quot;resources-hd&quot;
+- iPhone5 : &quot;resources-wide&quot;
+- iPhone5 HD: &quot;resources-widehd&quot;
+- iPad: &quot;resources-ipad&quot;
+- iPad HD: &quot;resources-ipadhd&quot;
+- Mac: &quot;resources-mac&quot;
+- Mac HD: &quot;resources-machd&quot;</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSMutableDictionary *directoriesDict</Declaration>
+			
+			
+			<Anchor>//api/name/directoriesDict</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCFileUtils/directoriesDict</TokenIdentifier>
+			<Abstract type="html">Dictionary that contians the search directories for the different devices. Default values:
+- iPhone: &quot;resources-iphone&quot;
+- iPhone HD: &quot;resources-hd&quot;
+- iPhone5 : &quot;resources-wide&quot;
+- iPhone5 HD: &quot;resources-widehd&quot;
+- iPad: &quot;resources-ipad&quot;
+- iPad HD: &quot;resources-ipadhd&quot;
+- Mac: &quot;resources-mac&quot;
+- Mac HD: &quot;resources-machd&quot;</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSMutableDictionary *directoriesDict</Declaration>
+			
+			
+			<Anchor>//api/name/directoriesDict</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCFileUtils/setSuffixesDict:</TokenIdentifier>
+			<Abstract type="html">Dictionary that contians the suffix for the different devices. Default values:
+	- iPhone: &quot;&quot;
+	- iPhone HD: &quot;-hd&quot;
+	- iPhone5 : &quot;-wide&quot;
+	- iPhone5 HD: &quot;-widehd&quot;
+	- iPad: &quot;-ipad&quot;
+	- iPad HD: &quot;-ipadhd&quot;
+	- Mac: &quot;&quot;
+	- Mac HD: &quot;-machd&quot;</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSMutableDictionary *suffixesDict</Declaration>
+			
+			
+			<Anchor>//api/name/suffixesDict</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCFileUtils/suffixesDict</TokenIdentifier>
+			<Abstract type="html">Dictionary that contians the suffix for the different devices. Default values:
+	- iPhone: &quot;&quot;
+	- iPhone HD: &quot;-hd&quot;
+	- iPhone5 : &quot;-wide&quot;
+	- iPhone5 HD: &quot;-widehd&quot;
+	- iPad: &quot;-ipad&quot;
+	- iPad HD: &quot;-ipadhd&quot;
+	- Mac: &quot;&quot;
+	- Mac HD: &quot;-machd&quot;</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSMutableDictionary *suffixesDict</Declaration>
+			
+			
+			<Anchor>//api/name/suffixesDict</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCFileUtils/suffixesDict</TokenIdentifier>
+			<Abstract type="html">Dictionary that contians the suffix for the different devices. Default values:
+	- iPhone: &quot;&quot;
+	- iPhone HD: &quot;-hd&quot;
+	- iPhone5 : &quot;-wide&quot;
+	- iPhone5 HD: &quot;-widehd&quot;
+	- iPad: &quot;-ipad&quot;
+	- iPad HD: &quot;-ipadhd&quot;
+	- Mac: &quot;&quot;
+	- Mac HD: &quot;-machd&quot;</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSMutableDictionary *suffixesDict</Declaration>
+			
+			
+			<Anchor>//api/name/suffixesDict</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCFileUtils/setSearchResolutionsOrder:</TokenIdentifier>
+			<Abstract type="html">Array that contains the search order of the resources based for the device.
+By default it will try to load resources in the following order until one is found:
+   - On iPad HD: iPad HD resources, iPad resources, resources not associated with any device
+   - On iPad: iPad resources, resources not associated with any device
+   - On iPhone 5 HD: iPhone 5 HD resources, iPhone HD resouces, iPhone 5 resources, iPhone resources, resources not associated with any device
+   - On iPhone HD: iPhone HD resources, iPhone resouces, resources not associated with any device
+   - On iPhone: iPhone resources, resources not associated with any device</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSArray *searchResolutionsOrder</Declaration>
+			
+			
+			<Anchor>//api/name/searchResolutionsOrder</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCFileUtils/searchResolutionsOrder</TokenIdentifier>
+			<Abstract type="html">Array that contains the search order of the resources based for the device.
+By default it will try to load resources in the following order until one is found:
+   - On iPad HD: iPad HD resources, iPad resources, resources not associated with any device
+   - On iPad: iPad resources, resources not associated with any device
+   - On iPhone 5 HD: iPhone 5 HD resources, iPhone HD resouces, iPhone 5 resources, iPhone resources, resources not associated with any device
+   - On iPhone HD: iPhone HD resources, iPhone resouces, resources not associated with any device
+   - On iPhone: iPhone resources, resources not associated with any device</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSArray *searchResolutionsOrder</Declaration>
+			
+			
+			<Anchor>//api/name/searchResolutionsOrder</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCFileUtils/searchResolutionsOrder</TokenIdentifier>
+			<Abstract type="html">Array that contains the search order of the resources based for the device.
+By default it will try to load resources in the following order until one is found:
+   - On iPad HD: iPad HD resources, iPad resources, resources not associated with any device
+   - On iPad: iPad resources, resources not associated with any device
+   - On iPhone 5 HD: iPhone 5 HD resources, iPhone HD resouces, iPhone 5 resources, iPhone resources, resources not associated with any device
+   - On iPhone HD: iPhone HD resources, iPhone resouces, resources not associated with any device
+   - On iPhone: iPhone resources, resources not associated with any device</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSArray *searchResolutionsOrder</Declaration>
+			
+			
+			<Anchor>//api/name/searchResolutionsOrder</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCFileUtils/setSearchPath:</TokenIdentifier>
+			<Abstract type="html">Array of search paths.
+You can use this array to modify the search path of the resources.
+If you want to use &quot;themes&quot; or search resources in the &quot;cache&quot;, you can do it easily by adding new entries in this array.</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSArray *searchPath</Declaration>
+			
+			
+			<Anchor>//api/name/searchPath</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCFileUtils/searchPath</TokenIdentifier>
+			<Abstract type="html">Array of search paths.
+You can use this array to modify the search path of the resources.
+If you want to use &quot;themes&quot; or search resources in the &quot;cache&quot;, you can do it easily by adding new entries in this array.</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSArray *searchPath</Declaration>
+			
+			
+			<Anchor>//api/name/searchPath</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCFileUtils/searchPath</TokenIdentifier>
+			<Abstract type="html">Array of search paths.
+You can use this array to modify the search path of the resources.
+If you want to use &quot;themes&quot; or search resources in the &quot;cache&quot;, you can do it easily by adding new entries in this array.</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSArray *searchPath</Declaration>
+			
+			
+			<Anchor>//api/name/searchPath</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCFileUtils/setSearchMode:</TokenIdentifier>
+			<Abstract type="html">  It determines how the &quot;resolution resources&quot;  are to be searched.
+Possible values:
+	- kCCFileUtilsSearchSuffix: It will search for resources by appending suffixes like &quot;-hd&quot;, &quot;-ipad&quot;, etc...
+	- kCCFileUtilsSearchDirectory: It will search the resoureces in subdirectories like &quot;resources-hd&quot;, &quot;resources-ipad&quot;, etc...</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CCFileUtilsSearchMode searchMode</Declaration>
+			
+			
+			<Anchor>//api/name/searchMode</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCFileUtils/searchMode</TokenIdentifier>
+			<Abstract type="html">  It determines how the &quot;resolution resources&quot;  are to be searched.
+Possible values:
+	- kCCFileUtilsSearchSuffix: It will search for resources by appending suffixes like &quot;-hd&quot;, &quot;-ipad&quot;, etc...
+	- kCCFileUtilsSearchDirectory: It will search the resoureces in subdirectories like &quot;resources-hd&quot;, &quot;resources-ipad&quot;, etc...</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CCFileUtilsSearchMode searchMode</Declaration>
+			
+			
+			<Anchor>//api/name/searchMode</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCFileUtils/searchMode</TokenIdentifier>
+			<Abstract type="html">  It determines how the &quot;resolution resources&quot;  are to be searched.
+Possible values:
+	- kCCFileUtilsSearchSuffix: It will search for resources by appending suffixes like &quot;-hd&quot;, &quot;-ipad&quot;, etc...
+	- kCCFileUtilsSearchDirectory: It will search the resoureces in subdirectories like &quot;resources-hd&quot;, &quot;resources-ipad&quot;, etc...</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CCFileUtilsSearchMode searchMode</Declaration>
+			
+			
+			<Anchor>//api/name/searchMode</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCFileUtils/setFilenameLookup:</TokenIdentifier>
+			<Abstract type="html">Dictionary used to lookup filenames based on a key.
+It is used internally by the following methods:</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, copy) NSMutableDictionary *filenameLookup</Declaration>
+			
+			
+			<Anchor>//api/name/filenameLookup</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCFileUtils/filenameLookup</TokenIdentifier>
+			<Abstract type="html">Dictionary used to lookup filenames based on a key.
+It is used internally by the following methods:</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, copy) NSMutableDictionary *filenameLookup</Declaration>
+			
+			
+			<Anchor>//api/name/filenameLookup</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCFileUtils/filenameLookup</TokenIdentifier>
+			<Abstract type="html">Dictionary used to lookup filenames based on a key.
+It is used internally by the following methods:</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, copy) NSMutableDictionary *filenameLookup</Declaration>
+			
+			
+			<Anchor>//api/name/filenameLookup</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCFileUtils/setiPhoneRetinaDisplaySuffix:</TokenIdentifier>
+			<Abstract type="html">The iPhone RetinaDisplay suffixes to load resources.
+By default it is &quot;-hd&quot; and &quot;&quot; in that order.
+Only valid on iOS. Not valid for OS X.</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>- (void)setiPhoneRetinaDisplaySuffix:(NSString *)iPhoneRetinaDisplaySuffix</Declaration>
+			
+			
+			<Anchor>//api/name/setiPhoneRetinaDisplaySuffix:</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCFileUtils/setiPadSuffix:</TokenIdentifier>
+			<Abstract type="html">The iPad suffixes to load resources.
+By default it is &quot;-ipad&quot;, &quot;-hd&quot;, &quot;&quot;, in that order.
+Only valid on iOS. Not valid for OS X.</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>- (void)setiPadSuffix:(NSString *)iPadSuffix</Declaration>
+			
+			
+			<Anchor>//api/name/setiPadSuffix:</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCFileUtils/setiPadRetinaDisplaySuffix:</TokenIdentifier>
+			<Abstract type="html">Sets the iPad Retina Display suffixes to load resources.
+By default it is &quot;-ipadhd&quot;, &quot;-ipad&quot;, &quot;-hd&quot;, &quot;&quot;, in that order.
+Only valid on iOS. Not valid for OS X.</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>- (void)setiPadRetinaDisplaySuffix:(NSString *)iPadRetinaDisplaySuffix</Declaration>
+			
+			
+			<Anchor>//api/name/setiPadRetinaDisplaySuffix:</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCFileUtils/sharedFileUtils</TokenIdentifier>
+			<Abstract type="html">returns the shared file utils instance</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>+ (CCFileUtils *)sharedFileUtils</Declaration>
+			
+			
+			<Anchor>//api/name/sharedFileUtils</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCFileUtils/purgeCachedEntries</TokenIdentifier>
+			<Abstract type="html">Purge cached entries.
+Will be called automatically by the Director when a memory warning is received</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>- (void)purgeCachedEntries</Declaration>
+			
+			
+			<Anchor>//api/name/purgeCachedEntries</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCFileUtils/buildSearchResolutionsOrder</TokenIdentifier>
+			<Abstract type="html">Calling this method will populate the searchResolutionsOrder property depending on the current device.</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>- (void)buildSearchResolutionsOrder</Declaration>
+			
+			
+			<Anchor>//api/name/buildSearchResolutionsOrder</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCFileUtils/fullPathFromRelativePath:</TokenIdentifier>
+			<Abstract type="html">Returns the fullpath of an filename.</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)fullPathFromRelativePath:(NSString *)relPath</Declaration>
+			
+			
+			<Anchor>//api/name/fullPathFromRelativePath:</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCFileUtils/fullPathFromRelativePath:resolutionType:</TokenIdentifier>
+			<Abstract type="html">Returns the fullpath of an filename. It will try to get the correct file for the current screen resolution.
+Useful for loading images and other assets that are related for the screen resolution.</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)fullPathFromRelativePath:(NSString *)relPath resolutionType:(CCResolutionType *)resolutionType</Declaration>
+			
+			
+			<Anchor>//api/name/fullPathFromRelativePath:resolutionType:</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCFileUtils/fullPathFromRelativePathIgnoringResolutions:</TokenIdentifier>
+			<Abstract type="html">Returns the fullpath of an filename without taking into account the screen resolution suffixes or directories.</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)fullPathFromRelativePathIgnoringResolutions:(NSString *)relPath</Declaration>
+			
+			
+			<Anchor>//api/name/fullPathFromRelativePathIgnoringResolutions:</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCFileUtils/fullPathForFilename:</TokenIdentifier>
+			<Abstract type="html">Returns the fullpath for a given filename.</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)fullPathForFilename:(NSString *)filename</Declaration>
+			
+			
+			<Anchor>//api/name/fullPathForFilename:</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCFileUtils/fullPathForFilename:resolutionType:</TokenIdentifier>
+			<Abstract type="html">Returns the fullpath for a given filename.</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)fullPathForFilename:(NSString *)filename resolutionType:(CCResolutionType *)resolutionType</Declaration>
+			
+			
+			<Anchor>//api/name/fullPathForFilename:resolutionType:</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCFileUtils/fullPathForFilenameIgnoringResolutions:</TokenIdentifier>
+			<Abstract type="html">Returns the fullpath for a given filename, without taking into account device resolution.</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)fullPathForFilenameIgnoringResolutions:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/fullPathForFilenameIgnoringResolutions:</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCFileUtils/removeSuffixFromFile:</TokenIdentifier>
+			<Abstract type="html">removes the suffix from a path
+* On iPhone RetinaDisplay it will remove the -hd suffix
+* On iPad it will remove the -ipad suffix
+* On iPad RetinaDisplay it will remove the -ipadhd suffix</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)removeSuffixFromFile:(NSString *)path</Declaration>
+			
+			
+			<Anchor>//api/name/removeSuffixFromFile:</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCFileUtils/iPhoneRetinaDisplayFileExistsAtPath:</TokenIdentifier>
+			<Abstract type="html">Returns whether or not a given path exists with the iPhone RetinaDisplay suffix.
+Only available on iOS. Not supported on OS X.</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)iPhoneRetinaDisplayFileExistsAtPath:(NSString *)filename</Declaration>
+			
+			
+			<Anchor>//api/name/iPhoneRetinaDisplayFileExistsAtPath:</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCFileUtils/iPadFileExistsAtPath:</TokenIdentifier>
+			<Abstract type="html">Returns whether or not a given filename exists with the iPad suffix.
+Only available on iOS. Not supported on OS X.</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)iPadFileExistsAtPath:(NSString *)filename</Declaration>
+			
+			
+			<Anchor>//api/name/iPadFileExistsAtPath:</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCFileUtils/iPadRetinaDisplayFileExistsAtPath:</TokenIdentifier>
+			<Abstract type="html">Returns whether or not a given filename exists with the iPad RetinaDisplay suffix.
+Only available on iOS. Not supported on OS X.</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)iPadRetinaDisplayFileExistsAtPath:(NSString *)filename</Declaration>
+			
+			
+			<Anchor>//api/name/iPadRetinaDisplayFileExistsAtPath:</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCFileUtils/setEnableFallbackSuffixes:</TokenIdentifier>
+			<Abstract type="html">@deprecated</Abstract>
+			<DeclaredIn>CCFileUtils.h</DeclaredIn>
+			
+			<Declaration>- (void)setEnableFallbackSuffixes:(BOOL)enableFallbackSuffixes</Declaration>
+			
+			
+			<Anchor>//api/name/setEnableFallbackSuffixes:</Anchor>
+            <NodeRef refid="80"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

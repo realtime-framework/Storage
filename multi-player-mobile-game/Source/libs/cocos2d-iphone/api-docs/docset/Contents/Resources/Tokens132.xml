@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/CCRGBAProtocol.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/CCRGBAProtocol</TokenIdentifier>
+			<Abstract type="html">CC RGBA protocol</Abstract>
+			<DeclaredIn>CCProtocols.h</DeclaredIn>
+            
+			
+			<NodeRef refid="132"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCRGBAProtocol/setColor:</TokenIdentifier>
+			<Abstract type="html">sets and returns the color (tint)</Abstract>
+			<DeclaredIn>CCProtocols.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) ccColor3B color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+            <NodeRef refid="132"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCRGBAProtocol/color</TokenIdentifier>
+			<Abstract type="html">sets and returns the color (tint)</Abstract>
+			<DeclaredIn>CCProtocols.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) ccColor3B color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+            <NodeRef refid="132"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/CCRGBAProtocol/color</TokenIdentifier>
+			<Abstract type="html">sets and returns the color (tint)</Abstract>
+			<DeclaredIn>CCProtocols.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) ccColor3B color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+            <NodeRef refid="132"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCRGBAProtocol/setDisplayedColor:</TokenIdentifier>
+			<Abstract type="html">returns the displayed color</Abstract>
+			<DeclaredIn>CCProtocols.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) ccColor3B displayedColor</Declaration>
+			
+			
+			<Anchor>//api/name/displayedColor</Anchor>
+            <NodeRef refid="132"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCRGBAProtocol/displayedColor</TokenIdentifier>
+			<Abstract type="html">returns the displayed color</Abstract>
+			<DeclaredIn>CCProtocols.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) ccColor3B displayedColor</Declaration>
+			
+			
+			<Anchor>//api/name/displayedColor</Anchor>
+            <NodeRef refid="132"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/CCRGBAProtocol/displayedColor</TokenIdentifier>
+			<Abstract type="html">returns the displayed color</Abstract>
+			<DeclaredIn>CCProtocols.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) ccColor3B displayedColor</Declaration>
+			
+			
+			<Anchor>//api/name/displayedColor</Anchor>
+            <NodeRef refid="132"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCRGBAProtocol/setCascadeColorEnabled:</TokenIdentifier>
+			<Abstract type="html">whether or not color should be propagated to its children</Abstract>
+			<DeclaredIn>CCProtocols.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, getter=isCascadeColorEnabled) BOOL cascadeColorEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/cascadeColorEnabled</Anchor>
+            <NodeRef refid="132"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCRGBAProtocol/isCascadeColorEnabled</TokenIdentifier>
+			<Abstract type="html">whether or not color should be propagated to its children</Abstract>
+			<DeclaredIn>CCProtocols.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, getter=isCascadeColorEnabled) BOOL cascadeColorEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/cascadeColorEnabled</Anchor>
+            <NodeRef refid="132"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/CCRGBAProtocol/cascadeColorEnabled</TokenIdentifier>
+			<Abstract type="html">whether or not color should be propagated to its children</Abstract>
+			<DeclaredIn>CCProtocols.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, getter=isCascadeColorEnabled) BOOL cascadeColorEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/cascadeColorEnabled</Anchor>
+            <NodeRef refid="132"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCRGBAProtocol/updateDisplayedColor:</TokenIdentifier>
+			<Abstract type="html">recursive method that updates display color</Abstract>
+			<DeclaredIn>CCProtocols.h</DeclaredIn>
+			
+			<Declaration>- (void)updateDisplayedColor:(ccColor3B)color</Declaration>
+			
+			
+			<Anchor>//api/name/updateDisplayedColor:</Anchor>
+            <NodeRef refid="132"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCRGBAProtocol/setOpacity:</TokenIdentifier>
+			<Abstract type="html">sets and returns the opacity.</Abstract>
+			<DeclaredIn>CCProtocols.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) GLubyte opacity</Declaration>
+			
+			
+			<Anchor>//api/name/opacity</Anchor>
+            <NodeRef refid="132"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCRGBAProtocol/opacity</TokenIdentifier>
+			<Abstract type="html">sets and returns the opacity.</Abstract>
+			<DeclaredIn>CCProtocols.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) GLubyte opacity</Declaration>
+			
+			
+			<Anchor>//api/name/opacity</Anchor>
+            <NodeRef refid="132"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/CCRGBAProtocol/opacity</TokenIdentifier>
+			<Abstract type="html">sets and returns the opacity.</Abstract>
+			<DeclaredIn>CCProtocols.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) GLubyte opacity</Declaration>
+			
+			
+			<Anchor>//api/name/opacity</Anchor>
+            <NodeRef refid="132"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCRGBAProtocol/setDisplayedOpacity:</TokenIdentifier>
+			<Abstract type="html">returns the displayed opacity</Abstract>
+			<DeclaredIn>CCProtocols.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) GLubyte displayedOpacity</Declaration>
+			
+			
+			<Anchor>//api/name/displayedOpacity</Anchor>
+            <NodeRef refid="132"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCRGBAProtocol/displayedOpacity</TokenIdentifier>
+			<Abstract type="html">returns the displayed opacity</Abstract>
+			<DeclaredIn>CCProtocols.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) GLubyte displayedOpacity</Declaration>
+			
+			
+			<Anchor>//api/name/displayedOpacity</Anchor>
+            <NodeRef refid="132"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/CCRGBAProtocol/displayedOpacity</TokenIdentifier>
+			<Abstract type="html">returns the displayed opacity</Abstract>
+			<DeclaredIn>CCProtocols.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) GLubyte displayedOpacity</Declaration>
+			
+			
+			<Anchor>//api/name/displayedOpacity</Anchor>
+            <NodeRef refid="132"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCRGBAProtocol/setCascadeOpacityEnabled:</TokenIdentifier>
+			<Abstract type="html">whether or not opacity should be propagated to its children</Abstract>
+			<DeclaredIn>CCProtocols.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, getter=isCascadeOpacityEnabled) BOOL cascadeOpacityEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/cascadeOpacityEnabled</Anchor>
+            <NodeRef refid="132"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCRGBAProtocol/isCascadeOpacityEnabled</TokenIdentifier>
+			<Abstract type="html">whether or not opacity should be propagated to its children</Abstract>
+			<DeclaredIn>CCProtocols.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, getter=isCascadeOpacityEnabled) BOOL cascadeOpacityEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/cascadeOpacityEnabled</Anchor>
+            <NodeRef refid="132"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/CCRGBAProtocol/cascadeOpacityEnabled</TokenIdentifier>
+			<Abstract type="html">whether or not opacity should be propagated to its children</Abstract>
+			<DeclaredIn>CCProtocols.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, getter=isCascadeOpacityEnabled) BOOL cascadeOpacityEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/cascadeOpacityEnabled</Anchor>
+            <NodeRef refid="132"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCRGBAProtocol/updateDisplayedOpacity:</TokenIdentifier>
+			<Abstract type="html">recursive method that updates the displayed opacity</Abstract>
+			<DeclaredIn>CCProtocols.h</DeclaredIn>
+			
+			<Declaration>- (void)updateDisplayedOpacity:(GLubyte)opacity</Declaration>
+			
+			
+			<Anchor>//api/name/updateDisplayedOpacity:</Anchor>
+            <NodeRef refid="132"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCRGBAProtocol/setOpacityModifyRGB:</TokenIdentifier>
+			<Abstract type="html">sets the premultipliedAlphaOpacity property.
+If set to NO then opacity will be applied as: glColor(R,G,B,opacity;
+If set to YES then opacity will be applied as: glColor(opacity, opacity, opacity, opacity );
+Textures with premultiplied alpha will have this property by default on YES. Otherwise the default value is NO</Abstract>
+			<DeclaredIn>CCProtocols.h</DeclaredIn>
+			
+			<Declaration>- (void)setOpacityModifyRGB:(BOOL)boolean</Declaration>
+			
+			
+			<Anchor>//api/name/setOpacityModifyRGB:</Anchor>
+            <NodeRef refid="132"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCRGBAProtocol/doesOpacityModifyRGB</TokenIdentifier>
+			<Abstract type="html">returns whether or not the opacity will be applied using glColor(R,G,B,opacity or glColor(opacity, opacity, opacity, opacity;</Abstract>
+			<DeclaredIn>CCProtocols.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)doesOpacityModifyRGB</Declaration>
+			
+			
+			<Anchor>//api/name/doesOpacityModifyRGB</Anchor>
+            <NodeRef refid="132"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

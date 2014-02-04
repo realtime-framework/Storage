@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCActionSpawn.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCActionSpawn</TokenIdentifier>
+			<Abstract type="html">Spawn a new action immediately</Abstract>
+			<DeclaredIn>CCActionInterval.h</DeclaredIn>
+            
+			
+			<NodeRef refid="57"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCActionSpawn/actions:</TokenIdentifier>
+			<Abstract type="html">helper constructor to create an array of spawned actions</Abstract>
+			<DeclaredIn>CCActionInterval.h</DeclaredIn>
+			
+			<Declaration>+ (id)actions:(CCActionFiniteTime *)action1, ...</Declaration>
+			
+			
+			<Anchor>//api/name/actions:</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCActionSpawn/actions:vaList:</TokenIdentifier>
+			<Abstract type="html">helper constructor to create an array of spawned actions</Abstract>
+			<DeclaredIn>CCActionInterval.h</DeclaredIn>
+			
+			<Declaration>+ (id)actions:(CCActionFiniteTime *)action1 vaList:(va_list)args</Declaration>
+			
+			
+			<Anchor>//api/name/actions:vaList:</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCActionSpawn/actionWithArray:</TokenIdentifier>
+			<Abstract type="html">helper constructor to create an array of spawned actions given an array</Abstract>
+			<DeclaredIn>CCActionInterval.h</DeclaredIn>
+			
+			<Declaration>+ (id)actionWithArray:(NSArray *)arrayOfActions</Declaration>
+			
+			
+			<Anchor>//api/name/actionWithArray:</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCActionSpawn/actionOne:two:</TokenIdentifier>
+			<Abstract type="html">creates the Spawn action</Abstract>
+			<DeclaredIn>CCActionInterval.h</DeclaredIn>
+			
+			<Declaration>+ (id)actionOne:(CCActionFiniteTime *)one two:(CCActionFiniteTime *)two</Declaration>
+			
+			
+			<Anchor>//api/name/actionOne:two:</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCActionSpawn/initOne:two:</TokenIdentifier>
+			<Abstract type="html">initializes the Spawn action with the 2 actions to spawn</Abstract>
+			<DeclaredIn>CCActionInterval.h</DeclaredIn>
+			
+			<Declaration>- (id)initOne:(CCActionFiniteTime *)one two:(CCActionFiniteTime *)two</Declaration>
+			
+			
+			<Anchor>//api/name/initOne:two:</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

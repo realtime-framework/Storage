@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCActionReverse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCActionReverse</TokenIdentifier>
+			<Abstract type="html">Executes an action in reverse order, from time=duration to time=0</Abstract>
+			<DeclaredIn>CCActionInterval.h</DeclaredIn>
+            
+			
+			<NodeRef refid="48"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCActionReverse/actionWithAction:</TokenIdentifier>
+			<Abstract type="html">creates the action</Abstract>
+			<DeclaredIn>CCActionInterval.h</DeclaredIn>
+			
+			<Declaration>+ (id)actionWithAction:(CCActionFiniteTime *)action</Declaration>
+			
+			
+			<Anchor>//api/name/actionWithAction:</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCActionReverse/initWithAction:</TokenIdentifier>
+			<Abstract type="html">initializes the action</Abstract>
+			<DeclaredIn>CCActionInterval.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithAction:(CCActionFiniteTime *)action</Declaration>
+			
+			
+			<Anchor>//api/name/initWithAction:</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

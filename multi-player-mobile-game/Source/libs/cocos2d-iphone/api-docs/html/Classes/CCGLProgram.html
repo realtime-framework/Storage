@@ -1,0 +1,1340 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>CCGLProgram Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 961)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">Cocos2d </a></h1>
+				<a id="developerHome" href="../index.html">Cocos2d-iPhone.org</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">CCGLProgram Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/programWithVertexShaderByteArray:fragmentShaderByteArray:">&nbsp;&nbsp;&nbsp;&nbsp;+ programWithVertexShaderByteArray:fragmentShaderByteArray:</option>
+	
+	<option value="//api/name/programWithVertexShaderFilename:fragmentShaderFilename:">&nbsp;&nbsp;&nbsp;&nbsp;+ programWithVertexShaderFilename:fragmentShaderFilename:</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/addAttribute:index:">&nbsp;&nbsp;&nbsp;&nbsp;- addAttribute:index:</option>
+	
+	<option value="//api/name/fragmentShaderLog">&nbsp;&nbsp;&nbsp;&nbsp;- fragmentShaderLog</option>
+	
+	<option value="//api/name/initWithVertexShaderByteArray:fragmentShaderByteArray:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithVertexShaderByteArray:fragmentShaderByteArray:</option>
+	
+	<option value="//api/name/initWithVertexShaderFilename:fragmentShaderFilename:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithVertexShaderFilename:fragmentShaderFilename:</option>
+	
+	<option value="//api/name/link">&nbsp;&nbsp;&nbsp;&nbsp;- link</option>
+	
+	<option value="//api/name/programLog">&nbsp;&nbsp;&nbsp;&nbsp;- programLog</option>
+	
+	<option value="//api/name/setUniformForModelViewProjectionMatrix">&nbsp;&nbsp;&nbsp;&nbsp;- setUniformForModelViewProjectionMatrix</option>
+	
+	<option value="//api/name/setUniformLocation:with2fv:count:">&nbsp;&nbsp;&nbsp;&nbsp;- setUniformLocation:with2fv:count:</option>
+	
+	<option value="//api/name/setUniformLocation:with3fv:count:">&nbsp;&nbsp;&nbsp;&nbsp;- setUniformLocation:with3fv:count:</option>
+	
+	<option value="//api/name/setUniformLocation:with4fv:count:">&nbsp;&nbsp;&nbsp;&nbsp;- setUniformLocation:with4fv:count:</option>
+	
+	<option value="//api/name/setUniformLocation:withF1:">&nbsp;&nbsp;&nbsp;&nbsp;- setUniformLocation:withF1:</option>
+	
+	<option value="//api/name/setUniformLocation:withF1:f2:">&nbsp;&nbsp;&nbsp;&nbsp;- setUniformLocation:withF1:f2:</option>
+	
+	<option value="//api/name/setUniformLocation:withF1:f2:f3:">&nbsp;&nbsp;&nbsp;&nbsp;- setUniformLocation:withF1:f2:f3:</option>
+	
+	<option value="//api/name/setUniformLocation:withF1:f2:f3:f4:">&nbsp;&nbsp;&nbsp;&nbsp;- setUniformLocation:withF1:f2:f3:f4:</option>
+	
+	<option value="//api/name/setUniformLocation:withI1:">&nbsp;&nbsp;&nbsp;&nbsp;- setUniformLocation:withI1:</option>
+	
+	<option value="//api/name/setUniformLocation:withMatrix4fv:count:">&nbsp;&nbsp;&nbsp;&nbsp;- setUniformLocation:withMatrix4fv:count:</option>
+	
+	<option value="//api/name/setUniformsForBuiltins">&nbsp;&nbsp;&nbsp;&nbsp;- setUniformsForBuiltins</option>
+	
+	<option value="//api/name/uniformLocationForName:">&nbsp;&nbsp;&nbsp;&nbsp;- uniformLocationForName:</option>
+	
+	<option value="//api/name/updateUniforms">&nbsp;&nbsp;&nbsp;&nbsp;- updateUniforms</option>
+	
+	<option value="//api/name/use">&nbsp;&nbsp;&nbsp;&nbsp;- use</option>
+	
+	<option value="//api/name/vertexShaderLog">&nbsp;&nbsp;&nbsp;&nbsp;- vertexShaderLog</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/programWithVertexShaderByteArray:fragmentShaderByteArray:">programWithVertexShaderByteArray:fragmentShaderByteArray:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/programWithVertexShaderFilename:fragmentShaderFilename:">programWithVertexShaderFilename:fragmentShaderFilename:</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addAttribute:index:">addAttribute:index:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/fragmentShaderLog">fragmentShaderLog</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithVertexShaderByteArray:fragmentShaderByteArray:">initWithVertexShaderByteArray:fragmentShaderByteArray:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithVertexShaderFilename:fragmentShaderFilename:">initWithVertexShaderFilename:fragmentShaderFilename:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/link">link</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/programLog">programLog</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setUniformForModelViewProjectionMatrix">setUniformForModelViewProjectionMatrix</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setUniformLocation:with2fv:count:">setUniformLocation:with2fv:count:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setUniformLocation:with3fv:count:">setUniformLocation:with3fv:count:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setUniformLocation:with4fv:count:">setUniformLocation:with4fv:count:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setUniformLocation:withF1:">setUniformLocation:withF1:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setUniformLocation:withF1:f2:">setUniformLocation:withF1:f2:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setUniformLocation:withF1:f2:f3:">setUniformLocation:withF1:f2:f3:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setUniformLocation:withF1:f2:f3:f4:">setUniformLocation:withF1:f2:f3:f4:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setUniformLocation:withI1:">setUniformLocation:withI1:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setUniformLocation:withMatrix4fv:count:">setUniformLocation:withMatrix4fv:count:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setUniformsForBuiltins">setUniformsForBuiltins</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/uniformLocationForName:">uniformLocationForName:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/updateUniforms">updateUniforms</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/use">use</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/vertexShaderLog">vertexShaderLog</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="CCGLProgram Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">CCGLProgram Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">CCGLProgram.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>CCGLProgram
+Class that implements a glProgram</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/programWithVertexShaderByteArray:fragmentShaderByteArray:">+&nbsp;programWithVertexShaderByteArray:fragmentShaderByteArray:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/programWithVertexShaderFilename:fragmentShaderFilename:">+&nbsp;programWithVertexShaderFilename:fragmentShaderFilename:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithVertexShaderByteArray:fragmentShaderByteArray:">&ndash;&nbsp;initWithVertexShaderByteArray:fragmentShaderByteArray:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithVertexShaderFilename:fragmentShaderFilename:">&ndash;&nbsp;initWithVertexShaderFilename:fragmentShaderFilename:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addAttribute:index:">&ndash;&nbsp;addAttribute:index:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/link">&ndash;&nbsp;link</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/use">&ndash;&nbsp;use</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/updateUniforms">&ndash;&nbsp;updateUniforms</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/uniformLocationForName:">&ndash;&nbsp;uniformLocationForName:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setUniformLocation:withI1:">&ndash;&nbsp;setUniformLocation:withI1:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setUniformLocation:withF1:">&ndash;&nbsp;setUniformLocation:withF1:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setUniformLocation:withF1:f2:">&ndash;&nbsp;setUniformLocation:withF1:f2:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setUniformLocation:withF1:f2:f3:">&ndash;&nbsp;setUniformLocation:withF1:f2:f3:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setUniformLocation:withF1:f2:f3:f4:">&ndash;&nbsp;setUniformLocation:withF1:f2:f3:f4:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setUniformLocation:with2fv:count:">&ndash;&nbsp;setUniformLocation:with2fv:count:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setUniformLocation:with3fv:count:">&ndash;&nbsp;setUniformLocation:with3fv:count:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setUniformLocation:with4fv:count:">&ndash;&nbsp;setUniformLocation:with4fv:count:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setUniformLocation:withMatrix4fv:count:">&ndash;&nbsp;setUniformLocation:withMatrix4fv:count:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setUniformsForBuiltins">&ndash;&nbsp;setUniformsForBuiltins</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setUniformForModelViewProjectionMatrix">&ndash;&nbsp;setUniformForModelViewProjectionMatrix</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/vertexShaderLog">&ndash;&nbsp;vertexShaderLog</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/fragmentShaderLog">&ndash;&nbsp;fragmentShaderLog</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/programLog">&ndash;&nbsp;programLog</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/programWithVertexShaderByteArray:fragmentShaderByteArray:" title="programWithVertexShaderByteArray:fragmentShaderByteArray:"></a>
+	<h3 class="subsubtitle method-title">programWithVertexShaderByteArray:fragmentShaderByteArray:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>creates the CCGLProgram with a vertex and fragment from byte arrays</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (id)programWithVertexShaderByteArray:(const GLchar *)<em>vShaderByteArray</em> fragmentShaderByteArray:(const GLchar *)<em>fShaderByteArray</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCGLProgram.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/programWithVertexShaderFilename:fragmentShaderFilename:" title="programWithVertexShaderFilename:fragmentShaderFilename:"></a>
+	<h3 class="subsubtitle method-title">programWithVertexShaderFilename:fragmentShaderFilename:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>creates the CCGLProgram with a vertex and fragment with contents of filenames</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (id)programWithVertexShaderFilename:(NSString *)<em>vShaderFilename</em> fragmentShaderFilename:(NSString *)<em>fShaderFilename</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCGLProgram.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/addAttribute:index:" title="addAttribute:index:"></a>
+	<h3 class="subsubtitle method-title">addAttribute:index:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>  It will add a new attribute to the shader</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addAttribute:(NSString *)<em>attributeName</em> index:(GLuint)<em>index</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCGLProgram.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/fragmentShaderLog" title="fragmentShaderLog"></a>
+	<h3 class="subsubtitle method-title">fragmentShaderLog</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>returns the fragmentShader error log</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)fragmentShaderLog</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCGLProgram.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithVertexShaderByteArray:fragmentShaderByteArray:" title="initWithVertexShaderByteArray:fragmentShaderByteArray:"></a>
+	<h3 class="subsubtitle method-title">initWithVertexShaderByteArray:fragmentShaderByteArray:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Initializes the CCGLProgram with a vertex and fragment with bytes array</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithVertexShaderByteArray:(const GLchar *)<em>vShaderByteArray</em> fragmentShaderByteArray:(const GLchar *)<em>fShaderByteArray</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCGLProgram.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithVertexShaderFilename:fragmentShaderFilename:" title="initWithVertexShaderFilename:fragmentShaderFilename:"></a>
+	<h3 class="subsubtitle method-title">initWithVertexShaderFilename:fragmentShaderFilename:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Initializes the CCGLProgram with a vertex and fragment with contents of filenames</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithVertexShaderFilename:(NSString *)<em>vShaderFilename</em> fragmentShaderFilename:(NSString *)<em>fShaderFilename</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCGLProgram.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/link" title="link"></a>
+	<h3 class="subsubtitle method-title">link</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>links the glProgram</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)link</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCGLProgram.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/programLog" title="programLog"></a>
+	<h3 class="subsubtitle method-title">programLog</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>returns the program error log</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)programLog</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCGLProgram.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setUniformForModelViewProjectionMatrix" title="setUniformForModelViewProjectionMatrix"></a>
+	<h3 class="subsubtitle method-title">setUniformForModelViewProjectionMatrix</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Deprecated alias for <a href="#//api/name/setUniformsForBuiltins">setUniformsForBuiltins</a></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setUniformForModelViewProjectionMatrix</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCGLProgram.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setUniformLocation:with2fv:count:" title="setUniformLocation:with2fv:count:"></a>
+	<h3 class="subsubtitle method-title">setUniformLocation:with2fv:count:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>calls glUniform2fv only if the values are different than the previous call for this same shader program.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setUniformLocation:(GLint)<em>location</em> with2fv:(GLfloat *)<em>floats</em> count:(NSUInteger)<em>numberOfArrays</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCGLProgram.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setUniformLocation:with3fv:count:" title="setUniformLocation:with3fv:count:"></a>
+	<h3 class="subsubtitle method-title">setUniformLocation:with3fv:count:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>calls glUniform3fv only if the values are different than the previous call for this same shader program.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setUniformLocation:(GLint)<em>location</em> with3fv:(GLfloat *)<em>floats</em> count:(NSUInteger)<em>numberOfArrays</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCGLProgram.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setUniformLocation:with4fv:count:" title="setUniformLocation:with4fv:count:"></a>
+	<h3 class="subsubtitle method-title">setUniformLocation:with4fv:count:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>calls glUniform4fv only if the values are different than the previous call for this same shader program.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setUniformLocation:(GLint)<em>location</em> with4fv:(GLvoid *)<em>floats</em> count:(NSUInteger)<em>numberOfArrays</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCGLProgram.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setUniformLocation:withF1:" title="setUniformLocation:withF1:"></a>
+	<h3 class="subsubtitle method-title">setUniformLocation:withF1:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>calls glUniform1f only if the values are different than the previous call for this same shader program.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setUniformLocation:(GLint)<em>location</em> withF1:(GLfloat)<em>f1</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCGLProgram.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setUniformLocation:withF1:f2:" title="setUniformLocation:withF1:f2:"></a>
+	<h3 class="subsubtitle method-title">setUniformLocation:withF1:f2:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>calls glUniform2f only if the values are different than the previous call for this same shader program.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setUniformLocation:(GLint)<em>location</em> withF1:(GLfloat)<em>f1</em> f2:(GLfloat)<em>f2</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCGLProgram.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setUniformLocation:withF1:f2:f3:" title="setUniformLocation:withF1:f2:f3:"></a>
+	<h3 class="subsubtitle method-title">setUniformLocation:withF1:f2:f3:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>calls glUniform3f only if the values are different than the previous call for this same shader program.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setUniformLocation:(GLint)<em>location</em> withF1:(GLfloat)<em>f1</em> f2:(GLfloat)<em>f2</em> f3:(GLfloat)<em>f3</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCGLProgram.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setUniformLocation:withF1:f2:f3:f4:" title="setUniformLocation:withF1:f2:f3:f4:"></a>
+	<h3 class="subsubtitle method-title">setUniformLocation:withF1:f2:f3:f4:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>calls glUniform4f only if the values are different than the previous call for this same shader program.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setUniformLocation:(GLint)<em>location</em> withF1:(GLfloat)<em>f1</em> f2:(GLfloat)<em>f2</em> f3:(GLfloat)<em>f3</em> f4:(GLfloat)<em>f4</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCGLProgram.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setUniformLocation:withI1:" title="setUniformLocation:withI1:"></a>
+	<h3 class="subsubtitle method-title">setUniformLocation:withI1:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>calls glUniform1i only if the values are different than the previous call for this same shader program.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setUniformLocation:(GLint)<em>location</em> withI1:(GLint)<em>i1</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCGLProgram.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setUniformLocation:withMatrix4fv:count:" title="setUniformLocation:withMatrix4fv:count:"></a>
+	<h3 class="subsubtitle method-title">setUniformLocation:withMatrix4fv:count:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>calls glUniformMatrix4fv only if the values are different than the previous call for this same shader program.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setUniformLocation:(GLint)<em>location</em> withMatrix4fv:(GLvoid *)<em>matrix_array</em> count:(NSUInteger)<em>numberOfMatrix</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCGLProgram.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setUniformsForBuiltins" title="setUniformsForBuiltins"></a>
+	<h3 class="subsubtitle method-title">setUniformsForBuiltins</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>will update the builtin uniforms if they are different than the previous call for this same shader program.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setUniformsForBuiltins</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCGLProgram.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/uniformLocationForName:" title="uniformLocationForName:"></a>
+	<h3 class="subsubtitle method-title">uniformLocationForName:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>calls retrieves the named uniform location for this shader program.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (GLint)uniformLocationForName:(NSString *)<em>name</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCGLProgram.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/updateUniforms" title="updateUniforms"></a>
+	<h3 class="subsubtitle method-title">updateUniforms</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>It will create 4 uniforms:
+    - kCCUniformPMatrix
+    - kCCUniformMVMatrix
+    - kCCUniformMVPMatrix
+    - kCCUniformSampler</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)updateUniforms</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>And it will bind &ldquo;kCCUniformSampler&rdquo; to 0</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCGLProgram.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/use" title="use"></a>
+	<h3 class="subsubtitle method-title">use</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>it will call glUseProgram()</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)use</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCGLProgram.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/vertexShaderLog" title="vertexShaderLog"></a>
+	<h3 class="subsubtitle method-title">vertexShaderLog</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>returns the vertexShader error log</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)vertexShaderLog</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCGLProgram.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Cocos2d-iPhone.org. All rights reserved. (Last updated: 2013-12-23)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 961)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCMotionStreak.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCMotionStreak</TokenIdentifier>
+			<Abstract type="html">MotionStreak.
+Creates a trailing path.</Abstract>
+			<DeclaredIn>CCMotionStreak.h</DeclaredIn>
+            
+			
+			<NodeRef refid="88"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCMotionStreak/setBlendFunc:</TokenIdentifier>
+			<Abstract type="html">blending function</Abstract>
+			<DeclaredIn>CCMotionStreak.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, assign) ccBlendFunc blendFunc</Declaration>
+			
+			
+			<Anchor>//api/name/blendFunc</Anchor>
+            <NodeRef refid="88"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCMotionStreak/blendFunc</TokenIdentifier>
+			<Abstract type="html">blending function</Abstract>
+			<DeclaredIn>CCMotionStreak.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, assign) ccBlendFunc blendFunc</Declaration>
+			
+			
+			<Anchor>//api/name/blendFunc</Anchor>
+            <NodeRef refid="88"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCMotionStreak/blendFunc</TokenIdentifier>
+			<Abstract type="html">blending function</Abstract>
+			<DeclaredIn>CCMotionStreak.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, assign) ccBlendFunc blendFunc</Declaration>
+			
+			
+			<Anchor>//api/name/blendFunc</Anchor>
+            <NodeRef refid="88"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCMotionStreak/setFastMode:</TokenIdentifier>
+			<Abstract type="html">When fast mode is enabled, new points are added faster but with lower precision</Abstract>
+			<DeclaredIn>CCMotionStreak.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, assign, getter=isFastMode) BOOL fastMode</Declaration>
+			
+			
+			<Anchor>//api/name/fastMode</Anchor>
+            <NodeRef refid="88"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCMotionStreak/isFastMode</TokenIdentifier>
+			<Abstract type="html">When fast mode is enabled, new points are added faster but with lower precision</Abstract>
+			<DeclaredIn>CCMotionStreak.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, assign, getter=isFastMode) BOOL fastMode</Declaration>
+			
+			
+			<Anchor>//api/name/fastMode</Anchor>
+            <NodeRef refid="88"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCMotionStreak/fastMode</TokenIdentifier>
+			<Abstract type="html">When fast mode is enabled, new points are added faster but with lower precision</Abstract>
+			<DeclaredIn>CCMotionStreak.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, assign, getter=isFastMode) BOOL fastMode</Declaration>
+			
+			
+			<Anchor>//api/name/fastMode</Anchor>
+            <NodeRef refid="88"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCMotionStreak/setTexture:</TokenIdentifier>
+			<Abstract type="html">texture used for the motion streak</Abstract>
+			<DeclaredIn>CCMotionStreak.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CCTexture *texture</Declaration>
+			
+			
+			<Anchor>//api/name/texture</Anchor>
+            <NodeRef refid="88"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCMotionStreak/texture</TokenIdentifier>
+			<Abstract type="html">texture used for the motion streak</Abstract>
+			<DeclaredIn>CCMotionStreak.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CCTexture *texture</Declaration>
+			
+			
+			<Anchor>//api/name/texture</Anchor>
+            <NodeRef refid="88"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCMotionStreak/texture</TokenIdentifier>
+			<Abstract type="html">texture used for the motion streak</Abstract>
+			<DeclaredIn>CCMotionStreak.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CCTexture *texture</Declaration>
+			
+			
+			<Anchor>//api/name/texture</Anchor>
+            <NodeRef refid="88"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCMotionStreak/streakWithFade:minSeg:width:color:textureFilename:</TokenIdentifier>
+			<Abstract type="html">creates and initializes a motion streak with fade in seconds, minimum segments, stroke&apos;s width, color, texture filename</Abstract>
+			<DeclaredIn>CCMotionStreak.h</DeclaredIn>
+			
+			<Declaration>+ (id)streakWithFade:(float)fade minSeg:(float)minSeg width:(float)stroke color:(ccColor3B)color textureFilename:(NSString *)path</Declaration>
+			
+			
+			<Anchor>//api/name/streakWithFade:minSeg:width:color:textureFilename:</Anchor>
+            <NodeRef refid="88"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCMotionStreak/streakWithFade:minSeg:width:color:texture:</TokenIdentifier>
+			<Abstract type="html">creates and initializes a motion streak with fade in seconds, minimum segments, stroke&apos;s width, color, texture</Abstract>
+			<DeclaredIn>CCMotionStreak.h</DeclaredIn>
+			
+			<Declaration>+ (id)streakWithFade:(float)fade minSeg:(float)minSeg width:(float)stroke color:(ccColor3B)color texture:(CCTexture *)texture</Declaration>
+			
+			
+			<Anchor>//api/name/streakWithFade:minSeg:width:color:texture:</Anchor>
+            <NodeRef refid="88"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCMotionStreak/initWithFade:minSeg:width:color:textureFilename:</TokenIdentifier>
+			<Abstract type="html">initializes a motion streak with fade in seconds, minimum segments, stroke&apos;s width, color and texture filename</Abstract>
+			<DeclaredIn>CCMotionStreak.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithFade:(float)fade minSeg:(float)minSeg width:(float)stroke color:(ccColor3B)color textureFilename:(NSString *)path</Declaration>
+			
+			
+			<Anchor>//api/name/initWithFade:minSeg:width:color:textureFilename:</Anchor>
+            <NodeRef refid="88"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCMotionStreak/initWithFade:minSeg:width:color:texture:</TokenIdentifier>
+			<Abstract type="html">initializes a motion streak with fade in seconds, minimum segments, stroke&apos;s width, color and texture</Abstract>
+			<DeclaredIn>CCMotionStreak.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithFade:(float)fade minSeg:(float)minSeg width:(float)stroke color:(ccColor3B)color texture:(CCTexture *)texture</Declaration>
+			
+			
+			<Anchor>//api/name/initWithFade:minSeg:width:color:texture:</Anchor>
+            <NodeRef refid="88"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCMotionStreak/reset</TokenIdentifier>
+			<Abstract type="html">Remove all living segments of the ribbon</Abstract>
+			<DeclaredIn>CCMotionStreak.h</DeclaredIn>
+			
+			<Declaration>- (void)reset</Declaration>
+			
+			
+			<Anchor>//api/name/reset</Anchor>
+            <NodeRef refid="88"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

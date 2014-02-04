@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCTimer.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCTimer</TokenIdentifier>
+			<Abstract type="html">Wraps a block scheduled with a CCScheduler.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+            
+			
+			<NodeRef refid="124"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTimer/setRepeatCount:</TokenIdentifier>
+			<Abstract type="html">Number of times to repeat call the block.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSUInteger repeatCount</Declaration>
+			
+			
+			<Anchor>//api/name/repeatCount</Anchor>
+            <NodeRef refid="124"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTimer/repeatCount</TokenIdentifier>
+			<Abstract type="html">Number of times to repeat call the block.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSUInteger repeatCount</Declaration>
+			
+			
+			<Anchor>//api/name/repeatCount</Anchor>
+            <NodeRef refid="124"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTimer/repeatCount</TokenIdentifier>
+			<Abstract type="html">Number of times to repeat call the block.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSUInteger repeatCount</Declaration>
+			
+			
+			<Anchor>//api/name/repeatCount</Anchor>
+            <NodeRef refid="124"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTimer/setRepeatInterval:</TokenIdentifier>
+			<Abstract type="html">Amount of time to wait between calls of the block.
+Defaults to the initial delay value.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CCTime repeatInterval</Declaration>
+			
+			
+			<Anchor>//api/name/repeatInterval</Anchor>
+            <NodeRef refid="124"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTimer/repeatInterval</TokenIdentifier>
+			<Abstract type="html">Amount of time to wait between calls of the block.
+Defaults to the initial delay value.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CCTime repeatInterval</Declaration>
+			
+			
+			<Anchor>//api/name/repeatInterval</Anchor>
+            <NodeRef refid="124"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTimer/repeatInterval</TokenIdentifier>
+			<Abstract type="html">Amount of time to wait between calls of the block.
+Defaults to the initial delay value.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CCTime repeatInterval</Declaration>
+			
+			
+			<Anchor>//api/name/repeatInterval</Anchor>
+            <NodeRef refid="124"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTimer/setPaused:</TokenIdentifier>
+			<Abstract type="html">Is the timer paused or not.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL paused</Declaration>
+			
+			
+			<Anchor>//api/name/paused</Anchor>
+            <NodeRef refid="124"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTimer/paused</TokenIdentifier>
+			<Abstract type="html">Is the timer paused or not.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL paused</Declaration>
+			
+			
+			<Anchor>//api/name/paused</Anchor>
+            <NodeRef refid="124"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTimer/paused</TokenIdentifier>
+			<Abstract type="html">Is the timer paused or not.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL paused</Declaration>
+			
+			
+			<Anchor>//api/name/paused</Anchor>
+            <NodeRef refid="124"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTimer/setDeltaTime:</TokenIdentifier>
+			<Abstract type="html">Elapsed time since the last invocation.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CCTime deltaTime</Declaration>
+			
+			
+			<Anchor>//api/name/deltaTime</Anchor>
+            <NodeRef refid="124"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTimer/deltaTime</TokenIdentifier>
+			<Abstract type="html">Elapsed time since the last invocation.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CCTime deltaTime</Declaration>
+			
+			
+			<Anchor>//api/name/deltaTime</Anchor>
+            <NodeRef refid="124"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTimer/deltaTime</TokenIdentifier>
+			<Abstract type="html">Elapsed time since the last invocation.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CCTime deltaTime</Declaration>
+			
+			
+			<Anchor>//api/name/deltaTime</Anchor>
+            <NodeRef refid="124"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTimer/setInvokeTime:</TokenIdentifier>
+			<Abstract type="html">Absolute time the timer will invoke at.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CCTime invokeTime</Declaration>
+			
+			
+			<Anchor>//api/name/invokeTime</Anchor>
+            <NodeRef refid="124"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTimer/invokeTime</TokenIdentifier>
+			<Abstract type="html">Absolute time the timer will invoke at.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CCTime invokeTime</Declaration>
+			
+			
+			<Anchor>//api/name/invokeTime</Anchor>
+            <NodeRef refid="124"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTimer/invokeTime</TokenIdentifier>
+			<Abstract type="html">Absolute time the timer will invoke at.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CCTime invokeTime</Declaration>
+			
+			
+			<Anchor>//api/name/invokeTime</Anchor>
+            <NodeRef refid="124"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTimer/setScheduler:</TokenIdentifier>
+			<Abstract type="html">Scheduler this timer was invoked from.
+Useful if you need to schedule more timers, or access lastUpdate times, etc.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CCScheduler *scheduler</Declaration>
+			
+			
+			<Anchor>//api/name/scheduler</Anchor>
+            <NodeRef refid="124"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTimer/scheduler</TokenIdentifier>
+			<Abstract type="html">Scheduler this timer was invoked from.
+Useful if you need to schedule more timers, or access lastUpdate times, etc.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CCScheduler *scheduler</Declaration>
+			
+			
+			<Anchor>//api/name/scheduler</Anchor>
+            <NodeRef refid="124"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTimer/scheduler</TokenIdentifier>
+			<Abstract type="html">Scheduler this timer was invoked from.
+Useful if you need to schedule more timers, or access lastUpdate times, etc.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CCScheduler *scheduler</Declaration>
+			
+			
+			<Anchor>//api/name/scheduler</Anchor>
+            <NodeRef refid="124"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTimer/setInvalid:</TokenIdentifier>
+			<Abstract type="html">Returns YES if the timer is no longer scheduled.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL invalid</Declaration>
+			
+			
+			<Anchor>//api/name/invalid</Anchor>
+            <NodeRef refid="124"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTimer/invalid</TokenIdentifier>
+			<Abstract type="html">Returns YES if the timer is no longer scheduled.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL invalid</Declaration>
+			
+			
+			<Anchor>//api/name/invalid</Anchor>
+            <NodeRef refid="124"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTimer/invalid</TokenIdentifier>
+			<Abstract type="html">Returns YES if the timer is no longer scheduled.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL invalid</Declaration>
+			
+			
+			<Anchor>//api/name/invalid</Anchor>
+            <NodeRef refid="124"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTimer/setUserData:</TokenIdentifier>
+			<Abstract type="html">Track an object along with the timer.
+[CCNode schedule:] methods use this to store the selector name.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) id userData</Declaration>
+			
+			
+			<Anchor>//api/name/userData</Anchor>
+            <NodeRef refid="124"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTimer/userData</TokenIdentifier>
+			<Abstract type="html">Track an object along with the timer.
+[CCNode schedule:] methods use this to store the selector name.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) id userData</Declaration>
+			
+			
+			<Anchor>//api/name/userData</Anchor>
+            <NodeRef refid="124"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTimer/userData</TokenIdentifier>
+			<Abstract type="html">Track an object along with the timer.
+[CCNode schedule:] methods use this to store the selector name.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) id userData</Declaration>
+			
+			
+			<Anchor>//api/name/userData</Anchor>
+            <NodeRef refid="124"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTimer/repeatOnceWithInterval:</TokenIdentifier>
+			<Abstract type="html">Set the timer to repeat once with the given interval.
+Can be used from a timer block to make the timer run again.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>- (void)repeatOnceWithInterval:(CCTime)interval</Declaration>
+			
+			
+			<Anchor>//api/name/repeatOnceWithInterval:</Anchor>
+            <NodeRef refid="124"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTimer/invalidate</TokenIdentifier>
+			<Abstract type="html">Cancel the timer.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>- (void)invalidate</Declaration>
+			
+			
+			<Anchor>//api/name/invalidate</Anchor>
+            <NodeRef refid="124"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCActionCatmullRomBy.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCActionCatmullRomBy</TokenIdentifier>
+			<Abstract type="html">An action that moves the target with a CatmullRom curve by a certain distance.</Abstract>
+			<DeclaredIn>CCActionCatmullRom.h</DeclaredIn>
+            
+			
+			<NodeRef refid="9"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCActionCatmullRomBy/actionWithDuration:points:</TokenIdentifier>
+			<Abstract type="html">creates an action with a Cardinal Spline array of points and tension</Abstract>
+			<DeclaredIn>CCActionCatmullRom.h</DeclaredIn>
+			
+			<Declaration>+ (id)actionWithDuration:(CCTime)dt points:(CCPointArray *)points</Declaration>
+			
+			
+			<Anchor>//api/name/actionWithDuration:points:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCActionCatmullRomBy/initWithDuration:points:</TokenIdentifier>
+			<Abstract type="html">initializes the action with a duration and an array of points</Abstract>
+			<DeclaredIn>CCActionCatmullRom.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithDuration:(CCTime)dt points:(CCPointArray *)points</Declaration>
+			
+			
+			<Anchor>//api/name/initWithDuration:points:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

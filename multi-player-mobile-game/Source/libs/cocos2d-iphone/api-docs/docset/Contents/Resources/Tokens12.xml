@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCActionEase.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCActionEase</TokenIdentifier>
+			<Abstract type="html">Base class for Easing actions</Abstract>
+			<DeclaredIn>CCActionEase.h</DeclaredIn>
+            
+			
+			<NodeRef refid="12"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCActionEase/setInner:</TokenIdentifier>
+			<Abstract type="html">The inner action</Abstract>
+			<DeclaredIn>CCActionEase.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CCActionInterval *inner</Declaration>
+			
+			
+			<Anchor>//api/name/inner</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCActionEase/inner</TokenIdentifier>
+			<Abstract type="html">The inner action</Abstract>
+			<DeclaredIn>CCActionEase.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CCActionInterval *inner</Declaration>
+			
+			
+			<Anchor>//api/name/inner</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCActionEase/inner</TokenIdentifier>
+			<Abstract type="html">The inner action</Abstract>
+			<DeclaredIn>CCActionEase.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CCActionInterval *inner</Declaration>
+			
+			
+			<Anchor>//api/name/inner</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCActionEase/actionWithAction:</TokenIdentifier>
+			<Abstract type="html">creates the action</Abstract>
+			<DeclaredIn>CCActionEase.h</DeclaredIn>
+			
+			<Declaration>+ (id)actionWithAction:(CCActionInterval *)action</Declaration>
+			
+			
+			<Anchor>//api/name/actionWithAction:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCActionEase/initWithAction:</TokenIdentifier>
+			<Abstract type="html">initializes the action</Abstract>
+			<DeclaredIn>CCActionEase.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithAction:(CCActionInterval *)action</Declaration>
+			
+			
+			<Anchor>//api/name/initWithAction:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

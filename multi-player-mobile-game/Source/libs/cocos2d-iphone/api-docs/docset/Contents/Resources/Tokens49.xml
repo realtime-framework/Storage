@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCActionRotateBy.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCActionRotateBy</TokenIdentifier>
+			<Abstract type="html">Rotates a CCNode object clockwise a number of degrees by modifying its rotation attribute.</Abstract>
+			<DeclaredIn>CCActionInterval.h</DeclaredIn>
+            
+			
+			<NodeRef refid="49"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCActionRotateBy/actionWithDuration:angle:</TokenIdentifier>
+			<Abstract type="html">creates the action</Abstract>
+			<DeclaredIn>CCActionInterval.h</DeclaredIn>
+			
+			<Declaration>+ (id)actionWithDuration:(CCTime)duration angle:(float)deltaAngle</Declaration>
+			
+			
+			<Anchor>//api/name/actionWithDuration:angle:</Anchor>
+            <NodeRef refid="49"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCActionRotateBy/initWithDuration:angle:</TokenIdentifier>
+			<Abstract type="html">initializes the action</Abstract>
+			<DeclaredIn>CCActionInterval.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithDuration:(CCTime)duration angle:(float)deltaAngle</Declaration>
+			
+			
+			<Anchor>//api/name/initWithDuration:angle:</Anchor>
+            <NodeRef refid="49"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCActionRotateBy/actionWithDuration:angleX:angleY:</TokenIdentifier>
+			<Abstract type="html">creates the action with separate rotation angles</Abstract>
+			<DeclaredIn>CCActionInterval.h</DeclaredIn>
+			
+			<Declaration>+ (id)actionWithDuration:(CCTime)t angleX:(float)aX angleY:(float)aY</Declaration>
+			
+			
+			<Anchor>//api/name/actionWithDuration:angleX:angleY:</Anchor>
+            <NodeRef refid="49"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

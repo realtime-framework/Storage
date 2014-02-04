@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/CCVerticalTextAlignment.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/CCVerticalTextAlignment</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ccTypes.h</DeclaredIn>
+            
+			
+			<NodeRef refid="150"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CCVerticalTextAlignmentTop</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CCVerticalTextAlignmentTop</Declaration>
+            
+            <DeclaredIn>ccTypes.h</DeclaredIn>
+            
+            <NodeRef refid="150"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CCVerticalTextAlignmentCenter</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CCVerticalTextAlignmentCenter</Declaration>
+            
+            <DeclaredIn>ccTypes.h</DeclaredIn>
+            
+            <NodeRef refid="150"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CCVerticalTextAlignmentBottom</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CCVerticalTextAlignmentBottom</Declaration>
+            
+            <DeclaredIn>ccTypes.h</DeclaredIn>
+            
+            <NodeRef refid="150"/>
+        </Token>
+        
+	</File>
+</Tokens>

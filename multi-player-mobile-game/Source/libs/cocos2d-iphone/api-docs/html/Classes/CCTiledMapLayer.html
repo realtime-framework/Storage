@@ -1,0 +1,1255 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>CCTiledMapLayer Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 961)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">Cocos2d </a></h1>
+				<a id="developerHome" href="../index.html">Cocos2d-iPhone.org</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">CCTiledMapLayer Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/layerName">&nbsp;&nbsp;&nbsp;&nbsp;layerName</option>
+	
+	<option value="//api/name/layerOrientation">&nbsp;&nbsp;&nbsp;&nbsp;layerOrientation</option>
+	
+	<option value="//api/name/layerSize">&nbsp;&nbsp;&nbsp;&nbsp;layerSize</option>
+	
+	<option value="//api/name/mapTileSize">&nbsp;&nbsp;&nbsp;&nbsp;mapTileSize</option>
+	
+	<option value="//api/name/properties">&nbsp;&nbsp;&nbsp;&nbsp;properties</option>
+	
+	<option value="//api/name/tiles">&nbsp;&nbsp;&nbsp;&nbsp;tiles</option>
+	
+	<option value="//api/name/tileset">&nbsp;&nbsp;&nbsp;&nbsp;tileset</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/layerWithTilesetInfo:layerInfo:mapInfo:">&nbsp;&nbsp;&nbsp;&nbsp;+ layerWithTilesetInfo:layerInfo:mapInfo:</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/addChild:z:tag:">&nbsp;&nbsp;&nbsp;&nbsp;- addChild:z:tag:</option>
+	
+	<option value="//api/name/initWithTilesetInfo:layerInfo:mapInfo:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithTilesetInfo:layerInfo:mapInfo:</option>
+	
+	<option value="//api/name/positionAt:">&nbsp;&nbsp;&nbsp;&nbsp;- positionAt:</option>
+	
+	<option value="//api/name/propertyNamed:">&nbsp;&nbsp;&nbsp;&nbsp;- propertyNamed:</option>
+	
+	<option value="//api/name/releaseMap">&nbsp;&nbsp;&nbsp;&nbsp;- releaseMap</option>
+	
+	<option value="//api/name/removeTileAt:">&nbsp;&nbsp;&nbsp;&nbsp;- removeTileAt:</option>
+	
+	<option value="//api/name/setTileGID:at:">&nbsp;&nbsp;&nbsp;&nbsp;- setTileGID:at:</option>
+	
+	<option value="//api/name/setTileGID:at:withFlags:">&nbsp;&nbsp;&nbsp;&nbsp;- setTileGID:at:withFlags:</option>
+	
+	<option value="//api/name/setupTiles">&nbsp;&nbsp;&nbsp;&nbsp;- setupTiles</option>
+	
+	<option value="//api/name/tileAt:">&nbsp;&nbsp;&nbsp;&nbsp;- tileAt:</option>
+	
+	<option value="//api/name/tileGIDAt:">&nbsp;&nbsp;&nbsp;&nbsp;- tileGIDAt:</option>
+	
+	<option value="//api/name/tileGIDAt:withFlags:">&nbsp;&nbsp;&nbsp;&nbsp;- tileGIDAt:withFlags:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Extension Methods">Extension Methods</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/layerName">layerName</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/layerOrientation">layerOrientation</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/layerSize">layerSize</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/mapTileSize">mapTileSize</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/properties">properties</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/tiles">tiles</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/tileset">tileset</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/layerWithTilesetInfo:layerInfo:mapInfo:">layerWithTilesetInfo:layerInfo:mapInfo:</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addChild:z:tag:">addChild:z:tag:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithTilesetInfo:layerInfo:mapInfo:">initWithTilesetInfo:layerInfo:mapInfo:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/positionAt:">positionAt:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/propertyNamed:">propertyNamed:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/releaseMap">releaseMap</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeTileAt:">removeTileAt:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setTileGID:at:">setTileGID:at:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setTileGID:at:withFlags:">setTileGID:at:withFlags:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setupTiles">setupTiles</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/tileAt:">tileAt:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/tileGIDAt:">tileGIDAt:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/tileGIDAt:withFlags:">tileGIDAt:withFlags:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="CCTiledMapLayer Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">CCTiledMapLayer Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/CCSpriteBatchNode.html">CCSpriteBatchNode</a> : <a href="../Classes/CCNode.html">CCNode</a> : <a href="../Classes/CCResponder.html">CCResponder</a> : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">CCTiledMapLayer.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>CCTMXLayer represents the TMX layer.</p>
+
+<p>It is a subclass of <a href="../Classes/CCSpriteBatchNode.html">CCSpriteBatchNode</a>. By default the <a href="#//api/name/tiles">tiles</a> are rendered using a <a href="../Classes/CCTextureAtlas.html">CCTextureAtlas</a>.
+If you mofify a tile on runtime, then, that tile will become a <a href="../Classes/CCSprite.html">CCSprite</a>, otherwise no <a href="../Classes/CCSprite.html">CCSprite</a> objects are created.
+The benefits of using <a href="../Classes/CCSprite.html">CCSprite</a> objects as <a href="#//api/name/tiles">tiles</a> are:
+- <a href="#//api/name/tiles">tiles</a> (<a href="../Classes/CCSprite.html">CCSprite</a>) can be rotated/scaled/moved with a nice API</p>
+
+<p>cocos2d v2.0 doesn&rsquo;t support the cc_vertexz value. Whenever a the cc_vertexz property is found, it will raise an exception.</p>
+
+<p>&ldquo;value&rdquo; by default is 0, but you can change it from Tiled by adding the &ldquo;cc_alpha_func&rdquo; property to the layer.
+The value 0 should work for most cases, but if you have tiles that are semi-transparent, then you might want to use a differnt
+value, like 0.5.</p>
+
+<p>For further information, please see the programming guide:</p>
+
+<pre><code>http://www.cocos2d-iphone.org/wiki/doku.php/prog_guide:tiled_maps
+</code></pre>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/layerName">&nbsp;&nbsp;layerName</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/layerSize">&nbsp;&nbsp;layerSize</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/mapTileSize">&nbsp;&nbsp;mapTileSize</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/tiles">&nbsp;&nbsp;tiles</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/tileset">&nbsp;&nbsp;tileset</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/layerOrientation">&nbsp;&nbsp;layerOrientation</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/properties">&nbsp;&nbsp;properties</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/layerWithTilesetInfo:layerInfo:mapInfo:">+&nbsp;layerWithTilesetInfo:layerInfo:mapInfo:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithTilesetInfo:layerInfo:mapInfo:">&ndash;&nbsp;initWithTilesetInfo:layerInfo:mapInfo:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/tileAt:">&ndash;&nbsp;tileAt:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/tileGIDAt:">&ndash;&nbsp;tileGIDAt:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/tileGIDAt:withFlags:">&ndash;&nbsp;tileGIDAt:withFlags:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setTileGID:at:">&ndash;&nbsp;setTileGID:at:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setTileGID:at:withFlags:">&ndash;&nbsp;setTileGID:at:withFlags:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeTileAt:">&ndash;&nbsp;removeTileAt:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/positionAt:">&ndash;&nbsp;positionAt:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/propertyNamed:">&ndash;&nbsp;propertyNamed:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addChild:z:tag:">&ndash;&nbsp;addChild:z:tag:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Extension Methods" name="task_Extension Methods"></a>
+						<h3 class="subsubtitle task-title">Extension Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/releaseMap">&ndash;&nbsp;releaseMap</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setupTiles">&ndash;&nbsp;setupTiles</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/layerName" title="layerName"></a>
+	<h3 class="subsubtitle method-title">layerName</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>name of the layer</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, strong) NSString *layerName</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCTiledMapLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/layerOrientation" title="layerOrientation"></a>
+	<h3 class="subsubtitle method-title">layerOrientation</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Layer orientation, which is the same as the map orientation</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite) NSUInteger layerOrientation</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCTiledMapLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/layerSize" title="layerSize"></a>
+	<h3 class="subsubtitle method-title">layerSize</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>size of the layer in <a href="#//api/name/tiles">tiles</a></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite) CGSize layerSize</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCTiledMapLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/mapTileSize" title="mapTileSize"></a>
+	<h3 class="subsubtitle method-title">mapTileSize</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>size of the map&rsquo;s tile (could be different from the tile&rsquo;s size)</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite) CGSize mapTileSize</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCTiledMapLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/properties" title="properties"></a>
+	<h3 class="subsubtitle method-title">properties</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>properties from the layer. They can be added using Tiled</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, strong) NSMutableDictionary *properties</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCTiledMapLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/tiles" title="tiles"></a>
+	<h3 class="subsubtitle method-title">tiles</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>pointer to the map of tiles</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) uint32_t *tiles</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCTiledMapLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/tileset" title="tileset"></a>
+	<h3 class="subsubtitle method-title">tileset</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Tileset information for the layer</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, strong) CCTiledMapTilesetInfo *tileset</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCTiledMapLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/layerWithTilesetInfo:layerInfo:mapInfo:" title="layerWithTilesetInfo:layerInfo:mapInfo:"></a>
+	<h3 class="subsubtitle method-title">layerWithTilesetInfo:layerInfo:mapInfo:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>creates a CCTMXLayer with an <a href="#//api/name/tileset">tileset</a> info, a layer info and a map info</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (id)layerWithTilesetInfo:(CCTiledMapTilesetInfo *)<em>tilesetInfo</em> layerInfo:(CCTiledMapLayerInfo *)<em>layerInfo</em> mapInfo:(CCTiledMapInfo *)<em>mapInfo</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCTiledMapLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/addChild:z:tag:" title="addChild:z:tag:"></a>
+	<h3 class="subsubtitle method-title">addChild:z:tag:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>CCTMXLayer doesn&rsquo;t support adding a <a href="../Classes/CCSprite.html">CCSprite</a> manually.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addChild:(CCNode *)<em>node</em> z:(NSInteger)<em>z</em> tag:(NSInteger)<em>tag</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<div class="warning"><p><strong>Warning:</strong> addchild:z:tag: is not supported on CCTMXLayer. Instead of setTileGID:at:/<a href="#//api/name/tileAt:">tileAt:</a></p></div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCTiledMapLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithTilesetInfo:layerInfo:mapInfo:" title="initWithTilesetInfo:layerInfo:mapInfo:"></a>
+	<h3 class="subsubtitle method-title">initWithTilesetInfo:layerInfo:mapInfo:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>initializes a CCTMXLayer with a <a href="#//api/name/tileset">tileset</a> info, a layer info and a map info</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithTilesetInfo:(CCTiledMapTilesetInfo *)<em>tilesetInfo</em> layerInfo:(CCTiledMapLayerInfo *)<em>layerInfo</em> mapInfo:(CCTiledMapInfo *)<em>mapInfo</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCTiledMapLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/positionAt:" title="positionAt:"></a>
+	<h3 class="subsubtitle method-title">positionAt:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>returns the position in points of a given tile coordinate</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (CGPoint)positionAt:(CGPoint)<em>tileCoordinate</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCTiledMapLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/propertyNamed:" title="propertyNamed:"></a>
+	<h3 class="subsubtitle method-title">propertyNamed:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>return the value for the specific property name</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)propertyNamed:(NSString *)<em>propertyName</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCTiledMapLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/releaseMap" title="releaseMap"></a>
+	<h3 class="subsubtitle method-title">releaseMap</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>dealloc the map that contains the tile position from memory.
+Unless you want to know at runtime the tiles positions, you can safely call this method.
+If you are going to call [layer tileGIDAt:] then, don&rsquo;t release the map</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)releaseMap</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCTiledMapLayer_Private.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeTileAt:" title="removeTileAt:"></a>
+	<h3 class="subsubtitle method-title">removeTileAt:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>removes a tile at given tile coordinate</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)removeTileAt:(CGPoint)<em>tileCoordinate</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCTiledMapLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setTileGID:at:" title="setTileGID:at:"></a>
+	<h3 class="subsubtitle method-title">setTileGID:at:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>sets the tile gid (gid = tile global id) at a given tile coordinate.
+The Tile GID can be obtained by using the method &ldquo;tileGIDAt&rdquo; or by using the TMX editor -> Tileset Mgr +1.
+If a tile is already placed at that position, then it will be removed.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setTileGID:(uint32_t)<em>gid</em> at:(CGPoint)<em>tileCoordinate</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCTiledMapLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setTileGID:at:withFlags:" title="setTileGID:at:withFlags:"></a>
+	<h3 class="subsubtitle method-title">setTileGID:at:withFlags:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>sets the tile gid (gid = tile global id) at a given tile coordinate.
+The Tile GID can be obtained by using the method &ldquo;tileGIDAt&rdquo; or by using the TMX editor -> Tileset Mgr +1.
+If a tile is already placed at that position, then it will be removed.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setTileGID:(uint32_t)<em>gid</em> at:(CGPoint)<em>pos</em> withFlags:(ccTMXTileFlags)<em>flags</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>Use withFlags if the tile flags need to be changed as well</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCTiledMapLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setupTiles" title="setupTiles"></a>
+	<h3 class="subsubtitle method-title">setupTiles</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Creates the <a href="#//api/name/tiles">tiles</a></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)setupTiles</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCTiledMapLayer_Private.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/tileAt:" title="tileAt:"></a>
+	<h3 class="subsubtitle method-title">tileAt:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>returns the tile (CCSprite) at a given a tile coordinate.
+The returned CCSprite will be already added to the CCTMXLayer. Don&rsquo;t add it again.
+The CCSprite can be treated like any other CCSprite: rotated, scaled, translated, opacity, color, etc.
+You can remove either by calling:
+    - [layer removeChild:sprite cleanup:cleanup];
+    - or [layer removeTileAt:ccp(x,y)];</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (CCSprite *)tileAt:(CGPoint)<em>tileCoordinate</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCTiledMapLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/tileGIDAt:" title="tileGIDAt:"></a>
+	<h3 class="subsubtitle method-title">tileGIDAt:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>returns the tile gid at a given tile coordinate.
+if it returns 0, it means that the tile is empty.
+This method requires the the tile map has not been previously released (eg. don&rsquo;t call [layer releaseMap])</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (uint32_t)tileGIDAt:(CGPoint)<em>tileCoordinate</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCTiledMapLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/tileGIDAt:withFlags:" title="tileGIDAt:withFlags:"></a>
+	<h3 class="subsubtitle method-title">tileGIDAt:withFlags:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>returns the tile gid at a given tile coordinate. It also returns the tile flags.
+This method requires the the tile map has not been previously released (eg. don&rsquo;t call [layer releaseMap])</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (uint32_t)tileGIDAt:(CGPoint)<em>pos</em> withFlags:(ccTMXTileFlags *)<em>flags</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCTiledMapLayer.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Cocos2d-iPhone.org. All rights reserved. (Last updated: 2013-12-23)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 961)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

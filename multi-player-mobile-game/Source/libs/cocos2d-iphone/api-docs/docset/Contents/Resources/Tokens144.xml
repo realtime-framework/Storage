@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/CCScaleType.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/CCScaleType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>ccTypes.h</DeclaredIn>
+            
+			
+			<NodeRef refid="144"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CCScaleTypePoints</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CCScaleTypePoints</Declaration>
+            
+            <DeclaredIn>ccTypes.h</DeclaredIn>
+            
+            <NodeRef refid="144"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CCScaleTypeScaled</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CCScaleTypeScaled</Declaration>
+            
+            <DeclaredIn>ccTypes.h</DeclaredIn>
+            
+            <NodeRef refid="144"/>
+        </Token>
+        
+	</File>
+</Tokens>

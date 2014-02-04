@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCConfiguration.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCConfiguration</TokenIdentifier>
+			<Abstract type="html">CCConfiguration contains some openGL variables</Abstract>
+			<DeclaredIn>CCConfiguration.h</DeclaredIn>
+            <Availability type="html">(
+    &quot;v0.99.0&quot;
+)</Availability>
+			
+			<NodeRef refid="72"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCConfiguration/setMaxTextureSize:</TokenIdentifier>
+			<Abstract type="html">OpenGL Max texture size.</Abstract>
+			<DeclaredIn>CCConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) GLint maxTextureSize</Declaration>
+			
+			
+			<Anchor>//api/name/maxTextureSize</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCConfiguration/maxTextureSize</TokenIdentifier>
+			<Abstract type="html">OpenGL Max texture size.</Abstract>
+			<DeclaredIn>CCConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) GLint maxTextureSize</Declaration>
+			
+			
+			<Anchor>//api/name/maxTextureSize</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCConfiguration/maxTextureSize</TokenIdentifier>
+			<Abstract type="html">OpenGL Max texture size.</Abstract>
+			<DeclaredIn>CCConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) GLint maxTextureSize</Declaration>
+			
+			
+			<Anchor>//api/name/maxTextureSize</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCConfiguration/setMaxTextureUnits:</TokenIdentifier>
+			<Abstract type="html">returns the maximum texture units</Abstract>
+			<DeclaredIn>CCConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) GLint maxTextureUnits</Declaration>
+			
+			
+			<Anchor>//api/name/maxTextureUnits</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCConfiguration/maxTextureUnits</TokenIdentifier>
+			<Abstract type="html">returns the maximum texture units</Abstract>
+			<DeclaredIn>CCConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) GLint maxTextureUnits</Declaration>
+			
+			
+			<Anchor>//api/name/maxTextureUnits</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCConfiguration/maxTextureUnits</TokenIdentifier>
+			<Abstract type="html">returns the maximum texture units</Abstract>
+			<DeclaredIn>CCConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) GLint maxTextureUnits</Declaration>
+			
+			
+			<Anchor>//api/name/maxTextureUnits</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCConfiguration/setSupportsNPOT:</TokenIdentifier>
+			<Abstract type="html">Whether or not the GPU supports NPOT (Non Power Of Two) textures.
+OpenGL ES 2.0 already supports NPOT (iOS).</Abstract>
+			<DeclaredIn>CCConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL supportsNPOT</Declaration>
+			
+			
+			<Anchor>//api/name/supportsNPOT</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCConfiguration/supportsNPOT</TokenIdentifier>
+			<Abstract type="html">Whether or not the GPU supports NPOT (Non Power Of Two) textures.
+OpenGL ES 2.0 already supports NPOT (iOS).</Abstract>
+			<DeclaredIn>CCConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL supportsNPOT</Declaration>
+			
+			
+			<Anchor>//api/name/supportsNPOT</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCConfiguration/supportsNPOT</TokenIdentifier>
+			<Abstract type="html">Whether or not the GPU supports NPOT (Non Power Of Two) textures.
+OpenGL ES 2.0 already supports NPOT (iOS).</Abstract>
+			<DeclaredIn>CCConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL supportsNPOT</Declaration>
+			
+			
+			<Anchor>//api/name/supportsNPOT</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCConfiguration/setSupportsPVRTC:</TokenIdentifier>
+			<Abstract type="html">Whether or not PVR Texture Compressed is supported</Abstract>
+			<DeclaredIn>CCConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL supportsPVRTC</Declaration>
+			
+			
+			<Anchor>//api/name/supportsPVRTC</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCConfiguration/supportsPVRTC</TokenIdentifier>
+			<Abstract type="html">Whether or not PVR Texture Compressed is supported</Abstract>
+			<DeclaredIn>CCConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL supportsPVRTC</Declaration>
+			
+			
+			<Anchor>//api/name/supportsPVRTC</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCConfiguration/supportsPVRTC</TokenIdentifier>
+			<Abstract type="html">Whether or not PVR Texture Compressed is supported</Abstract>
+			<DeclaredIn>CCConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL supportsPVRTC</Declaration>
+			
+			
+			<Anchor>//api/name/supportsPVRTC</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCConfiguration/setSupportsBGRA8888:</TokenIdentifier>
+			<Abstract type="html">Whether or not BGRA8888 textures are supported.</Abstract>
+			<DeclaredIn>CCConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL supportsBGRA8888</Declaration>
+			
+			
+			<Anchor>//api/name/supportsBGRA8888</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCConfiguration/supportsBGRA8888</TokenIdentifier>
+			<Abstract type="html">Whether or not BGRA8888 textures are supported.</Abstract>
+			<DeclaredIn>CCConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL supportsBGRA8888</Declaration>
+			
+			
+			<Anchor>//api/name/supportsBGRA8888</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCConfiguration/supportsBGRA8888</TokenIdentifier>
+			<Abstract type="html">Whether or not BGRA8888 textures are supported.</Abstract>
+			<DeclaredIn>CCConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL supportsBGRA8888</Declaration>
+			
+			
+			<Anchor>//api/name/supportsBGRA8888</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCConfiguration/setSupportsDiscardFramebuffer:</TokenIdentifier>
+			<Abstract type="html">Whether or not glDiscardFramebufferEXT is supported</Abstract>
+			<DeclaredIn>CCConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL supportsDiscardFramebuffer</Declaration>
+			
+			
+			<Anchor>//api/name/supportsDiscardFramebuffer</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCConfiguration/supportsDiscardFramebuffer</TokenIdentifier>
+			<Abstract type="html">Whether or not glDiscardFramebufferEXT is supported</Abstract>
+			<DeclaredIn>CCConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL supportsDiscardFramebuffer</Declaration>
+			
+			
+			<Anchor>//api/name/supportsDiscardFramebuffer</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCConfiguration/supportsDiscardFramebuffer</TokenIdentifier>
+			<Abstract type="html">Whether or not glDiscardFramebufferEXT is supported</Abstract>
+			<DeclaredIn>CCConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL supportsDiscardFramebuffer</Declaration>
+			
+			
+			<Anchor>//api/name/supportsDiscardFramebuffer</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCConfiguration/setSupportsShareableVAO:</TokenIdentifier>
+			<Abstract type="html">Whether or not shareable VAOs are supported.</Abstract>
+			<DeclaredIn>CCConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL supportsShareableVAO</Declaration>
+			
+			
+			<Anchor>//api/name/supportsShareableVAO</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCConfiguration/supportsShareableVAO</TokenIdentifier>
+			<Abstract type="html">Whether or not shareable VAOs are supported.</Abstract>
+			<DeclaredIn>CCConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL supportsShareableVAO</Declaration>
+			
+			
+			<Anchor>//api/name/supportsShareableVAO</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCConfiguration/supportsShareableVAO</TokenIdentifier>
+			<Abstract type="html">Whether or not shareable VAOs are supported.</Abstract>
+			<DeclaredIn>CCConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL supportsShareableVAO</Declaration>
+			
+			
+			<Anchor>//api/name/supportsShareableVAO</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCConfiguration/setOSVersion:</TokenIdentifier>
+			<Abstract type="html">returns the OS version.
+	- On iOS devices it returns the firmware version.
+	- On Mac returns the OS version</Abstract>
+			<DeclaredIn>CCConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) unsigned int OSVersion</Declaration>
+			
+			
+			<Anchor>//api/name/OSVersion</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCConfiguration/OSVersion</TokenIdentifier>
+			<Abstract type="html">returns the OS version.
+	- On iOS devices it returns the firmware version.
+	- On Mac returns the OS version</Abstract>
+			<DeclaredIn>CCConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) unsigned int OSVersion</Declaration>
+			
+			
+			<Anchor>//api/name/OSVersion</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCConfiguration/OSVersion</TokenIdentifier>
+			<Abstract type="html">returns the OS version.
+	- On iOS devices it returns the firmware version.
+	- On Mac returns the OS version</Abstract>
+			<DeclaredIn>CCConfiguration.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) unsigned int OSVersion</Declaration>
+			
+			
+			<Anchor>//api/name/OSVersion</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCConfiguration/sharedConfiguration</TokenIdentifier>
+			<Abstract type="html">returns a shared instance of the CCConfiguration</Abstract>
+			<DeclaredIn>CCConfiguration.h</DeclaredIn>
+			
+			<Declaration>+ (CCConfiguration *)sharedConfiguration</Declaration>
+			
+			
+			<Anchor>//api/name/sharedConfiguration</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCConfiguration/checkForGLExtension:</TokenIdentifier>
+			<Abstract type="html">returns whether or not an OpenGL is supported</Abstract>
+			<DeclaredIn>CCConfiguration.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)checkForGLExtension:(NSString *)searchName</Declaration>
+			
+			
+			<Anchor>//api/name/checkForGLExtension:</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCConfiguration/runningDevice</TokenIdentifier>
+			<Abstract type="html">returns the current device</Abstract>
+			<DeclaredIn>CCConfiguration.h</DeclaredIn>
+			
+			<Declaration>- (NSInteger)runningDevice</Declaration>
+			
+			
+			<Anchor>//api/name/runningDevice</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCConfiguration/dumpInfo</TokenIdentifier>
+			<Abstract type="html">dumps in the console the CCConfiguration information.</Abstract>
+			<DeclaredIn>CCConfiguration.h</DeclaredIn>
+			
+			<Declaration>- (void)dumpInfo</Declaration>
+			
+			
+			<Anchor>//api/name/dumpInfo</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

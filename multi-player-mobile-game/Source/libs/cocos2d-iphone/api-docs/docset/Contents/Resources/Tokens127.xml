@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/CCAccelerometerDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/CCAccelerometerDelegate</TokenIdentifier>
+			<Abstract type="html">CCAccelerometerDelegate delegate</Abstract>
+			<DeclaredIn>CCProtocols.h</DeclaredIn>
+            
+			
+			<NodeRef refid="127"/>
+		</Token>
+		
+		
+        
+	</File>
+</Tokens>

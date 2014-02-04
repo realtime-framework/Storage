@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCTiledMapInfo.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCTiledMapInfo</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>
+            
+			
+			<NodeRef refid="121"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCTiledMapInfo/formatWithTMXFile:</TokenIdentifier>
+			<Abstract type="html">creates a TMX Format with a tmx file</Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>
+			
+			<Declaration>+ (id)formatWithTMXFile:(NSString *)tmxFile</Declaration>
+			
+			
+			<Anchor>//api/name/formatWithTMXFile:</Anchor>
+            <NodeRef refid="121"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCTiledMapInfo/formatWithXML:resourcePath:</TokenIdentifier>
+			<Abstract type="html">creates a TMX Format with an XML string and a TMX resource path</Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>
+			
+			<Declaration>+ (id)formatWithXML:(NSString *)tmxString resourcePath:(NSString *)resourcePath</Declaration>
+			
+			
+			<Anchor>//api/name/formatWithXML:resourcePath:</Anchor>
+            <NodeRef refid="121"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTiledMapInfo/initWithTMXFile:</TokenIdentifier>
+			<Abstract type="html">initializes a TMX format with a tmx file</Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithTMXFile:(NSString *)tmxFile</Declaration>
+			
+			
+			<Anchor>//api/name/initWithTMXFile:</Anchor>
+            <NodeRef refid="121"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTiledMapInfo/initWithXML:resourcePath:</TokenIdentifier>
+			<Abstract type="html">initializes a TMX format with an XML string and a TMX resource path</Abstract>
+			<DeclaredIn>CCTMXXMLParser.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithXML:(NSString *)tmxString resourcePath:(NSString *)resourcePath</Declaration>
+			
+			
+			<Anchor>//api/name/initWithXML:resourcePath:</Anchor>
+            <NodeRef refid="121"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

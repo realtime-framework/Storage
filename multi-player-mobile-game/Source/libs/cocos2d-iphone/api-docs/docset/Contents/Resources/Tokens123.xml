@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCTiledMapObjectGroup.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCTiledMapObjectGroup</TokenIdentifier>
+			<Abstract type="html">CCTMXObjectGroup represents the TMX object group.</Abstract>
+			<DeclaredIn>CCTiledMapObjectGroup.h</DeclaredIn>
+            <Availability type="html">(
+    &quot;v0.99.0&quot;
+)</Availability>
+			
+			<NodeRef refid="123"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTiledMapObjectGroup/setGroupName:</TokenIdentifier>
+			<Abstract type="html">name of the group</Abstract>
+			<DeclaredIn>CCTiledMapObjectGroup.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, strong) NSString *groupName</Declaration>
+			
+			
+			<Anchor>//api/name/groupName</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTiledMapObjectGroup/groupName</TokenIdentifier>
+			<Abstract type="html">name of the group</Abstract>
+			<DeclaredIn>CCTiledMapObjectGroup.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, strong) NSString *groupName</Declaration>
+			
+			
+			<Anchor>//api/name/groupName</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTiledMapObjectGroup/groupName</TokenIdentifier>
+			<Abstract type="html">name of the group</Abstract>
+			<DeclaredIn>CCTiledMapObjectGroup.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, strong) NSString *groupName</Declaration>
+			
+			
+			<Anchor>//api/name/groupName</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTiledMapObjectGroup/setPositionOffset:</TokenIdentifier>
+			<Abstract type="html">offset position of child objects</Abstract>
+			<DeclaredIn>CCTiledMapObjectGroup.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGPoint positionOffset</Declaration>
+			
+			
+			<Anchor>//api/name/positionOffset</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTiledMapObjectGroup/positionOffset</TokenIdentifier>
+			<Abstract type="html">offset position of child objects</Abstract>
+			<DeclaredIn>CCTiledMapObjectGroup.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGPoint positionOffset</Declaration>
+			
+			
+			<Anchor>//api/name/positionOffset</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTiledMapObjectGroup/positionOffset</TokenIdentifier>
+			<Abstract type="html">offset position of child objects</Abstract>
+			<DeclaredIn>CCTiledMapObjectGroup.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGPoint positionOffset</Declaration>
+			
+			
+			<Anchor>//api/name/positionOffset</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTiledMapObjectGroup/setObjects:</TokenIdentifier>
+			<Abstract type="html">array of the objects</Abstract>
+			<DeclaredIn>CCTiledMapObjectGroup.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, strong) NSMutableArray *objects</Declaration>
+			
+			
+			<Anchor>//api/name/objects</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTiledMapObjectGroup/objects</TokenIdentifier>
+			<Abstract type="html">array of the objects</Abstract>
+			<DeclaredIn>CCTiledMapObjectGroup.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, strong) NSMutableArray *objects</Declaration>
+			
+			
+			<Anchor>//api/name/objects</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTiledMapObjectGroup/objects</TokenIdentifier>
+			<Abstract type="html">array of the objects</Abstract>
+			<DeclaredIn>CCTiledMapObjectGroup.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, strong) NSMutableArray *objects</Declaration>
+			
+			
+			<Anchor>//api/name/objects</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTiledMapObjectGroup/setProperties:</TokenIdentifier>
+			<Abstract type="html">list of properties stored in a dictionary</Abstract>
+			<DeclaredIn>CCTiledMapObjectGroup.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, strong) NSMutableDictionary *properties</Declaration>
+			
+			
+			<Anchor>//api/name/properties</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTiledMapObjectGroup/properties</TokenIdentifier>
+			<Abstract type="html">list of properties stored in a dictionary</Abstract>
+			<DeclaredIn>CCTiledMapObjectGroup.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, strong) NSMutableDictionary *properties</Declaration>
+			
+			
+			<Anchor>//api/name/properties</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCTiledMapObjectGroup/properties</TokenIdentifier>
+			<Abstract type="html">list of properties stored in a dictionary</Abstract>
+			<DeclaredIn>CCTiledMapObjectGroup.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, strong) NSMutableDictionary *properties</Declaration>
+			
+			
+			<Anchor>//api/name/properties</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTiledMapObjectGroup/propertyNamed:</TokenIdentifier>
+			<Abstract type="html">return the value for the specific property name</Abstract>
+			<DeclaredIn>CCTiledMapObjectGroup.h</DeclaredIn>
+			
+			<Declaration>- (id)propertyNamed:(NSString *)propertyName</Declaration>
+			
+			
+			<Anchor>//api/name/propertyNamed:</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCTiledMapObjectGroup/objectNamed:</TokenIdentifier>
+			<Abstract type="html">return the dictionary for the specific object name.
+It will return the 1st object found on the array for the given name.</Abstract>
+			<DeclaredIn>CCTiledMapObjectGroup.h</DeclaredIn>
+			
+			<Declaration>- (NSMutableDictionary *)objectNamed:(NSString *)objectName</Declaration>
+			
+			
+			<Anchor>//api/name/objectNamed:</Anchor>
+            <NodeRef refid="123"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/CCDevice.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/CCDevice</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCConfiguration.h</DeclaredIn>
+            
+			
+			<NodeRef refid="136"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CCDeviceiPhone</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CCDeviceiPhone</Declaration>
+            
+            <DeclaredIn>CCConfiguration.h</DeclaredIn>
+            
+            <NodeRef refid="136"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CCDeviceiPhoneRetinaDisplay</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CCDeviceiPhoneRetinaDisplay</Declaration>
+            
+            <DeclaredIn>CCConfiguration.h</DeclaredIn>
+            
+            <NodeRef refid="136"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CCDeviceiPhone5</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CCDeviceiPhone5</Declaration>
+            
+            <DeclaredIn>CCConfiguration.h</DeclaredIn>
+            
+            <NodeRef refid="136"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CCDeviceiPhone5RetinaDisplay</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CCDeviceiPhone5RetinaDisplay</Declaration>
+            
+            <DeclaredIn>CCConfiguration.h</DeclaredIn>
+            
+            <NodeRef refid="136"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CCDeviceiPad</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CCDeviceiPad</Declaration>
+            
+            <DeclaredIn>CCConfiguration.h</DeclaredIn>
+            
+            <NodeRef refid="136"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CCDeviceiPadRetinaDisplay</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CCDeviceiPadRetinaDisplay</Declaration>
+            
+            <DeclaredIn>CCConfiguration.h</DeclaredIn>
+            
+            <NodeRef refid="136"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CCDeviceMac</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CCDeviceMac</Declaration>
+            
+            <DeclaredIn>CCConfiguration.h</DeclaredIn>
+            
+            <NodeRef refid="136"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/CCDeviceMacRetinaDisplay</TokenIdentifier>
+            <Abstract type="html"></Abstract>
+            <Declaration>CCDeviceMacRetinaDisplay</Declaration>
+            
+            <DeclaredIn>CCConfiguration.h</DeclaredIn>
+            
+            <NodeRef refid="136"/>
+        </Token>
+        
+	</File>
+</Tokens>

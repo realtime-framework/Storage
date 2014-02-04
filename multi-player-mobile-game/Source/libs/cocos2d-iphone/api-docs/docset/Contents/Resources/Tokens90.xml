@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCNodeMultiplex.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCNodeMultiplex</TokenIdentifier>
+			<Abstract type="html">CCLayerMultiplex is a CCLayer with the ability to multiplex its children.
+Features:
+   - It supports one or more children
+   - Only one children will be active a time</Abstract>
+			<DeclaredIn>CCLayer.h</DeclaredIn>
+            
+			
+			<NodeRef refid="90"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCNodeMultiplex/nodeWithArray:</TokenIdentifier>
+			<Abstract type="html">creates a CCMultiplexLayer with an array of layers.</Abstract>
+			<DeclaredIn>CCLayer.h</DeclaredIn>
+			
+			<Declaration>+ (id)nodeWithArray:(NSArray *)arrayOfLayers</Declaration>
+			
+			
+			<Anchor>//api/name/nodeWithArray:</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCNodeMultiplex/nodeWithNodes:</TokenIdentifier>
+			<Abstract type="html">creates a CCMultiplexLayer with one or more layers using a variable argument list.</Abstract>
+			<DeclaredIn>CCLayer.h</DeclaredIn>
+			
+			<Declaration>+ (id)nodeWithNodes:(CCNode *)layer, ...</Declaration>
+			
+			
+			<Anchor>//api/name/nodeWithNodes:</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCNodeMultiplex/initWithArray:</TokenIdentifier>
+			<Abstract type="html">initializes a CCMultiplexLayer with an array of layers</Abstract>
+			<DeclaredIn>CCLayer.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithArray:(NSArray *)arrayOfLayers</Declaration>
+			
+			
+			<Anchor>//api/name/initWithArray:</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCNodeMultiplex/switchTo:</TokenIdentifier>
+			<Abstract type="html">switches to a certain layer indexed by n.
+The current (old) layer will be removed from its parent with &apos;cleanup:YES&apos;.</Abstract>
+			<DeclaredIn>CCLayer.h</DeclaredIn>
+			
+			<Declaration>- (void)switchTo:(unsigned int)n</Declaration>
+			
+			
+			<Anchor>//api/name/switchTo:</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

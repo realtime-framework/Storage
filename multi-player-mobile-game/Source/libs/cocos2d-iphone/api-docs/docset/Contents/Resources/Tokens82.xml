@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCGLView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCGLView</TokenIdentifier>
+			<Abstract type="html">CCGLView Class.
+This class wraps the CAEAGLLayer from CoreAnimation into a convenient UIView subclass.
+The view content is basically an EAGL surface you render your OpenGL scene into.
+Note that setting the view non-opaque will only work if the EAGL surface has an alpha channel.</Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>
+            
+			
+			<NodeRef refid="82"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCGLView/viewWithFrame:</TokenIdentifier>
+			<Abstract type="html">creates an initializes an CCGLView with a frame and 0-bit depth buffer, and a RGB565 color buffer.</Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>
+			
+			<Declaration>+ (id)viewWithFrame:(CGRect)frame</Declaration>
+			
+			
+			<Anchor>//api/name/viewWithFrame:</Anchor>
+            <NodeRef refid="82"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCGLView/viewWithFrame:pixelFormat:</TokenIdentifier>
+			<Abstract type="html">creates an initializes an CCGLView with a frame, a color buffer format, and 0-bit depth buffer.</Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>
+			
+			<Declaration>+ (id)viewWithFrame:(CGRect)frame pixelFormat:(NSString *)format</Declaration>
+			
+			
+			<Anchor>//api/name/viewWithFrame:pixelFormat:</Anchor>
+            <NodeRef refid="82"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCGLView/viewWithFrame:pixelFormat:depthFormat:</TokenIdentifier>
+			<Abstract type="html">creates an initializes an CCGLView with a frame, a color buffer format, and a depth buffer.</Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>
+			
+			<Declaration>+ (id)viewWithFrame:(CGRect)frame pixelFormat:(NSString *)format depthFormat:(GLuint)depth</Declaration>
+			
+			
+			<Anchor>//api/name/viewWithFrame:pixelFormat:depthFormat:</Anchor>
+            <NodeRef refid="82"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCGLView/viewWithFrame:pixelFormat:depthFormat:preserveBackbuffer:sharegroup:multiSampling:numberOfSamples:</TokenIdentifier>
+			<Abstract type="html">creates an initializes an CCGLView with a frame, a color buffer format, a depth buffer format, a sharegroup, and multisamping</Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>
+			
+			<Declaration>+ (id)viewWithFrame:(CGRect)frame pixelFormat:(NSString *)format depthFormat:(GLuint)depth preserveBackbuffer:(BOOL)retained sharegroup:(EAGLSharegroup *)sharegroup multiSampling:(BOOL)multisampling numberOfSamples:(unsigned int)samples</Declaration>
+			
+			
+			<Anchor>//api/name/viewWithFrame:pixelFormat:depthFormat:preserveBackbuffer:sharegroup:multiSampling:numberOfSamples:</Anchor>
+            <NodeRef refid="82"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCGLView/initWithFrame:</TokenIdentifier>
+			<Abstract type="html">Initializes an CCGLView with a frame and 0-bit depth buffer, and a RGB565 color buffer</Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithFrame:(CGRect)frame</Declaration>
+			
+			
+			<Anchor>//api/name/initWithFrame:</Anchor>
+            <NodeRef refid="82"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCGLView/initWithFrame:pixelFormat:</TokenIdentifier>
+			<Abstract type="html">Initializes an CCGLView with a frame, a color buffer format, and 0-bit depth buffer</Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithFrame:(CGRect)frame pixelFormat:(NSString *)format</Declaration>
+			
+			
+			<Anchor>//api/name/initWithFrame:pixelFormat:</Anchor>
+            <NodeRef refid="82"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCGLView/initWithFrame:pixelFormat:depthFormat:preserveBackbuffer:sharegroup:multiSampling:numberOfSamples:</TokenIdentifier>
+			<Abstract type="html">Initializes an CCGLView with a frame, a color buffer format, a depth buffer format, a sharegroup and multisampling support</Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithFrame:(CGRect)frame pixelFormat:(NSString *)format depthFormat:(GLuint)depth preserveBackbuffer:(BOOL)retained sharegroup:(EAGLSharegroup *)sharegroup multiSampling:(BOOL)sampling numberOfSamples:(unsigned int)nSamples</Declaration>
+			
+			
+			<Anchor>//api/name/initWithFrame:pixelFormat:depthFormat:preserveBackbuffer:sharegroup:multiSampling:numberOfSamples:</Anchor>
+            <NodeRef refid="82"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCGLView/setPixelFormat:</TokenIdentifier>
+			<Abstract type="html">pixel format: it could be RGBA8 (32-bit) or RGB565 (16-bit)</Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>
+			
+			<Declaration>@property (unsafe_unretained, nonatomic, readonly) NSString *pixelFormat</Declaration>
+			
+			
+			<Anchor>//api/name/pixelFormat</Anchor>
+            <NodeRef refid="82"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCGLView/pixelFormat</TokenIdentifier>
+			<Abstract type="html">pixel format: it could be RGBA8 (32-bit) or RGB565 (16-bit)</Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>
+			
+			<Declaration>@property (unsafe_unretained, nonatomic, readonly) NSString *pixelFormat</Declaration>
+			
+			
+			<Anchor>//api/name/pixelFormat</Anchor>
+            <NodeRef refid="82"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCGLView/pixelFormat</TokenIdentifier>
+			<Abstract type="html">pixel format: it could be RGBA8 (32-bit) or RGB565 (16-bit)</Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>
+			
+			<Declaration>@property (unsafe_unretained, nonatomic, readonly) NSString *pixelFormat</Declaration>
+			
+			
+			<Anchor>//api/name/pixelFormat</Anchor>
+            <NodeRef refid="82"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCGLView/setDepthFormat:</TokenIdentifier>
+			<Abstract type="html">depth format of the render buffer: 0, 16 or 24 bits</Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) GLuint depthFormat</Declaration>
+			
+			
+			<Anchor>//api/name/depthFormat</Anchor>
+            <NodeRef refid="82"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCGLView/depthFormat</TokenIdentifier>
+			<Abstract type="html">depth format of the render buffer: 0, 16 or 24 bits</Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) GLuint depthFormat</Declaration>
+			
+			
+			<Anchor>//api/name/depthFormat</Anchor>
+            <NodeRef refid="82"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCGLView/depthFormat</TokenIdentifier>
+			<Abstract type="html">depth format of the render buffer: 0, 16 or 24 bits</Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) GLuint depthFormat</Declaration>
+			
+			
+			<Anchor>//api/name/depthFormat</Anchor>
+            <NodeRef refid="82"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCGLView/setSurfaceSize:</TokenIdentifier>
+			<Abstract type="html">returns surface size in pixels</Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGSize surfaceSize</Declaration>
+			
+			
+			<Anchor>//api/name/surfaceSize</Anchor>
+            <NodeRef refid="82"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCGLView/surfaceSize</TokenIdentifier>
+			<Abstract type="html">returns surface size in pixels</Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGSize surfaceSize</Declaration>
+			
+			
+			<Anchor>//api/name/surfaceSize</Anchor>
+            <NodeRef refid="82"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCGLView/surfaceSize</TokenIdentifier>
+			<Abstract type="html">returns surface size in pixels</Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGSize surfaceSize</Declaration>
+			
+			
+			<Anchor>//api/name/surfaceSize</Anchor>
+            <NodeRef refid="82"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCGLView/setContext:</TokenIdentifier>
+			<Abstract type="html">OpenGL context</Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>
+			
+			<Declaration>@property (unsafe_unretained, nonatomic, readonly) EAGLContext *context</Declaration>
+			
+			
+			<Anchor>//api/name/context</Anchor>
+            <NodeRef refid="82"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCGLView/context</TokenIdentifier>
+			<Abstract type="html">OpenGL context</Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>
+			
+			<Declaration>@property (unsafe_unretained, nonatomic, readonly) EAGLContext *context</Declaration>
+			
+			
+			<Anchor>//api/name/context</Anchor>
+            <NodeRef refid="82"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCGLView/context</TokenIdentifier>
+			<Abstract type="html">OpenGL context</Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>
+			
+			<Declaration>@property (unsafe_unretained, nonatomic, readonly) EAGLContext *context</Declaration>
+			
+			
+			<Anchor>//api/name/context</Anchor>
+            <NodeRef refid="82"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCGLView/swapBuffers</TokenIdentifier>
+			<Abstract type="html">CCGLView uses double-buffer. This method swaps the buffers</Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>
+			
+			<Declaration>- (void)swapBuffers</Declaration>
+			
+			
+			<Anchor>//api/name/swapBuffers</Anchor>
+            <NodeRef refid="82"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCGLView/lockOpenGLContext</TokenIdentifier>
+			<Abstract type="html">uses and locks the OpenGL context</Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>
+			
+			<Declaration>- (void)lockOpenGLContext</Declaration>
+			
+			
+			<Anchor>//api/name/lockOpenGLContext</Anchor>
+            <NodeRef refid="82"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCGLView/unlockOpenGLContext</TokenIdentifier>
+			<Abstract type="html">unlocks the openGL context</Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>
+			
+			<Declaration>- (void)unlockOpenGLContext</Declaration>
+			
+			
+			<Anchor>//api/name/unlockOpenGLContext</Anchor>
+            <NodeRef refid="82"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCGLView/initWithFrame:shareContext:</TokenIdentifier>
+			<Abstract type="html">initializes the CCGLView with a frame rect and an OpenGL context</Abstract>
+			<DeclaredIn>CCGLView.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithFrame:(NSRect)frameRect shareContext:(NSOpenGLContext *)context</Declaration>
+			
+			
+			<Anchor>//api/name/initWithFrame:shareContext:</Anchor>
+            <NodeRef refid="82"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

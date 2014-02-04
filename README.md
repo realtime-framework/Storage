@@ -1,5 +1,5 @@
-## The Realtime Cloud Storage Todo examples
-This examples use the Realtime Cloud Storage SDK to save and retrieve todo lists from the cloud. This samples can be used together, all data will be synchronized between apps.
+## The Realtime Cloud Storage examples
+This examples use the different Realtime Cloud Storage SDKs to save, retrieve and sync data among users. Some of this samples can be used together in different platforms, desktop and mobile (e.g. the TODO example).
 
 ## About the Realtime Cloud Storage Service
 Part of the [The Realtime® Framework](http://framework.realtime.co), the Realtime Cloud Storage Service is a highly-scalable backend-as-a-service powered by Amazon DynamoDB. We've added real-time notifications to keep data synchronized between users of your application.

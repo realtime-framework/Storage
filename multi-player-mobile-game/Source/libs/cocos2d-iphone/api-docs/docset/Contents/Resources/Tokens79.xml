@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCES2Renderer.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCES2Renderer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCES2Renderer.h</DeclaredIn>
+            
+			
+			<NodeRef refid="79"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCES2Renderer/setColorRenderbuffer:</TokenIdentifier>
+			<Abstract type="html">Color Renderbuffer</Abstract>
+			<DeclaredIn>CCES2Renderer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) GLuint colorRenderbuffer</Declaration>
+			
+			
+			<Anchor>//api/name/colorRenderbuffer</Anchor>
+            <NodeRef refid="79"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCES2Renderer/colorRenderbuffer</TokenIdentifier>
+			<Abstract type="html">Color Renderbuffer</Abstract>
+			<DeclaredIn>CCES2Renderer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) GLuint colorRenderbuffer</Declaration>
+			
+			
+			<Anchor>//api/name/colorRenderbuffer</Anchor>
+            <NodeRef refid="79"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCES2Renderer/colorRenderbuffer</TokenIdentifier>
+			<Abstract type="html">Color Renderbuffer</Abstract>
+			<DeclaredIn>CCES2Renderer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) GLuint colorRenderbuffer</Declaration>
+			
+			
+			<Anchor>//api/name/colorRenderbuffer</Anchor>
+            <NodeRef refid="79"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCES2Renderer/setDefaultFramebuffer:</TokenIdentifier>
+			<Abstract type="html">Default Renderbuffer</Abstract>
+			<DeclaredIn>CCES2Renderer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) GLuint defaultFramebuffer</Declaration>
+			
+			
+			<Anchor>//api/name/defaultFramebuffer</Anchor>
+            <NodeRef refid="79"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCES2Renderer/defaultFramebuffer</TokenIdentifier>
+			<Abstract type="html">Default Renderbuffer</Abstract>
+			<DeclaredIn>CCES2Renderer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) GLuint defaultFramebuffer</Declaration>
+			
+			
+			<Anchor>//api/name/defaultFramebuffer</Anchor>
+            <NodeRef refid="79"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCES2Renderer/defaultFramebuffer</TokenIdentifier>
+			<Abstract type="html">Default Renderbuffer</Abstract>
+			<DeclaredIn>CCES2Renderer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) GLuint defaultFramebuffer</Declaration>
+			
+			
+			<Anchor>//api/name/defaultFramebuffer</Anchor>
+            <NodeRef refid="79"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCES2Renderer/setMsaaFramebuffer:</TokenIdentifier>
+			<Abstract type="html">MSAA Framebuffer</Abstract>
+			<DeclaredIn>CCES2Renderer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) GLuint msaaFramebuffer</Declaration>
+			
+			
+			<Anchor>//api/name/msaaFramebuffer</Anchor>
+            <NodeRef refid="79"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCES2Renderer/msaaFramebuffer</TokenIdentifier>
+			<Abstract type="html">MSAA Framebuffer</Abstract>
+			<DeclaredIn>CCES2Renderer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) GLuint msaaFramebuffer</Declaration>
+			
+			
+			<Anchor>//api/name/msaaFramebuffer</Anchor>
+            <NodeRef refid="79"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCES2Renderer/msaaFramebuffer</TokenIdentifier>
+			<Abstract type="html">MSAA Framebuffer</Abstract>
+			<DeclaredIn>CCES2Renderer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) GLuint msaaFramebuffer</Declaration>
+			
+			
+			<Anchor>//api/name/msaaFramebuffer</Anchor>
+            <NodeRef refid="79"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCES2Renderer/setMsaaColorbuffer:</TokenIdentifier>
+			<Abstract type="html">MSAA Color Buffer</Abstract>
+			<DeclaredIn>CCES2Renderer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) GLuint msaaColorbuffer</Declaration>
+			
+			
+			<Anchor>//api/name/msaaColorbuffer</Anchor>
+            <NodeRef refid="79"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCES2Renderer/msaaColorbuffer</TokenIdentifier>
+			<Abstract type="html">MSAA Color Buffer</Abstract>
+			<DeclaredIn>CCES2Renderer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) GLuint msaaColorbuffer</Declaration>
+			
+			
+			<Anchor>//api/name/msaaColorbuffer</Anchor>
+            <NodeRef refid="79"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCES2Renderer/msaaColorbuffer</TokenIdentifier>
+			<Abstract type="html">MSAA Color Buffer</Abstract>
+			<DeclaredIn>CCES2Renderer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) GLuint msaaColorbuffer</Declaration>
+			
+			
+			<Anchor>//api/name/msaaColorbuffer</Anchor>
+            <NodeRef refid="79"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCES2Renderer/setContext:</TokenIdentifier>
+			<Abstract type="html">EAGLContext</Abstract>
+			<DeclaredIn>CCES2Renderer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) EAGLContext *context</Declaration>
+			
+			
+			<Anchor>//api/name/context</Anchor>
+            <NodeRef refid="79"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCES2Renderer/context</TokenIdentifier>
+			<Abstract type="html">EAGLContext</Abstract>
+			<DeclaredIn>CCES2Renderer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) EAGLContext *context</Declaration>
+			
+			
+			<Anchor>//api/name/context</Anchor>
+            <NodeRef refid="79"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCES2Renderer/context</TokenIdentifier>
+			<Abstract type="html">EAGLContext</Abstract>
+			<DeclaredIn>CCES2Renderer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) EAGLContext *context</Declaration>
+			
+			
+			<Anchor>//api/name/context</Anchor>
+            <NodeRef refid="79"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

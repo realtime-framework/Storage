@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/CCSchedulerTarget.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/CCSchedulerTarget</TokenIdentifier>
+			<Abstract type="html">Targets are things that can have update: and fixedUpdate: methods called by the scheduler.
+Scheduled blocks (CCTimers) can be associated with a target to inherit their priority and paused state.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+            
+			
+			<NodeRef refid="133"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCSchedulerTarget/setPriority:</TokenIdentifier>
+			<Abstract type="html">Used to break ties for scheduled blocks, updated: and fixedUpdate: methods.
+Targets are sorted by priority so lower priorities are called first.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger priority</Declaration>
+			
+			
+			<Anchor>//api/name/priority</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCSchedulerTarget/priority</TokenIdentifier>
+			<Abstract type="html">Used to break ties for scheduled blocks, updated: and fixedUpdate: methods.
+Targets are sorted by priority so lower priorities are called first.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger priority</Declaration>
+			
+			
+			<Anchor>//api/name/priority</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/CCSchedulerTarget/priority</TokenIdentifier>
+			<Abstract type="html">Used to break ties for scheduled blocks, updated: and fixedUpdate: methods.
+Targets are sorted by priority so lower priorities are called first.</Abstract>
+			<DeclaredIn>CCScheduler.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger priority</Declaration>
+			
+			
+			<Anchor>//api/name/priority</Anchor>
+            <NodeRef refid="133"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

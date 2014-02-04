@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCCardinalSplineBy.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCCardinalSplineBy</TokenIdentifier>
+			<Abstract type="html">Cardinal Spline path.</Abstract>
+			<DeclaredIn>CCActionCatmullRom.h</DeclaredIn>
+            
+			
+			<NodeRef refid="70"/>
+		</Token>
+		
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCAction.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCAction</TokenIdentifier>
+			<Abstract type="html">Base class for CCAction objects.</Abstract>
+			<DeclaredIn>CCAction.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCAction/setTarget:</TokenIdentifier>
+			<Abstract type="html">The &quot;target&quot;. The action will modify the target properties.
+The target will be set with the &apos;startWithTarget&apos; method.
+When the &apos;stop&apos; method is called, target will be set to nil.
+The target is &apos;assigned&apos;, it is not &apos;retained&apos;.</Abstract>
+			<DeclaredIn>CCAction.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, unsafe_unretained) id target</Declaration>
+			
+			
+			<Anchor>//api/name/target</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCAction/target</TokenIdentifier>
+			<Abstract type="html">The &quot;target&quot;. The action will modify the target properties.
+The target will be set with the &apos;startWithTarget&apos; method.
+When the &apos;stop&apos; method is called, target will be set to nil.
+The target is &apos;assigned&apos;, it is not &apos;retained&apos;.</Abstract>
+			<DeclaredIn>CCAction.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, unsafe_unretained) id target</Declaration>
+			
+			
+			<Anchor>//api/name/target</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCAction/target</TokenIdentifier>
+			<Abstract type="html">The &quot;target&quot;. The action will modify the target properties.
+The target will be set with the &apos;startWithTarget&apos; method.
+When the &apos;stop&apos; method is called, target will be set to nil.
+The target is &apos;assigned&apos;, it is not &apos;retained&apos;.</Abstract>
+			<DeclaredIn>CCAction.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, unsafe_unretained) id target</Declaration>
+			
+			
+			<Anchor>//api/name/target</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCAction/setOriginalTarget:</TokenIdentifier>
+			<Abstract type="html">The original target, since target can be nil.
+Is the target that were used to run the action. Unless you are doing something complex, like CCActionManager, you should NOT call this method.</Abstract>
+			<DeclaredIn>CCAction.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, unsafe_unretained) id originalTarget</Declaration>
+			
+			
+			<Anchor>//api/name/originalTarget</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCAction/originalTarget</TokenIdentifier>
+			<Abstract type="html">The original target, since target can be nil.
+Is the target that were used to run the action. Unless you are doing something complex, like CCActionManager, you should NOT call this method.</Abstract>
+			<DeclaredIn>CCAction.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, unsafe_unretained) id originalTarget</Declaration>
+			
+			
+			<Anchor>//api/name/originalTarget</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCAction/originalTarget</TokenIdentifier>
+			<Abstract type="html">The original target, since target can be nil.
+Is the target that were used to run the action. Unless you are doing something complex, like CCActionManager, you should NOT call this method.</Abstract>
+			<DeclaredIn>CCAction.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly, unsafe_unretained) id originalTarget</Declaration>
+			
+			
+			<Anchor>//api/name/originalTarget</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCAction/setTag:</TokenIdentifier>
+			<Abstract type="html">The action tag. An identifier of the action</Abstract>
+			<DeclaredIn>CCAction.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, assign) NSInteger tag</Declaration>
+			
+			
+			<Anchor>//api/name/tag</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCAction/tag</TokenIdentifier>
+			<Abstract type="html">The action tag. An identifier of the action</Abstract>
+			<DeclaredIn>CCAction.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, assign) NSInteger tag</Declaration>
+			
+			
+			<Anchor>//api/name/tag</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCAction/tag</TokenIdentifier>
+			<Abstract type="html">The action tag. An identifier of the action</Abstract>
+			<DeclaredIn>CCAction.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, assign) NSInteger tag</Declaration>
+			
+			
+			<Anchor>//api/name/tag</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCAction/action</TokenIdentifier>
+			<Abstract type="html">Allocates and initializes the action</Abstract>
+			<DeclaredIn>CCAction.h</DeclaredIn>
+			
+			<Declaration>+ (id)action</Declaration>
+			
+			
+			<Anchor>//api/name/action</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCAction/init</TokenIdentifier>
+			<Abstract type="html">Initializes the action</Abstract>
+			<DeclaredIn>CCAction.h</DeclaredIn>
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

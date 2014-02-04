@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/CCTextureProtocol.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/CCTextureProtocol</TokenIdentifier>
+			<Abstract type="html">CCNode objects that uses a Texture2D to render the images.
+The texture can have a blending function.
+If the texture has alpha premultiplied the default blending function is:
+    src=GLONE dst= GLONEMINUSSRC_ALPHA
+else
+	src=GLSRCALPHA dst= GLONEMINUSSRCALPHA
+But you can change the blending function at any time.</Abstract>
+			<DeclaredIn>CCProtocols.h</DeclaredIn>
+            <Availability type="html">(
+    &quot;v0.8.0&quot;
+)</Availability>
+			
+			<NodeRef refid="134"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCTextureProtocol/texture</TokenIdentifier>
+			<Abstract type="html">returns the used texture</Abstract>
+			<DeclaredIn>CCProtocols.h</DeclaredIn>
+			
+			<Declaration>- (CCTexture *)texture</Declaration>
+			
+			
+			<Anchor>//api/name/texture</Anchor>
+            <NodeRef refid="134"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCTextureProtocol/setTexture:</TokenIdentifier>
+			<Abstract type="html">sets a new texture. it will be retained</Abstract>
+			<DeclaredIn>CCProtocols.h</DeclaredIn>
+			
+			<Declaration>- (void)setTexture:(CCTexture *)texture</Declaration>
+			
+			
+			<Anchor>//api/name/setTexture:</Anchor>
+            <NodeRef refid="134"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

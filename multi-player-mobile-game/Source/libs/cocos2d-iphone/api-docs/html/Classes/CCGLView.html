@@ -1,0 +1,1028 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>CCGLView Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 961)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">Cocos2d </a></h1>
+				<a id="developerHome" href="../index.html">Cocos2d-iPhone.org</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">CCGLView Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/context">&nbsp;&nbsp;&nbsp;&nbsp;context</option>
+	
+	<option value="//api/name/depthFormat">&nbsp;&nbsp;&nbsp;&nbsp;depthFormat</option>
+	
+	<option value="//api/name/pixelFormat">&nbsp;&nbsp;&nbsp;&nbsp;pixelFormat</option>
+	
+	<option value="//api/name/surfaceSize">&nbsp;&nbsp;&nbsp;&nbsp;surfaceSize</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/viewWithFrame:">&nbsp;&nbsp;&nbsp;&nbsp;+ viewWithFrame:</option>
+	
+	<option value="//api/name/viewWithFrame:pixelFormat:">&nbsp;&nbsp;&nbsp;&nbsp;+ viewWithFrame:pixelFormat:</option>
+	
+	<option value="//api/name/viewWithFrame:pixelFormat:depthFormat:">&nbsp;&nbsp;&nbsp;&nbsp;+ viewWithFrame:pixelFormat:depthFormat:</option>
+	
+	<option value="//api/name/viewWithFrame:pixelFormat:depthFormat:preserveBackbuffer:sharegroup:multiSampling:numberOfSamples:">&nbsp;&nbsp;&nbsp;&nbsp;+ viewWithFrame:pixelFormat:depthFormat:preserveBackbuffer:sharegroup:multiSampling:numberOfSamples:</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/initWithFrame:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithFrame:</option>
+	
+	<option value="//api/name/initWithFrame:pixelFormat:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithFrame:pixelFormat:</option>
+	
+	<option value="//api/name/initWithFrame:pixelFormat:depthFormat:preserveBackbuffer:sharegroup:multiSampling:numberOfSamples:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithFrame:pixelFormat:depthFormat:preserveBackbuffer:sharegroup:multiSampling:numberOfSamples:</option>
+	
+	<option value="//api/name/initWithFrame:shareContext:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithFrame:shareContext:</option>
+	
+	<option value="//api/name/lockOpenGLContext">&nbsp;&nbsp;&nbsp;&nbsp;- lockOpenGLContext</option>
+	
+	<option value="//api/name/swapBuffers">&nbsp;&nbsp;&nbsp;&nbsp;- swapBuffers</option>
+	
+	<option value="//api/name/unlockOpenGLContext">&nbsp;&nbsp;&nbsp;&nbsp;- unlockOpenGLContext</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/context">context</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/depthFormat">depthFormat</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pixelFormat">pixelFormat</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/surfaceSize">surfaceSize</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/viewWithFrame:">viewWithFrame:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/viewWithFrame:pixelFormat:">viewWithFrame:pixelFormat:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/viewWithFrame:pixelFormat:depthFormat:">viewWithFrame:pixelFormat:depthFormat:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/viewWithFrame:pixelFormat:depthFormat:preserveBackbuffer:sharegroup:multiSampling:numberOfSamples:">viewWithFrame:pixelFormat:depthFormat:preserveBackbuffer:sharegroup:multiSampling:numberOfSamples:</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithFrame:">initWithFrame:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithFrame:pixelFormat:">initWithFrame:pixelFormat:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithFrame:pixelFormat:depthFormat:preserveBackbuffer:sharegroup:multiSampling:numberOfSamples:">initWithFrame:pixelFormat:depthFormat:preserveBackbuffer:sharegroup:multiSampling:numberOfSamples:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithFrame:shareContext:">initWithFrame:shareContext:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/lockOpenGLContext">lockOpenGLContext</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/swapBuffers">swapBuffers</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/unlockOpenGLContext">unlockOpenGLContext</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="CCGLView Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">CCGLView Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">UIView</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">CCGLView.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>CCGLView Class.
+This class wraps the CAEAGLLayer from CoreAnimation into a convenient UIView subclass.
+The view content is basically an EAGL surface you render your OpenGL scene into.
+Note that setting the view non-opaque will only work if the EAGL surface has an alpha channel.</p>
+
+<p>Parameters:</p>
+
+<ul>
+<li><a href="#//api/name/viewWithFrame:">viewWithFrame:</a> size of the OpenGL view. For full screen use [_window bounds]
+
+<ul>
+<li>Possible values: any CGRect</li>
+</ul>
+</li>
+<li>pixelFormat: Format of the render buffer. Use RGBA8 for better color precision (eg: gradients). But it takes more memory and it is slower
+
+<ul>
+<li>Possible values: kEAGLColorFormatRGBA8, kEAGLColorFormatRGB565</li>
+</ul>
+</li>
+<li>depthFormat: Use stencil if you plan to use <a href="../Classes/CCClippingNode.html">CCClippingNode</a>. Use Depth if you plan to use 3D effects, like CCCamera or CCNode#vertexZ
+
+<ul>
+<li>Possible values: 0, GL_DEPTH_COMPONENT24_OES, GL_DEPTH24_STENCIL8_OES</li>
+</ul>
+</li>
+<li>sharegroup: OpenGL sharegroup. Useful if you want to share the same OpenGL <a href="#//api/name/context">context</a> between different threads
+
+<ul>
+<li>Possible values: nil, or any valid EAGLSharegroup group</li>
+</ul>
+</li>
+<li>multiSampling: Whether or not to enable multisampling
+
+<ul>
+<li>Possible values: YES, NO</li>
+</ul>
+</li>
+<li>numberOfSamples: Only valid if multisampling is enabled
+
+<ul>
+<li>Possible values: 0 to glGetIntegerv(GL_MAX_SAMPLES_APPLE)</li>
+</ul>
+</li>
+</ul>
+
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/viewWithFrame:">+&nbsp;viewWithFrame:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/viewWithFrame:pixelFormat:">+&nbsp;viewWithFrame:pixelFormat:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/viewWithFrame:pixelFormat:depthFormat:">+&nbsp;viewWithFrame:pixelFormat:depthFormat:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/viewWithFrame:pixelFormat:depthFormat:preserveBackbuffer:sharegroup:multiSampling:numberOfSamples:">+&nbsp;viewWithFrame:pixelFormat:depthFormat:preserveBackbuffer:sharegroup:multiSampling:numberOfSamples:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithFrame:">&ndash;&nbsp;initWithFrame:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithFrame:pixelFormat:">&ndash;&nbsp;initWithFrame:pixelFormat:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithFrame:pixelFormat:depthFormat:preserveBackbuffer:sharegroup:multiSampling:numberOfSamples:">&ndash;&nbsp;initWithFrame:pixelFormat:depthFormat:preserveBackbuffer:sharegroup:multiSampling:numberOfSamples:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pixelFormat">&nbsp;&nbsp;pixelFormat</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/depthFormat">&nbsp;&nbsp;depthFormat</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/surfaceSize">&nbsp;&nbsp;surfaceSize</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/context">&nbsp;&nbsp;context</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/swapBuffers">&ndash;&nbsp;swapBuffers</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/lockOpenGLContext">&ndash;&nbsp;lockOpenGLContext</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/unlockOpenGLContext">&ndash;&nbsp;unlockOpenGLContext</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithFrame:shareContext:">&ndash;&nbsp;initWithFrame:shareContext:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/context" title="context"></a>
+	<h3 class="subsubtitle method-title">context</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>OpenGL context</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (unsafe_unretained, nonatomic, readonly) EAGLContext *context</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCGLView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/depthFormat" title="depthFormat"></a>
+	<h3 class="subsubtitle method-title">depthFormat</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>depth format of the render buffer: 0, 16 or 24 bits</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) GLuint depthFormat</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCGLView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/pixelFormat" title="pixelFormat"></a>
+	<h3 class="subsubtitle method-title">pixelFormat</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>pixel format: it could be RGBA8 (32-bit) or RGB565 (16-bit)</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (unsafe_unretained, nonatomic, readonly) NSString *pixelFormat</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCGLView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/surfaceSize" title="surfaceSize"></a>
+	<h3 class="subsubtitle method-title">surfaceSize</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>returns surface size in pixels</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) CGSize surfaceSize</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCGLView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/viewWithFrame:" title="viewWithFrame:"></a>
+	<h3 class="subsubtitle method-title">viewWithFrame:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>creates an initializes an CCGLView with a frame and 0-bit depth buffer, and a RGB565 color buffer.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (id)viewWithFrame:(CGRect)<em>frame</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCGLView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/viewWithFrame:pixelFormat:" title="viewWithFrame:pixelFormat:"></a>
+	<h3 class="subsubtitle method-title">viewWithFrame:pixelFormat:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>creates an initializes an CCGLView with a frame, a color buffer format, and 0-bit depth buffer.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (id)viewWithFrame:(CGRect)<em>frame</em> pixelFormat:(NSString *)<em>format</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCGLView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/viewWithFrame:pixelFormat:depthFormat:" title="viewWithFrame:pixelFormat:depthFormat:"></a>
+	<h3 class="subsubtitle method-title">viewWithFrame:pixelFormat:depthFormat:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>creates an initializes an CCGLView with a frame, a color buffer format, and a depth buffer.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (id)viewWithFrame:(CGRect)<em>frame</em> pixelFormat:(NSString *)<em>format</em> depthFormat:(GLuint)<em>depth</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCGLView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/viewWithFrame:pixelFormat:depthFormat:preserveBackbuffer:sharegroup:multiSampling:numberOfSamples:" title="viewWithFrame:pixelFormat:depthFormat:preserveBackbuffer:sharegroup:multiSampling:numberOfSamples:"></a>
+	<h3 class="subsubtitle method-title">viewWithFrame:pixelFormat:depthFormat:preserveBackbuffer:sharegroup:multiSampling:numberOfSamples:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>creates an initializes an CCGLView with a frame, a color buffer format, a depth buffer format, a sharegroup, and multisamping</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (id)viewWithFrame:(CGRect)<em>frame</em> pixelFormat:(NSString *)<em>format</em> depthFormat:(GLuint)<em>depth</em> preserveBackbuffer:(BOOL)<em>retained</em> sharegroup:(EAGLSharegroup *)<em>sharegroup</em> multiSampling:(BOOL)<em>multisampling</em> numberOfSamples:(unsigned int)<em>samples</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCGLView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithFrame:" title="initWithFrame:"></a>
+	<h3 class="subsubtitle method-title">initWithFrame:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Initializes an CCGLView with a frame and 0-bit depth buffer, and a RGB565 color buffer</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithFrame:(CGRect)<em>frame</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCGLView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithFrame:pixelFormat:" title="initWithFrame:pixelFormat:"></a>
+	<h3 class="subsubtitle method-title">initWithFrame:pixelFormat:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Initializes an CCGLView with a frame, a color buffer format, and 0-bit depth buffer</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithFrame:(CGRect)<em>frame</em> pixelFormat:(NSString *)<em>format</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCGLView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithFrame:pixelFormat:depthFormat:preserveBackbuffer:sharegroup:multiSampling:numberOfSamples:" title="initWithFrame:pixelFormat:depthFormat:preserveBackbuffer:sharegroup:multiSampling:numberOfSamples:"></a>
+	<h3 class="subsubtitle method-title">initWithFrame:pixelFormat:depthFormat:preserveBackbuffer:sharegroup:multiSampling:numberOfSamples:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Initializes an CCGLView with a frame, a color buffer format, a depth buffer format, a sharegroup and multisampling support</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithFrame:(CGRect)<em>frame</em> pixelFormat:(NSString *)<em>format</em> depthFormat:(GLuint)<em>depth</em> preserveBackbuffer:(BOOL)<em>retained</em> sharegroup:(EAGLSharegroup *)<em>sharegroup</em> multiSampling:(BOOL)<em>sampling</em> numberOfSamples:(unsigned int)<em>nSamples</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCGLView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithFrame:shareContext:" title="initWithFrame:shareContext:"></a>
+	<h3 class="subsubtitle method-title">initWithFrame:shareContext:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>initializes the CCGLView with a frame rect and an OpenGL <a href="#//api/name/context">context</a></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithFrame:(NSRect)<em>frameRect</em> shareContext:(NSOpenGLContext *)<em>context</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCGLView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/lockOpenGLContext" title="lockOpenGLContext"></a>
+	<h3 class="subsubtitle method-title">lockOpenGLContext</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>uses and locks the OpenGL <a href="#//api/name/context">context</a></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)lockOpenGLContext</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCGLView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/swapBuffers" title="swapBuffers"></a>
+	<h3 class="subsubtitle method-title">swapBuffers</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>CCGLView uses double-buffer. This method swaps the buffers</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)swapBuffers</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCGLView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/unlockOpenGLContext" title="unlockOpenGLContext"></a>
+	<h3 class="subsubtitle method-title">unlockOpenGLContext</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>unlocks the openGL <a href="#//api/name/context">context</a></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)unlockOpenGLContext</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCGLView.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Cocos2d-iPhone.org. All rights reserved. (Last updated: 2013-12-23)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 961)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

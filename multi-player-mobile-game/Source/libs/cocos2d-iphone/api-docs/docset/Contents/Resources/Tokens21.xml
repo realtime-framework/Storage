@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCActionEaseElasticIn.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCActionEaseElasticIn</TokenIdentifier>
+			<Abstract type="html">Ease Elastic In action.</Abstract>
+			<DeclaredIn>CCActionEase.h</DeclaredIn>
+            <Availability type="html">(
+    &quot;v0.8.2&quot;
+)</Availability>
+			
+			<NodeRef refid="21"/>
+		</Token>
+		
+		
+        
+	</File>
+</Tokens>

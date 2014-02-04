@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCBSetSpriteFrame.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCBSetSpriteFrame</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCBAnimationManager.h</DeclaredIn>
+            
+			
+			<NodeRef refid="68"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCBSetSpriteFrame/actionWithSpriteFrame:</TokenIdentifier>
+			<Abstract type="html">creates a Place action with a position</Abstract>
+			<DeclaredIn>CCBAnimationManager.h</DeclaredIn>
+			
+			<Declaration>+ (id)actionWithSpriteFrame:(CCSpriteFrame *)sf</Declaration>
+			
+			
+			<Anchor>//api/name/actionWithSpriteFrame:</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCBSetSpriteFrame/initWithSpriteFrame:</TokenIdentifier>
+			<Abstract type="html">Initializes a Place action with a position</Abstract>
+			<DeclaredIn>CCBAnimationManager.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithSpriteFrame:(CCSpriteFrame *)sf</Declaration>
+			
+			
+			<Anchor>//api/name/initWithSpriteFrame:</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

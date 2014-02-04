@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCSpriteBatchNode.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCSpriteBatchNode</TokenIdentifier>
+			<Abstract type="html">CCSpriteBatchNode is like a batch node: if it contains children, it will draw them in 1 single OpenGL call
+(often known as &quot;batch draw&quot;).</Abstract>
+			<DeclaredIn>CCSpriteBatchNode.h</DeclaredIn>
+            <Availability type="html">(
+    &quot;v0.7.1&quot;
+)</Availability>
+			
+			<NodeRef refid="112"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteBatchNode/setBlendFunc:</TokenIdentifier>
+			<Abstract type="html">conforms to CCTextureProtocol protocol</Abstract>
+			<DeclaredIn>CCSpriteBatchNode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) ccBlendFunc blendFunc</Declaration>
+			
+			
+			<Anchor>//api/name/blendFunc</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteBatchNode/blendFunc</TokenIdentifier>
+			<Abstract type="html">conforms to CCTextureProtocol protocol</Abstract>
+			<DeclaredIn>CCSpriteBatchNode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) ccBlendFunc blendFunc</Declaration>
+			
+			
+			<Anchor>//api/name/blendFunc</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCSpriteBatchNode/blendFunc</TokenIdentifier>
+			<Abstract type="html">conforms to CCTextureProtocol protocol</Abstract>
+			<DeclaredIn>CCSpriteBatchNode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) ccBlendFunc blendFunc</Declaration>
+			
+			
+			<Anchor>//api/name/blendFunc</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCSpriteBatchNode/batchNodeWithTexture:</TokenIdentifier>
+			<Abstract type="html">creates a CCSpriteBatchNode with a texture2d and a default capacity of 29 children.
+The capacity will be increased in 33% in runtime if it run out of space.</Abstract>
+			<DeclaredIn>CCSpriteBatchNode.h</DeclaredIn>
+			
+			<Declaration>+ (id)batchNodeWithTexture:(CCTexture *)tex</Declaration>
+			
+			
+			<Anchor>//api/name/batchNodeWithTexture:</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCSpriteBatchNode/batchNodeWithFile:</TokenIdentifier>
+			<Abstract type="html">creates a CCSpriteBatchNode with a file image (.png, .jpeg, .pvr, etc) with a default capacity of 29 children.
+The capacity will be increased in 33% in runtime if it run out of space.
+The file will be loaded using the TextureMgr.</Abstract>
+			<DeclaredIn>CCSpriteBatchNode.h</DeclaredIn>
+			
+			<Declaration>+ (id)batchNodeWithFile:(NSString *)fileImage</Declaration>
+			
+			
+			<Anchor>//api/name/batchNodeWithFile:</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteBatchNode/initWithTexture:capacity:</TokenIdentifier>
+			<Abstract type="html">initializes a CCSpriteBatchNode with a texture2d and capacity of children.
+The capacity will be increased in 33% in runtime if it run out of space.</Abstract>
+			<DeclaredIn>CCSpriteBatchNode.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithTexture:(CCTexture *)tex capacity:(NSUInteger)capacity</Declaration>
+			
+			
+			<Anchor>//api/name/initWithTexture:capacity:</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteBatchNode/initWithFile:capacity:</TokenIdentifier>
+			<Abstract type="html">initializes a CCSpriteBatchNode with a file image (.png, .jpeg, .pvr, etc) and a capacity of children.
+The capacity will be increased in 33% in runtime if it run out of space.
+The file will be loaded using the TextureMgr.</Abstract>
+			<DeclaredIn>CCSpriteBatchNode.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithFile:(NSString *)fileImage capacity:(NSUInteger)capacity</Declaration>
+			
+			
+			<Anchor>//api/name/initWithFile:capacity:</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteBatchNode/removeChild:cleanup:</TokenIdentifier>
+			<Abstract type="html">removes a child given a reference. It will also cleanup the running actions depending on the cleanup parameter.</Abstract>
+			<DeclaredIn>CCSpriteBatchNode.h</DeclaredIn>
+			
+			<Declaration>- (void)removeChild:(CCSprite *)sprite cleanup:(BOOL)doCleanup</Declaration>
+			
+			
+			<Anchor>//api/name/removeChild:cleanup:</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteBatchNode/setTextureAtlas:</TokenIdentifier>
+			<Abstract type="html">returns the TextureAtlas that is used</Abstract>
+			<DeclaredIn>CCSpriteBatchNode_Private.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, strong) CCTextureAtlas *textureAtlas</Declaration>
+			
+			
+			<Anchor>//api/name/textureAtlas</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteBatchNode/textureAtlas</TokenIdentifier>
+			<Abstract type="html">returns the TextureAtlas that is used</Abstract>
+			<DeclaredIn>CCSpriteBatchNode_Private.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, strong) CCTextureAtlas *textureAtlas</Declaration>
+			
+			
+			<Anchor>//api/name/textureAtlas</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCSpriteBatchNode/textureAtlas</TokenIdentifier>
+			<Abstract type="html">returns the TextureAtlas that is used</Abstract>
+			<DeclaredIn>CCSpriteBatchNode_Private.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite, strong) CCTextureAtlas *textureAtlas</Declaration>
+			
+			
+			<Anchor>//api/name/textureAtlas</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteBatchNode/setDescendants:</TokenIdentifier>
+			<Abstract type="html">descendants (children, grandchildren, etc)</Abstract>
+			<DeclaredIn>CCSpriteBatchNode_Private.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *descendants</Declaration>
+			
+			
+			<Anchor>//api/name/descendants</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteBatchNode/descendants</TokenIdentifier>
+			<Abstract type="html">descendants (children, grandchildren, etc)</Abstract>
+			<DeclaredIn>CCSpriteBatchNode_Private.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *descendants</Declaration>
+			
+			
+			<Anchor>//api/name/descendants</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCSpriteBatchNode/descendants</TokenIdentifier>
+			<Abstract type="html">descendants (children, grandchildren, etc)</Abstract>
+			<DeclaredIn>CCSpriteBatchNode_Private.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *descendants</Declaration>
+			
+			
+			<Anchor>//api/name/descendants</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteBatchNode/removeChildAtIndex:cleanup:</TokenIdentifier>
+			<Abstract type="html">removes a child given a certain index. It will also cleanup the running actions depending on the cleanup parameter.</Abstract>
+			<DeclaredIn>CCSpriteBatchNode_Private.h</DeclaredIn>
+			
+			<Declaration>- (void)removeChildAtIndex:(NSUInteger)index cleanup:(BOOL)doCleanup</Declaration>
+			
+			
+			<Anchor>//api/name/removeChildAtIndex:cleanup:</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteBatchNode/insertQuadFromSprite:quadIndex:</TokenIdentifier>
+			<Abstract type="html">Inserts a quad at a certain index into the texture atlas. The CCSprite won&apos;t be added into the children array.
+This method should be called only when you are dealing with very big AtlasSrite and when most of the CCSprite won&apos;t be updated.
+For example: a tile map (CCTMXMap) or a label with lots of characters (CCLabelBMFont</Abstract>
+			<DeclaredIn>CCSpriteBatchNode_Private.h</DeclaredIn>
+			
+			<Declaration>- (void)insertQuadFromSprite:(CCSprite *)sprite quadIndex:(NSUInteger)index</Declaration>
+			
+			
+			<Anchor>//api/name/insertQuadFromSprite:quadIndex:</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteBatchNode/updateQuadFromSprite:quadIndex:</TokenIdentifier>
+			<Abstract type="html">Updates a quad at a certain index into the texture atlas. The CCSprite won&apos;t be added into the children array.
+This method should be called only when you are dealing with very big AtlasSrite and when most of the CCSprite won&apos;t be updated.
+For example: a tile map (CCTMXMap) or a label with lots of characters (CCLabelBMFont</Abstract>
+			<DeclaredIn>CCSpriteBatchNode_Private.h</DeclaredIn>
+			
+			<Declaration>- (void)updateQuadFromSprite:(CCSprite *)sprite quadIndex:(NSUInteger)index</Declaration>
+			
+			
+			<Anchor>//api/name/updateQuadFromSprite:quadIndex:</Anchor>
+            <NodeRef refid="112"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

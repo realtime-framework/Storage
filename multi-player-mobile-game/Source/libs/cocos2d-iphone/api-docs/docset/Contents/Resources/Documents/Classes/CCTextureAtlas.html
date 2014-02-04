@@ -1,0 +1,1446 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>CCTextureAtlas Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 961)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">Cocos2d </a></h1>
+				<a id="developerHome" href="../index.html">Cocos2d-iPhone.org</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">CCTextureAtlas Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/capacity">&nbsp;&nbsp;&nbsp;&nbsp;capacity</option>
+	
+	<option value="//api/name/quads">&nbsp;&nbsp;&nbsp;&nbsp;quads</option>
+	
+	<option value="//api/name/texture">&nbsp;&nbsp;&nbsp;&nbsp;texture</option>
+	
+	<option value="//api/name/totalQuads">&nbsp;&nbsp;&nbsp;&nbsp;totalQuads</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/textureAtlasWithFile:capacity:">&nbsp;&nbsp;&nbsp;&nbsp;+ textureAtlasWithFile:capacity:</option>
+	
+	<option value="//api/name/textureAtlasWithTexture:capacity:">&nbsp;&nbsp;&nbsp;&nbsp;+ textureAtlasWithTexture:capacity:</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/drawNumberOfQuads:">&nbsp;&nbsp;&nbsp;&nbsp;- drawNumberOfQuads:</option>
+	
+	<option value="//api/name/drawNumberOfQuads:fromIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- drawNumberOfQuads:fromIndex:</option>
+	
+	<option value="//api/name/drawQuads">&nbsp;&nbsp;&nbsp;&nbsp;- drawQuads</option>
+	
+	<option value="//api/name/fillWithEmptyQuadsFromIndex:amount:">&nbsp;&nbsp;&nbsp;&nbsp;- fillWithEmptyQuadsFromIndex:amount:</option>
+	
+	<option value="//api/name/increaseTotalQuadsWith:">&nbsp;&nbsp;&nbsp;&nbsp;- increaseTotalQuadsWith:</option>
+	
+	<option value="//api/name/initWithFile:capacity:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithFile:capacity:</option>
+	
+	<option value="//api/name/initWithTexture:capacity:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithTexture:capacity:</option>
+	
+	<option value="//api/name/insertQuad:atIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- insertQuad:atIndex:</option>
+	
+	<option value="//api/name/insertQuadFromIndex:atIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- insertQuadFromIndex:atIndex:</option>
+	
+	<option value="//api/name/insertQuads:atIndex:amount:">&nbsp;&nbsp;&nbsp;&nbsp;- insertQuads:atIndex:amount:</option>
+	
+	<option value="//api/name/moveQuadsFromIndex:amount:atIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- moveQuadsFromIndex:amount:atIndex:</option>
+	
+	<option value="//api/name/moveQuadsFromIndex:to:">&nbsp;&nbsp;&nbsp;&nbsp;- moveQuadsFromIndex:to:</option>
+	
+	<option value="//api/name/removeAllQuads">&nbsp;&nbsp;&nbsp;&nbsp;- removeAllQuads</option>
+	
+	<option value="//api/name/removeQuadAtIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- removeQuadAtIndex:</option>
+	
+	<option value="//api/name/removeQuadsAtIndex:amount:">&nbsp;&nbsp;&nbsp;&nbsp;- removeQuadsAtIndex:amount:</option>
+	
+	<option value="//api/name/resizeCapacity:">&nbsp;&nbsp;&nbsp;&nbsp;- resizeCapacity:</option>
+	
+	<option value="//api/name/updateQuad:atIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- updateQuad:atIndex:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/capacity">capacity</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/quads">quads</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/texture">texture</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/totalQuads">totalQuads</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/textureAtlasWithFile:capacity:">textureAtlasWithFile:capacity:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/textureAtlasWithTexture:capacity:">textureAtlasWithTexture:capacity:</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/drawNumberOfQuads:">drawNumberOfQuads:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/drawNumberOfQuads:fromIndex:">drawNumberOfQuads:fromIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/drawQuads">drawQuads</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/fillWithEmptyQuadsFromIndex:amount:">fillWithEmptyQuadsFromIndex:amount:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/increaseTotalQuadsWith:">increaseTotalQuadsWith:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithFile:capacity:">initWithFile:capacity:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithTexture:capacity:">initWithTexture:capacity:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/insertQuad:atIndex:">insertQuad:atIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/insertQuadFromIndex:atIndex:">insertQuadFromIndex:atIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/insertQuads:atIndex:amount:">insertQuads:atIndex:amount:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/moveQuadsFromIndex:amount:atIndex:">moveQuadsFromIndex:amount:atIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/moveQuadsFromIndex:to:">moveQuadsFromIndex:to:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeAllQuads">removeAllQuads</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeQuadAtIndex:">removeQuadAtIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeQuadsAtIndex:amount:">removeQuadsAtIndex:amount:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/resizeCapacity:">resizeCapacity:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/updateQuad:atIndex:">updateQuad:atIndex:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="CCTextureAtlas Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">CCTextureAtlas Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">CCTextureAtlas.h</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>A class that implements a Texture Atlas.
+Supported features:
+   * The atlas file can be a PVRTC, PNG or any other format supported by Texture2D
+   * Quads can be updated in runtime
+   * Quads can be added in runtime
+   * Quads can be removed in runtime
+   * Quads can be re-ordered in runtime
+   * The TextureAtlas <a href="#//api/name/capacity">capacity</a> can be increased or decreased in runtime
+   * OpenGL component: V3F, C4B, T2F.
+The <a href="#//api/name/quads">quads</a> are rendered using an OpenGL ES VBO.
+To render the <a href="#//api/name/quads">quads</a> using an interleaved vertex array list, you should modify the ccConfig.h file</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/totalQuads">&nbsp;&nbsp;totalQuads</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/capacity">&nbsp;&nbsp;capacity</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/texture">&nbsp;&nbsp;texture</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/quads">&nbsp;&nbsp;quads</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/textureAtlasWithFile:capacity:">+&nbsp;textureAtlasWithFile:capacity:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithFile:capacity:">&ndash;&nbsp;initWithFile:capacity:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/textureAtlasWithTexture:capacity:">+&nbsp;textureAtlasWithTexture:capacity:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithTexture:capacity:">&ndash;&nbsp;initWithTexture:capacity:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/updateQuad:atIndex:">&ndash;&nbsp;updateQuad:atIndex:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/insertQuad:atIndex:">&ndash;&nbsp;insertQuad:atIndex:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/insertQuads:atIndex:amount:">&ndash;&nbsp;insertQuads:atIndex:amount:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/insertQuadFromIndex:atIndex:">&ndash;&nbsp;insertQuadFromIndex:atIndex:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeQuadAtIndex:">&ndash;&nbsp;removeQuadAtIndex:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeQuadsAtIndex:amount:">&ndash;&nbsp;removeQuadsAtIndex:amount:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeAllQuads">&ndash;&nbsp;removeAllQuads</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/resizeCapacity:">&ndash;&nbsp;resizeCapacity:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/increaseTotalQuadsWith:">&ndash;&nbsp;increaseTotalQuadsWith:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/moveQuadsFromIndex:amount:atIndex:">&ndash;&nbsp;moveQuadsFromIndex:amount:atIndex:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/moveQuadsFromIndex:to:">&ndash;&nbsp;moveQuadsFromIndex:to:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/fillWithEmptyQuadsFromIndex:amount:">&ndash;&nbsp;fillWithEmptyQuadsFromIndex:amount:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/drawNumberOfQuads:">&ndash;&nbsp;drawNumberOfQuads:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/drawNumberOfQuads:fromIndex:">&ndash;&nbsp;drawNumberOfQuads:fromIndex:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/drawQuads">&ndash;&nbsp;drawQuads</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/capacity" title="capacity"></a>
+	<h3 class="subsubtitle method-title">capacity</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>quantity of <a href="#//api/name/quads">quads</a> that can be stored with the current <a href="#//api/name/texture">texture</a> atlas size</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) NSUInteger capacity</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCTextureAtlas.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/quads" title="quads"></a>
+	<h3 class="subsubtitle method-title">quads</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Quads that are going to be rendered</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite) ccV3F_C4B_T2F_Quad *quads</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCTextureAtlas.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/texture" title="texture"></a>
+	<h3 class="subsubtitle method-title">texture</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Texture of the texture atlas</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) CCTexture *texture</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCTextureAtlas.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/totalQuads" title="totalQuads"></a>
+	<h3 class="subsubtitle method-title">totalQuads</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>quantity of <a href="#//api/name/quads">quads</a> that are going to be drawn</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) NSUInteger totalQuads</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCTextureAtlas.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/textureAtlasWithFile:capacity:" title="textureAtlasWithFile:capacity:"></a>
+	<h3 class="subsubtitle method-title">textureAtlasWithFile:capacity:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>creates a TextureAtlas with an filename and with an initial <a href="#//api/name/capacity">capacity</a> for Quads.
+The TextureAtlas <a href="#//api/name/capacity">capacity</a> can be increased in runtime.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (id)textureAtlasWithFile:(NSString *)<em>file</em> capacity:(NSUInteger)<em>capacity</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCTextureAtlas.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/textureAtlasWithTexture:capacity:" title="textureAtlasWithTexture:capacity:"></a>
+	<h3 class="subsubtitle method-title">textureAtlasWithTexture:capacity:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>creates a TextureAtlas with a previously initialized Texture2D object, and
+with an initial <a href="#//api/name/capacity">capacity</a> for n Quads.
+The TextureAtlas <a href="#//api/name/capacity">capacity</a> can be increased in runtime.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (id)textureAtlasWithTexture:(CCTexture *)<em>tex</em> capacity:(NSUInteger)<em>capacity</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCTextureAtlas.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/drawNumberOfQuads:" title="drawNumberOfQuads:"></a>
+	<h3 class="subsubtitle method-title">drawNumberOfQuads:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>draws n <a href="#//api/name/quads">quads</a>
+n can&rsquo;t be greater than the <a href="#//api/name/capacity">capacity</a> of the Atlas</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)drawNumberOfQuads:(NSUInteger)<em>n</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCTextureAtlas.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/drawNumberOfQuads:fromIndex:" title="drawNumberOfQuads:fromIndex:"></a>
+	<h3 class="subsubtitle method-title">drawNumberOfQuads:fromIndex:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>draws n <a href="#//api/name/quads">quads</a> from an index (offset).
+n + start can&rsquo;t be greater than the <a href="#//api/name/capacity">capacity</a> of the atlas</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)drawNumberOfQuads:(NSUInteger)<em>n</em> fromIndex:(NSUInteger)<em>start</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	<div class="method-subsection availability">
+		<h4 class="method-subtitle parameter-title">Availability</h4>
+		<p>v1.0</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCTextureAtlas.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/drawQuads" title="drawQuads"></a>
+	<h3 class="subsubtitle method-title">drawQuads</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>draws all the Atlas&rsquo;s Quads</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)drawQuads</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCTextureAtlas.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/fillWithEmptyQuadsFromIndex:amount:" title="fillWithEmptyQuadsFromIndex:amount:"></a>
+	<h3 class="subsubtitle method-title">fillWithEmptyQuadsFromIndex:amount:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Ensures that after a realloc <a href="#//api/name/quads">quads</a> are still empty
+Used internally by <a href="../Classes/CCParticleBatchNode.html">CCParticleBatchNode</a></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)fillWithEmptyQuadsFromIndex:(NSUInteger)<em>index</em> amount:(NSUInteger)<em>amount</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	<div class="method-subsection availability">
+		<h4 class="method-subtitle parameter-title">Availability</h4>
+		<p>1.1</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCTextureAtlas.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/increaseTotalQuadsWith:" title="increaseTotalQuadsWith:"></a>
+	<h3 class="subsubtitle method-title">increaseTotalQuadsWith:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Used internally by <a href="../Classes/CCParticleBatchNode.html">CCParticleBatchNode</a>
+don&rsquo;t use this unless you know what you&rsquo;re doing</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)increaseTotalQuadsWith:(NSUInteger)<em>amount</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	<div class="method-subsection availability">
+		<h4 class="method-subtitle parameter-title">Availability</h4>
+		<p>1.1</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCTextureAtlas.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithFile:capacity:" title="initWithFile:capacity:"></a>
+	<h3 class="subsubtitle method-title">initWithFile:capacity:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>initializes a TextureAtlas with a filename and with a certain <a href="#//api/name/capacity">capacity</a> for Quads.
+The TextureAtlas <a href="#//api/name/capacity">capacity</a> can be increased in runtime.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithFile:(NSString *)<em>file</em> capacity:(NSUInteger)<em>capacity</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>WARNING: Do not reinitialize the TextureAtlas because it will leak memory (issue #706)</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCTextureAtlas.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithTexture:capacity:" title="initWithTexture:capacity:"></a>
+	<h3 class="subsubtitle method-title">initWithTexture:capacity:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>initializes a TextureAtlas with a previously initialized Texture2D object, and
+with an initial <a href="#//api/name/capacity">capacity</a> for Quads.
+The TextureAtlas <a href="#//api/name/capacity">capacity</a> can be increased in runtime.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithTexture:(CCTexture *)<em>tex</em> capacity:(NSUInteger)<em>capacity</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>WARNING: Do not reinitialize the TextureAtlas because it will leak memory (issue #706)</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCTextureAtlas.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/insertQuad:atIndex:" title="insertQuad:atIndex:"></a>
+	<h3 class="subsubtitle method-title">insertQuad:atIndex:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Inserts a Quad (<a href="#//api/name/texture">texture</a>, vertex and color) at a certain index
+index must be between 0 and the atlas <a href="#//api/name/capacity">capacity</a> - 1</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)insertQuad:(ccV3F_C4B_T2F_Quad *)<em>quad</em> atIndex:(NSUInteger)<em>index</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	<div class="method-subsection availability">
+		<h4 class="method-subtitle parameter-title">Availability</h4>
+		<p>v0.8</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCTextureAtlas.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/insertQuadFromIndex:atIndex:" title="insertQuadFromIndex:atIndex:"></a>
+	<h3 class="subsubtitle method-title">insertQuadFromIndex:atIndex:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Removes the quad that is located at a certain index and inserts it at a new index
+This operation is faster than removing and inserting in a quad in 2 different steps</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)insertQuadFromIndex:(NSUInteger)<em>fromIndex</em> atIndex:(NSUInteger)<em>newIndex</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	<div class="method-subsection availability">
+		<h4 class="method-subtitle parameter-title">Availability</h4>
+		<p>v0.7.2</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCTextureAtlas.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/insertQuads:atIndex:amount:" title="insertQuads:atIndex:amount:"></a>
+	<h3 class="subsubtitle method-title">insertQuads:atIndex:amount:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Inserts a c array of <a href="#//api/name/quads">quads</a> at a given index
+index must be between 0 and the atlas <a href="#//api/name/capacity">capacity</a> - 1
+this method doesn&rsquo;t enlarge the array when amount + index > <a href="#//api/name/totalQuads">totalQuads</a></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)insertQuads:(ccV3F_C4B_T2F_Quad *)<em>quads</em> atIndex:(NSUInteger)<em>index</em> amount:(NSUInteger)<em>amount</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	<div class="method-subsection availability">
+		<h4 class="method-subtitle parameter-title">Availability</h4>
+		<p>v1.1</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCTextureAtlas.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/moveQuadsFromIndex:amount:atIndex:" title="moveQuadsFromIndex:amount:atIndex:"></a>
+	<h3 class="subsubtitle method-title">moveQuadsFromIndex:amount:atIndex:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Moves an amount of <a href="#//api/name/quads">quads</a> from oldIndex at newIndex</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)moveQuadsFromIndex:(NSUInteger)<em>oldIndex</em> amount:(NSUInteger)<em>amount</em> atIndex:(NSUInteger)<em>newIndex</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	<div class="method-subsection availability">
+		<h4 class="method-subtitle parameter-title">Availability</h4>
+		<p>v1.1</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCTextureAtlas.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/moveQuadsFromIndex:to:" title="moveQuadsFromIndex:to:"></a>
+	<h3 class="subsubtitle method-title">moveQuadsFromIndex:to:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Moves <a href="#//api/name/quads">quads</a> from index till <a href="#//api/name/totalQuads">totalQuads</a> to the newIndex
+Used internally by <a href="../Classes/CCParticleBatchNode.html">CCParticleBatchNode</a>
+This method doesn&rsquo;t enlarge the array if newIndex + <a href="#//api/name/quads">quads</a> to be moved > <a href="#//api/name/capacity">capacity</a></p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)moveQuadsFromIndex:(NSUInteger)<em>index</em> to:(NSUInteger)<em>newIndex</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	<div class="method-subsection availability">
+		<h4 class="method-subtitle parameter-title">Availability</h4>
+		<p>1.1</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCTextureAtlas.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeAllQuads" title="removeAllQuads"></a>
+	<h3 class="subsubtitle method-title">removeAllQuads</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>removes all Quads.
+The TextureAtlas <a href="#//api/name/capacity">capacity</a> remains untouched. No memory is freed.
+The total number of <a href="#//api/name/quads">quads</a> to be drawn will be 0</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)removeAllQuads</code></div>
+
+    
+	
+	
+	
+	
+	
+	<div class="method-subsection availability">
+		<h4 class="method-subtitle parameter-title">Availability</h4>
+		<p>v0.7.2</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCTextureAtlas.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeQuadAtIndex:" title="removeQuadAtIndex:"></a>
+	<h3 class="subsubtitle method-title">removeQuadAtIndex:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>removes a quad at a given index number.
+The <a href="#//api/name/capacity">capacity</a> remains the same, but the total number of <a href="#//api/name/quads">quads</a> to be drawn is reduced in 1</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)removeQuadAtIndex:(NSUInteger)<em>index</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	<div class="method-subsection availability">
+		<h4 class="method-subtitle parameter-title">Availability</h4>
+		<p>v0.7.2</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCTextureAtlas.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeQuadsAtIndex:amount:" title="removeQuadsAtIndex:amount:"></a>
+	<h3 class="subsubtitle method-title">removeQuadsAtIndex:amount:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>removes a amount of <a href="#//api/name/quads">quads</a> starting from index</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)removeQuadsAtIndex:(NSUInteger)<em>index</em> amount:(NSUInteger)<em>amount</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	<div class="method-subsection availability">
+		<h4 class="method-subtitle parameter-title">Availability</h4>
+		<p>1.1</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCTextureAtlas.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/resizeCapacity:" title="resizeCapacity:"></a>
+	<h3 class="subsubtitle method-title">resizeCapacity:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>resize the <a href="#//api/name/capacity">capacity</a> of the CCTextureAtlas.
+The new <a href="#//api/name/capacity">capacity</a> can be lower or higher than the current one
+It returns YES if the resize was successful.
+If it fails to resize the <a href="#//api/name/capacity">capacity</a> it will return NO with a new <a href="#//api/name/capacity">capacity</a> of 0.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)resizeCapacity:(NSUInteger)<em>n</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCTextureAtlas.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/updateQuad:atIndex:" title="updateQuad:atIndex:"></a>
+	<h3 class="subsubtitle method-title">updateQuad:atIndex:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>updates a Quad (<a href="#//api/name/texture">texture</a>, vertex and color) at a certain index
+* index must be between 0 and the atlas <a href="#//api/name/capacity">capacity</a> - 1</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)updateQuad:(ccV3F_C4B_T2F_Quad *)<em>quad</em> atIndex:(NSUInteger)<em>index</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	<div class="method-subsection availability">
+		<h4 class="method-subtitle parameter-title">Availability</h4>
+		<p>v0.8</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CCTextureAtlas.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Cocos2d-iPhone.org. All rights reserved. (Last updated: 2013-12-23)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 961)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

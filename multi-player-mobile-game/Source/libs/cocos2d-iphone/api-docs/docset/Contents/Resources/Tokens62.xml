@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCActionTween.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCActionTween</TokenIdentifier>
+			<Abstract type="html">CCActionTween</Abstract>
+			<DeclaredIn>CCActionTween.h</DeclaredIn>
+            <Availability type="html">(
+    &quot;v0.99.2&quot;
+)</Availability>
+			
+			<NodeRef refid="62"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCActionTween/actionWithDuration:key:from:to:</TokenIdentifier>
+			<Abstract type="html">creates an initializes the action with the property name (key), and the from and to parameters.</Abstract>
+			<DeclaredIn>CCActionTween.h</DeclaredIn>
+			
+			<Declaration>+ (id)actionWithDuration:(CCTime)aDuration key:(NSString *)key from:(float)from to:(float)to</Declaration>
+			
+			
+			<Anchor>//api/name/actionWithDuration:key:from:to:</Anchor>
+            <NodeRef refid="62"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCActionTween/initWithDuration:key:from:to:</TokenIdentifier>
+			<Abstract type="html">initializes the action with the property name (key), and the from and to parameters.</Abstract>
+			<DeclaredIn>CCActionTween.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithDuration:(CCTime)aDuration key:(NSString *)key from:(float)from to:(float)to</Declaration>
+			
+			
+			<Anchor>//api/name/initWithDuration:key:from:to:</Anchor>
+            <NodeRef refid="62"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

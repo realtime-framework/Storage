@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCSpriteFrameCache.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCSpriteFrameCache</TokenIdentifier>
+			<Abstract type="html">Singleton that handles the loading of the sprite frames.
+It saves in a cache the sprite frames.</Abstract>
+			<DeclaredIn>CCSpriteFrameCache.h</DeclaredIn>
+            <Availability type="html">(
+    &quot;v0.9&quot;
+)</Availability>
+			
+			<NodeRef refid="114"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCSpriteFrameCache/sharedSpriteFrameCache</TokenIdentifier>
+			<Abstract type="html">Retruns ths shared instance of the Sprite Frame cache</Abstract>
+			<DeclaredIn>CCSpriteFrameCache.h</DeclaredIn>
+			
+			<Declaration>+ (CCSpriteFrameCache *)sharedSpriteFrameCache</Declaration>
+			
+			
+			<Anchor>//api/name/sharedSpriteFrameCache</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCSpriteFrameCache/purgeSharedSpriteFrameCache</TokenIdentifier>
+			<Abstract type="html">Purges the cache. It releases all the Sprite Frames and the retained instance.</Abstract>
+			<DeclaredIn>CCSpriteFrameCache.h</DeclaredIn>
+			
+			<Declaration>+ (void)purgeSharedSpriteFrameCache</Declaration>
+			
+			
+			<Anchor>//api/name/purgeSharedSpriteFrameCache</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteFrameCache/addSpriteFramesWithFile:</TokenIdentifier>
+			<Abstract type="html">Adds multiple Sprite Frames from a plist file.
+A texture will be loaded automatically. The texture name will composed by replacing the .plist suffix with .png .
+If you want to use another texture, you should use the addSpriteFramesWithFile:texture method.</Abstract>
+			<DeclaredIn>CCSpriteFrameCache.h</DeclaredIn>
+			
+			<Declaration>- (void)addSpriteFramesWithFile:(NSString *)plist</Declaration>
+			
+			
+			<Anchor>//api/name/addSpriteFramesWithFile:</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteFrameCache/addSpriteFramesWithFile:textureFilename:</TokenIdentifier>
+			<Abstract type="html">Adds multiple Sprite Frames from a plist file. The texture filename will be associated with the created sprite frames.</Abstract>
+			<DeclaredIn>CCSpriteFrameCache.h</DeclaredIn>
+			
+			<Declaration>- (void)addSpriteFramesWithFile:(NSString *)plist textureFilename:(NSString *)filename</Declaration>
+			
+			
+			<Anchor>//api/name/addSpriteFramesWithFile:textureFilename:</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteFrameCache/addSpriteFramesWithFile:texture:</TokenIdentifier>
+			<Abstract type="html">Adds multiple Sprite Frames from a plist file. The texture will be associated with the created sprite frames.</Abstract>
+			<DeclaredIn>CCSpriteFrameCache.h</DeclaredIn>
+			
+			<Declaration>- (void)addSpriteFramesWithFile:(NSString *)plist texture:(CCTexture *)texture</Declaration>
+			
+			
+			<Anchor>//api/name/addSpriteFramesWithFile:texture:</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteFrameCache/addSpriteFrame:name:</TokenIdentifier>
+			<Abstract type="html">Adds an sprite frame with a given name.
+If the name already exists, then the contents of the old name will be replaced with the new one.</Abstract>
+			<DeclaredIn>CCSpriteFrameCache.h</DeclaredIn>
+			
+			<Declaration>- (void)addSpriteFrame:(CCSpriteFrame *)frame name:(NSString *)frameName</Declaration>
+			
+			
+			<Anchor>//api/name/addSpriteFrame:name:</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteFrameCache/removeSpriteFrames</TokenIdentifier>
+			<Abstract type="html">Purges the dictionary of loaded sprite frames.
+Call this method if you receive the &quot;Memory Warning&quot;.
+In the short term: it will free some resources preventing your app from being killed.
+In the medium term: it will allocate more resources.
+In the long term: it will be the same.</Abstract>
+			<DeclaredIn>CCSpriteFrameCache.h</DeclaredIn>
+			
+			<Declaration>- (void)removeSpriteFrames</Declaration>
+			
+			
+			<Anchor>//api/name/removeSpriteFrames</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteFrameCache/removeUnusedSpriteFrames</TokenIdentifier>
+			<Abstract type="html">Removes unused sprite frames.
+Sprite Frames that have a retain count of 1 will be deleted.
+It is convenient to call this method after when starting a new Scene.</Abstract>
+			<DeclaredIn>CCSpriteFrameCache.h</DeclaredIn>
+			
+			<Declaration>- (void)removeUnusedSpriteFrames</Declaration>
+			
+			
+			<Anchor>//api/name/removeUnusedSpriteFrames</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteFrameCache/removeSpriteFrameByName:</TokenIdentifier>
+			<Abstract type="html">Deletes an sprite frame from the sprite frame cache.</Abstract>
+			<DeclaredIn>CCSpriteFrameCache.h</DeclaredIn>
+			
+			<Declaration>- (void)removeSpriteFrameByName:(NSString *)name</Declaration>
+			
+			
+			<Anchor>//api/name/removeSpriteFrameByName:</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteFrameCache/removeSpriteFramesFromFile:</TokenIdentifier>
+			<Abstract type="html">Removes multiple Sprite Frames from a plist file.
+Sprite Frames stored in this file will be removed.
+It is convenient to call this method when a specific texture needs to be removed.</Abstract>
+			<DeclaredIn>CCSpriteFrameCache.h</DeclaredIn>
+			
+			<Declaration>- (void)removeSpriteFramesFromFile:(NSString *)plist</Declaration>
+			
+			
+			<Anchor>//api/name/removeSpriteFramesFromFile:</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteFrameCache/removeSpriteFramesFromTexture:</TokenIdentifier>
+			<Abstract type="html">Removes all Sprite Frames associated with the specified textures.
+It is convenient to call this method when a specific texture needs to be removed.</Abstract>
+			<DeclaredIn>CCSpriteFrameCache.h</DeclaredIn>
+			
+			<Declaration>- (void)removeSpriteFramesFromTexture:(CCTexture *)texture</Declaration>
+			
+			
+			<Anchor>//api/name/removeSpriteFramesFromTexture:</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteFrameCache/spriteFrameByName:</TokenIdentifier>
+			<Abstract type="html">Returns an Sprite Frame that was previously added.
+If the name is not found it will return nil.
+You should retain the returned copy if you are going to use it.</Abstract>
+			<DeclaredIn>CCSpriteFrameCache.h</DeclaredIn>
+			
+			<Declaration>- (CCSpriteFrame *)spriteFrameByName:(NSString *)name</Declaration>
+			
+			
+			<Anchor>//api/name/spriteFrameByName:</Anchor>
+            <NodeRef refid="114"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

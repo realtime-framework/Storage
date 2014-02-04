@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/CCLabelProtocol.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/CCLabelProtocol</TokenIdentifier>
+			<Abstract type="html">Common interface for Labels</Abstract>
+			<DeclaredIn>CCProtocols.h</DeclaredIn>
+            
+			
+			<NodeRef refid="130"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCLabelProtocol/setString:</TokenIdentifier>
+			<Abstract type="html">sets a new label using an NSString.
+The string will be copied.</Abstract>
+			<DeclaredIn>CCProtocols.h</DeclaredIn>
+			
+			<Declaration>- (void)setString:(NSString *)label</Declaration>
+			
+			
+			<Anchor>//api/name/setString:</Anchor>
+            <NodeRef refid="130"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCLabelProtocol/string</TokenIdentifier>
+			<Abstract type="html">returns the string that is rendered</Abstract>
+			<DeclaredIn>CCProtocols.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)string</Declaration>
+			
+			
+			<Anchor>//api/name/string</Anchor>
+            <NodeRef refid="130"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CCLabelProtocol/setCString:</TokenIdentifier>
+			<Abstract type="html">sets a new label using a CString.</Abstract>
+			<DeclaredIn>CCProtocols.h</DeclaredIn>
+			
+			<Declaration>- (void)setCString:(char *)label</Declaration>
+			
+			
+			<Anchor>//api/name/setCString:</Anchor>
+            <NodeRef refid="130"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

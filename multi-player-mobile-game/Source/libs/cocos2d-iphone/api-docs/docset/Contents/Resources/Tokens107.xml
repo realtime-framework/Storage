@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCResponderManager.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCResponderManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CCResponderManager.h</DeclaredIn>
+            
+			
+			<NodeRef refid="107"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCResponderManager/setEnabled:</TokenIdentifier>
+			<Abstract type="html">Enables the responder manager
+When the responder manager is disabled, all current touches will be cancelled,
+and no further touch handling registered</Abstract>
+			<DeclaredIn>CCResponderManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, getter=isEnabled) BOOL enabled</Declaration>
+			
+			
+			<Anchor>//api/name/enabled</Anchor>
+            <NodeRef refid="107"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCResponderManager/isEnabled</TokenIdentifier>
+			<Abstract type="html">Enables the responder manager
+When the responder manager is disabled, all current touches will be cancelled,
+and no further touch handling registered</Abstract>
+			<DeclaredIn>CCResponderManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, getter=isEnabled) BOOL enabled</Declaration>
+			
+			
+			<Anchor>//api/name/enabled</Anchor>
+            <NodeRef refid="107"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCResponderManager/enabled</TokenIdentifier>
+			<Abstract type="html">Enables the responder manager
+When the responder manager is disabled, all current touches will be cancelled,
+and no further touch handling registered</Abstract>
+			<DeclaredIn>CCResponderManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign, getter=isEnabled) BOOL enabled</Declaration>
+			
+			
+			<Anchor>//api/name/enabled</Anchor>
+            <NodeRef refid="107"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

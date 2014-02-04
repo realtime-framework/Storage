@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCLayerColor.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCLayerColor</TokenIdentifier>
+			<Abstract type="html">CCLayerColor is a subclass of CCLayer that implements the CCRGBAProtocol protocol.</Abstract>
+			<DeclaredIn>CCLayer.h</DeclaredIn>
+            
+			
+			<NodeRef refid="86"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCLayerColor/layerWithColor:width:height:</TokenIdentifier>
+			<Abstract type="html">creates a CCLayer with color, width and height in Points</Abstract>
+			<DeclaredIn>CCLayer.h</DeclaredIn>
+			
+			<Declaration>+ (id)layerWithColor:(ccColor4B)color width:(GLfloat)w height:(GLfloat)h</Declaration>
+			
+			
+			<Anchor>//api/name/layerWithColor:width:height:</Anchor>
+            <NodeRef refid="86"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCLayerColor/layerWithColor:</TokenIdentifier>
+			<Abstract type="html">creates a CCLayer with color. Width and height are the window size.</Abstract>
+			<DeclaredIn>CCLayer.h</DeclaredIn>
+			
+			<Declaration>+ (id)layerWithColor:(ccColor4B)color</Declaration>
+			
+			
+			<Anchor>//api/name/layerWithColor:</Anchor>
+            <NodeRef refid="86"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLayerColor/initWithColor:width:height:</TokenIdentifier>
+			<Abstract type="html">initializes a CCLayer with color, width and height in Points.
+This is the designated initializer.</Abstract>
+			<DeclaredIn>CCLayer.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithColor:(ccColor4B)color width:(GLfloat)w height:(GLfloat)h</Declaration>
+			
+			
+			<Anchor>//api/name/initWithColor:width:height:</Anchor>
+            <NodeRef refid="86"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLayerColor/initWithColor:</TokenIdentifier>
+			<Abstract type="html">initializes a CCLayer with color. Width and height are the window size.</Abstract>
+			<DeclaredIn>CCLayer.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithColor:(ccColor4B)color</Declaration>
+			
+			
+			<Anchor>//api/name/initWithColor:</Anchor>
+            <NodeRef refid="86"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLayerColor/setBlendFunc:</TokenIdentifier>
+			<Abstract type="html">BlendFunction. Conforms to CCBlendProtocol protocol</Abstract>
+			<DeclaredIn>CCLayer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) ccBlendFunc blendFunc</Declaration>
+			
+			
+			<Anchor>//api/name/blendFunc</Anchor>
+            <NodeRef refid="86"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLayerColor/blendFunc</TokenIdentifier>
+			<Abstract type="html">BlendFunction. Conforms to CCBlendProtocol protocol</Abstract>
+			<DeclaredIn>CCLayer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) ccBlendFunc blendFunc</Declaration>
+			
+			
+			<Anchor>//api/name/blendFunc</Anchor>
+            <NodeRef refid="86"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCLayerColor/blendFunc</TokenIdentifier>
+			<Abstract type="html">BlendFunction. Conforms to CCBlendProtocol protocol</Abstract>
+			<DeclaredIn>CCLayer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) ccBlendFunc blendFunc</Declaration>
+			
+			
+			<Anchor>//api/name/blendFunc</Anchor>
+            <NodeRef refid="86"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

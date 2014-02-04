@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCLabelTTF.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCLabelTTF</TokenIdentifier>
+			<Abstract type="html">CCLabel is a subclass of CCTextureNode that knows how to render text labels</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+            
+			
+			<NodeRef refid="85"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLabelTTF/setString:</TokenIdentifier>
+			<Abstract type="html">Changes the text of the label.</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *string</Declaration>
+			
+			
+			<Anchor>//api/name/string</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLabelTTF/string</TokenIdentifier>
+			<Abstract type="html">Changes the text of the label.</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *string</Declaration>
+			
+			
+			<Anchor>//api/name/string</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCLabelTTF/string</TokenIdentifier>
+			<Abstract type="html">Changes the text of the label.</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *string</Declaration>
+			
+			
+			<Anchor>//api/name/string</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLabelTTF/setAttributedString:</TokenIdentifier>
+			<Abstract type="html">Changes text of the label, draws the string with given attributes. The attributes used will override the alignment, color and shadow as set by the properties of the label. Attributed strings are only available on Mac and iOS 6 or later.</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSAttributedString *attributedString</Declaration>
+			
+			
+			<Anchor>//api/name/attributedString</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLabelTTF/attributedString</TokenIdentifier>
+			<Abstract type="html">Changes text of the label, draws the string with given attributes. The attributes used will override the alignment, color and shadow as set by the properties of the label. Attributed strings are only available on Mac and iOS 6 or later.</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSAttributedString *attributedString</Declaration>
+			
+			
+			<Anchor>//api/name/attributedString</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCLabelTTF/attributedString</TokenIdentifier>
+			<Abstract type="html">Changes text of the label, draws the string with given attributes. The attributes used will override the alignment, color and shadow as set by the properties of the label. Attributed strings are only available on Mac and iOS 6 or later.</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSAttributedString *attributedString</Declaration>
+			
+			
+			<Anchor>//api/name/attributedString</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLabelTTF/setFontName:</TokenIdentifier>
+			<Abstract type="html">Font name used in the label</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *fontName</Declaration>
+			
+			
+			<Anchor>//api/name/fontName</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLabelTTF/fontName</TokenIdentifier>
+			<Abstract type="html">Font name used in the label</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *fontName</Declaration>
+			
+			
+			<Anchor>//api/name/fontName</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCLabelTTF/fontName</TokenIdentifier>
+			<Abstract type="html">Font name used in the label</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *fontName</Declaration>
+			
+			
+			<Anchor>//api/name/fontName</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLabelTTF/setFontSize:</TokenIdentifier>
+			<Abstract type="html">Font size used in the label</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float fontSize</Declaration>
+			
+			
+			<Anchor>//api/name/fontSize</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLabelTTF/fontSize</TokenIdentifier>
+			<Abstract type="html">Font size used in the label</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float fontSize</Declaration>
+			
+			
+			<Anchor>//api/name/fontSize</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCLabelTTF/fontSize</TokenIdentifier>
+			<Abstract type="html">Font size used in the label</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float fontSize</Declaration>
+			
+			
+			<Anchor>//api/name/fontSize</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLabelTTF/setFontColor:</TokenIdentifier>
+			<Abstract type="html">Font color. If not using shadow or outline, it is more efficient to use the color property.</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) ccColor4B fontColor</Declaration>
+			
+			
+			<Anchor>//api/name/fontColor</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLabelTTF/fontColor</TokenIdentifier>
+			<Abstract type="html">Font color. If not using shadow or outline, it is more efficient to use the color property.</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) ccColor4B fontColor</Declaration>
+			
+			
+			<Anchor>//api/name/fontColor</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCLabelTTF/fontColor</TokenIdentifier>
+			<Abstract type="html">Font color. If not using shadow or outline, it is more efficient to use the color property.</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) ccColor4B fontColor</Declaration>
+			
+			
+			<Anchor>//api/name/fontColor</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLabelTTF/setDimensions:</TokenIdentifier>
+			<Abstract type="html">Dimensions of the label in Points</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGSize dimensions</Declaration>
+			
+			
+			<Anchor>//api/name/dimensions</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLabelTTF/dimensions</TokenIdentifier>
+			<Abstract type="html">Dimensions of the label in Points</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGSize dimensions</Declaration>
+			
+			
+			<Anchor>//api/name/dimensions</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCLabelTTF/dimensions</TokenIdentifier>
+			<Abstract type="html">Dimensions of the label in Points</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGSize dimensions</Declaration>
+			
+			
+			<Anchor>//api/name/dimensions</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLabelTTF/setHorizontalAlignment:</TokenIdentifier>
+			<Abstract type="html">The alignment of the label</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CCTextAlignment horizontalAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/horizontalAlignment</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLabelTTF/horizontalAlignment</TokenIdentifier>
+			<Abstract type="html">The alignment of the label</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CCTextAlignment horizontalAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/horizontalAlignment</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCLabelTTF/horizontalAlignment</TokenIdentifier>
+			<Abstract type="html">The alignment of the label</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CCTextAlignment horizontalAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/horizontalAlignment</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLabelTTF/setVerticalAlignment:</TokenIdentifier>
+			<Abstract type="html">The vertical alignment of the label</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CCVerticalTextAlignment verticalAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/verticalAlignment</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLabelTTF/verticalAlignment</TokenIdentifier>
+			<Abstract type="html">The vertical alignment of the label</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CCVerticalTextAlignment verticalAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/verticalAlignment</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCLabelTTF/verticalAlignment</TokenIdentifier>
+			<Abstract type="html">The vertical alignment of the label</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CCVerticalTextAlignment verticalAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/verticalAlignment</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLabelTTF/setShadowColor:</TokenIdentifier>
+			<Abstract type="html">The color of a text shadow. If the color is transparent, no shadow will be used.</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) ccColor4B shadowColor</Declaration>
+			
+			
+			<Anchor>//api/name/shadowColor</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLabelTTF/shadowColor</TokenIdentifier>
+			<Abstract type="html">The color of a text shadow. If the color is transparent, no shadow will be used.</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) ccColor4B shadowColor</Declaration>
+			
+			
+			<Anchor>//api/name/shadowColor</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCLabelTTF/shadowColor</TokenIdentifier>
+			<Abstract type="html">The color of a text shadow. If the color is transparent, no shadow will be used.</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) ccColor4B shadowColor</Declaration>
+			
+			
+			<Anchor>//api/name/shadowColor</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLabelTTF/setShadowOffset:</TokenIdentifier>
+			<Abstract type="html">The offset of the shadow (in the type specified by shadowOffsetType, default is (0,0).</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGPoint shadowOffset</Declaration>
+			
+			
+			<Anchor>//api/name/shadowOffset</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLabelTTF/shadowOffset</TokenIdentifier>
+			<Abstract type="html">The offset of the shadow (in the type specified by shadowOffsetType, default is (0,0).</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGPoint shadowOffset</Declaration>
+			
+			
+			<Anchor>//api/name/shadowOffset</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCLabelTTF/shadowOffset</TokenIdentifier>
+			<Abstract type="html">The offset of the shadow (in the type specified by shadowOffsetType, default is (0,0).</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) CGPoint shadowOffset</Declaration>
+			
+			
+			<Anchor>//api/name/shadowOffset</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLabelTTF/setShadowBlurRadius:</TokenIdentifier>
+			<Abstract type="html">The blur radius of the shadow, default is 0.</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float shadowBlurRadius</Declaration>
+			
+			
+			<Anchor>//api/name/shadowBlurRadius</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLabelTTF/shadowBlurRadius</TokenIdentifier>
+			<Abstract type="html">The blur radius of the shadow, default is 0.</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float shadowBlurRadius</Declaration>
+			
+			
+			<Anchor>//api/name/shadowBlurRadius</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCLabelTTF/shadowBlurRadius</TokenIdentifier>
+			<Abstract type="html">The blur radius of the shadow, default is 0.</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float shadowBlurRadius</Declaration>
+			
+			
+			<Anchor>//api/name/shadowBlurRadius</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLabelTTF/setOutlineColor:</TokenIdentifier>
+			<Abstract type="html">The color of the label&apos;s outline. Default is transparent/no outline.</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) ccColor4B outlineColor</Declaration>
+			
+			
+			<Anchor>//api/name/outlineColor</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLabelTTF/outlineColor</TokenIdentifier>
+			<Abstract type="html">The color of the label&apos;s outline. Default is transparent/no outline.</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) ccColor4B outlineColor</Declaration>
+			
+			
+			<Anchor>//api/name/outlineColor</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCLabelTTF/outlineColor</TokenIdentifier>
+			<Abstract type="html">The color of the label&apos;s outline. Default is transparent/no outline.</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) ccColor4B outlineColor</Declaration>
+			
+			
+			<Anchor>//api/name/outlineColor</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLabelTTF/setOutlineWidth:</TokenIdentifier>
+			<Abstract type="html">The width of the label&apos;s outline. Default is 0/no outline.</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float outlineWidth</Declaration>
+			
+			
+			<Anchor>//api/name/outlineWidth</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLabelTTF/outlineWidth</TokenIdentifier>
+			<Abstract type="html">The width of the label&apos;s outline. Default is 0/no outline.</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float outlineWidth</Declaration>
+			
+			
+			<Anchor>//api/name/outlineWidth</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCLabelTTF/outlineWidth</TokenIdentifier>
+			<Abstract type="html">The width of the label&apos;s outline. Default is 0/no outline.</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float outlineWidth</Declaration>
+			
+			
+			<Anchor>//api/name/outlineWidth</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLabelTTF/setAdjustsFontSizeToFit:</TokenIdentifier>
+			<Abstract type="html">If set, the label will be scaled down to fit into the size provided by the dimensions property. Only has an effect if dimensions are set.</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL adjustsFontSizeToFit</Declaration>
+			
+			
+			<Anchor>//api/name/adjustsFontSizeToFit</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLabelTTF/adjustsFontSizeToFit</TokenIdentifier>
+			<Abstract type="html">If set, the label will be scaled down to fit into the size provided by the dimensions property. Only has an effect if dimensions are set.</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL adjustsFontSizeToFit</Declaration>
+			
+			
+			<Anchor>//api/name/adjustsFontSizeToFit</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCLabelTTF/adjustsFontSizeToFit</TokenIdentifier>
+			<Abstract type="html">If set, the label will be scaled down to fit into the size provided by the dimensions property. Only has an effect if dimensions are set.</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL adjustsFontSizeToFit</Declaration>
+			
+			
+			<Anchor>//api/name/adjustsFontSizeToFit</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLabelTTF/setMinimumFontSize:</TokenIdentifier>
+			<Abstract type="html">Used together with adjustsFontSizeToFit. Fonts will not be scaled down below this size (the label will instead be clipped).</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float minimumFontSize</Declaration>
+			
+			
+			<Anchor>//api/name/minimumFontSize</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLabelTTF/minimumFontSize</TokenIdentifier>
+			<Abstract type="html">Used together with adjustsFontSizeToFit. Fonts will not be scaled down below this size (the label will instead be clipped).</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float minimumFontSize</Declaration>
+			
+			
+			<Anchor>//api/name/minimumFontSize</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCLabelTTF/minimumFontSize</TokenIdentifier>
+			<Abstract type="html">Used together with adjustsFontSizeToFit. Fonts will not be scaled down below this size (the label will instead be clipped).</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float minimumFontSize</Declaration>
+			
+			
+			<Anchor>//api/name/minimumFontSize</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLabelTTF/setBaselineAdjustment:</TokenIdentifier>
+			<Abstract type="html">Adjusts the fonts baseline, the value is set in points.</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float baselineAdjustment</Declaration>
+			
+			
+			<Anchor>//api/name/baselineAdjustment</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLabelTTF/baselineAdjustment</TokenIdentifier>
+			<Abstract type="html">Adjusts the fonts baseline, the value is set in points.</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float baselineAdjustment</Declaration>
+			
+			
+			<Anchor>//api/name/baselineAdjustment</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCLabelTTF/baselineAdjustment</TokenIdentifier>
+			<Abstract type="html">Adjusts the fonts baseline, the value is set in points.</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) float baselineAdjustment</Declaration>
+			
+			
+			<Anchor>//api/name/baselineAdjustment</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCLabelTTF/labelWithString:fontName:fontSize:</TokenIdentifier>
+			<Abstract type="html">Creates a CCLabelTTF with a font name and font size in points</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>+ (id)labelWithString:(NSString *)string fontName:(NSString *)name fontSize:(CGFloat)size</Declaration>
+			
+			
+			<Anchor>//api/name/labelWithString:fontName:fontSize:</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCLabelTTF/labelWithString:fontName:fontSize:dimensions:</TokenIdentifier>
+			<Abstract type="html">Creates a CCLabelTTF with a font name, font size in points and the desired dimensions.</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>+ (id)labelWithString:(NSString *)string fontName:(NSString *)name fontSize:(CGFloat)size dimensions:(CGSize)dimensions</Declaration>
+			
+			
+			<Anchor>//api/name/labelWithString:fontName:fontSize:dimensions:</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCLabelTTF/labelWithAttributedString:</TokenIdentifier>
+			<Abstract type="html">Creates a CCLabelTTF with an attributed string. Only supported on Mac and iOS 6 or later.</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>+ (id)labelWithAttributedString:(NSAttributedString *)attrString</Declaration>
+			
+			
+			<Anchor>//api/name/labelWithAttributedString:</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCLabelTTF/labelWithAttributedString:dimensions:</TokenIdentifier>
+			<Abstract type="html">Creates a CCLabelTTF with an attributed string and the desired dimensions. Only supported on Mac and iOS 6 or later.</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>+ (id)labelWithAttributedString:(NSAttributedString *)attrString dimensions:(CGSize)dimensions</Declaration>
+			
+			
+			<Anchor>//api/name/labelWithAttributedString:dimensions:</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLabelTTF/initWithString:fontName:fontSize:</TokenIdentifier>
+			<Abstract type="html">Initializes the CCLabelTTF with a font name and font size in points.</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithString:(NSString *)string fontName:(NSString *)name fontSize:(CGFloat)size</Declaration>
+			
+			
+			<Anchor>//api/name/initWithString:fontName:fontSize:</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLabelTTF/initWithString:fontName:fontSize:dimensions:</TokenIdentifier>
+			<Abstract type="html">Initializes the CCLabelTTF with a font name, font size in points and the desired dimensions.</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithString:(NSString *)string fontName:(NSString *)name fontSize:(CGFloat)size dimensions:(CGSize)dimensions</Declaration>
+			
+			
+			<Anchor>//api/name/initWithString:fontName:fontSize:dimensions:</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLabelTTF/initWithAttributedString:</TokenIdentifier>
+			<Abstract type="html">Initializes the CCLabelTTF with an attributed string. Only supported on Mac and iOS 6 or later.</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithAttributedString:(NSAttributedString *)attrString</Declaration>
+			
+			
+			<Anchor>//api/name/initWithAttributedString:</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCLabelTTF/initWithAttributedString:dimensions:</TokenIdentifier>
+			<Abstract type="html">Initializes the CCLabelTTF with an attributed string and the desired dimensions. Only supported on Mac and iOS 6 or later.</Abstract>
+			<DeclaredIn>CCLabelTTF.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithAttributedString:(NSAttributedString *)attrString dimensions:(CGSize)dimensions</Declaration>
+			
+			
+			<Anchor>//api/name/initWithAttributedString:dimensions:</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

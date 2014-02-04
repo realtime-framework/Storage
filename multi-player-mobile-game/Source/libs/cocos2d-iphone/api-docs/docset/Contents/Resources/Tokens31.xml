@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCActionFiniteTime.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCActionFiniteTime</TokenIdentifier>
+			<Abstract type="html">Base class actions that do have a finite time duration.
+Possible actions:
+   - An action with a duration of 0 seconds
+   - An action with a duration of 35.5 seconds
+Infinite time actions are valid</Abstract>
+			<DeclaredIn>CCAction.h</DeclaredIn>
+            
+			
+			<NodeRef refid="31"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCActionFiniteTime/reverse</TokenIdentifier>
+			<Abstract type="html">returns a reversed action</Abstract>
+			<DeclaredIn>CCAction.h</DeclaredIn>
+			
+			<Declaration>- (CCActionFiniteTime *)reverse</Declaration>
+			
+			
+			<Anchor>//api/name/reverse</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

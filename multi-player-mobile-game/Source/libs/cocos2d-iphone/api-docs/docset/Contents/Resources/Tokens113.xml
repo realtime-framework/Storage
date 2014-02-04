@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCSpriteFrame.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCSpriteFrame</TokenIdentifier>
+			<Abstract type="html">A CCSpriteFrame has:
+	- texture: A CCTexture2D that will be used by the CCSprite
+	- rectangle: A rectangle of the texture</Abstract>
+			<DeclaredIn>CCSpriteFrame.h</DeclaredIn>
+            
+			
+			<NodeRef refid="113"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteFrame/setRect:</TokenIdentifier>
+			<Abstract type="html">rect of the frame in points. If it is updated, then rectInPixels will be updated too.</Abstract>
+			<DeclaredIn>CCSpriteFrame.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGRect rect</Declaration>
+			
+			
+			<Anchor>//api/name/rect</Anchor>
+            <NodeRef refid="113"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteFrame/rect</TokenIdentifier>
+			<Abstract type="html">rect of the frame in points. If it is updated, then rectInPixels will be updated too.</Abstract>
+			<DeclaredIn>CCSpriteFrame.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGRect rect</Declaration>
+			
+			
+			<Anchor>//api/name/rect</Anchor>
+            <NodeRef refid="113"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCSpriteFrame/rect</TokenIdentifier>
+			<Abstract type="html">rect of the frame in points. If it is updated, then rectInPixels will be updated too.</Abstract>
+			<DeclaredIn>CCSpriteFrame.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGRect rect</Declaration>
+			
+			
+			<Anchor>//api/name/rect</Anchor>
+            <NodeRef refid="113"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteFrame/setRectInPixels:</TokenIdentifier>
+			<Abstract type="html">rect of the frame in pixels. If it is updated, then rect (points) will be updated too.</Abstract>
+			<DeclaredIn>CCSpriteFrame.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGRect rectInPixels</Declaration>
+			
+			
+			<Anchor>//api/name/rectInPixels</Anchor>
+            <NodeRef refid="113"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteFrame/rectInPixels</TokenIdentifier>
+			<Abstract type="html">rect of the frame in pixels. If it is updated, then rect (points) will be updated too.</Abstract>
+			<DeclaredIn>CCSpriteFrame.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGRect rectInPixels</Declaration>
+			
+			
+			<Anchor>//api/name/rectInPixels</Anchor>
+            <NodeRef refid="113"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCSpriteFrame/rectInPixels</TokenIdentifier>
+			<Abstract type="html">rect of the frame in pixels. If it is updated, then rect (points) will be updated too.</Abstract>
+			<DeclaredIn>CCSpriteFrame.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGRect rectInPixels</Declaration>
+			
+			
+			<Anchor>//api/name/rectInPixels</Anchor>
+            <NodeRef refid="113"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteFrame/setRotated:</TokenIdentifier>
+			<Abstract type="html">whether or not the rect of the frame is rotated ( x = x+width, y = y+height, width = height, height = width )</Abstract>
+			<DeclaredIn>CCSpriteFrame.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) BOOL rotated</Declaration>
+			
+			
+			<Anchor>//api/name/rotated</Anchor>
+            <NodeRef refid="113"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteFrame/rotated</TokenIdentifier>
+			<Abstract type="html">whether or not the rect of the frame is rotated ( x = x+width, y = y+height, width = height, height = width )</Abstract>
+			<DeclaredIn>CCSpriteFrame.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) BOOL rotated</Declaration>
+			
+			
+			<Anchor>//api/name/rotated</Anchor>
+            <NodeRef refid="113"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCSpriteFrame/rotated</TokenIdentifier>
+			<Abstract type="html">whether or not the rect of the frame is rotated ( x = x+width, y = y+height, width = height, height = width )</Abstract>
+			<DeclaredIn>CCSpriteFrame.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) BOOL rotated</Declaration>
+			
+			
+			<Anchor>//api/name/rotated</Anchor>
+            <NodeRef refid="113"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteFrame/setOffset:</TokenIdentifier>
+			<Abstract type="html">offset of the frame in points</Abstract>
+			<DeclaredIn>CCSpriteFrame.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGPoint offset</Declaration>
+			
+			
+			<Anchor>//api/name/offset</Anchor>
+            <NodeRef refid="113"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteFrame/offset</TokenIdentifier>
+			<Abstract type="html">offset of the frame in points</Abstract>
+			<DeclaredIn>CCSpriteFrame.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGPoint offset</Declaration>
+			
+			
+			<Anchor>//api/name/offset</Anchor>
+            <NodeRef refid="113"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCSpriteFrame/offset</TokenIdentifier>
+			<Abstract type="html">offset of the frame in points</Abstract>
+			<DeclaredIn>CCSpriteFrame.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGPoint offset</Declaration>
+			
+			
+			<Anchor>//api/name/offset</Anchor>
+            <NodeRef refid="113"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteFrame/setOffsetInPixels:</TokenIdentifier>
+			<Abstract type="html">offset of the frame in pixels</Abstract>
+			<DeclaredIn>CCSpriteFrame.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGPoint offsetInPixels</Declaration>
+			
+			
+			<Anchor>//api/name/offsetInPixels</Anchor>
+            <NodeRef refid="113"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteFrame/offsetInPixels</TokenIdentifier>
+			<Abstract type="html">offset of the frame in pixels</Abstract>
+			<DeclaredIn>CCSpriteFrame.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGPoint offsetInPixels</Declaration>
+			
+			
+			<Anchor>//api/name/offsetInPixels</Anchor>
+            <NodeRef refid="113"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCSpriteFrame/offsetInPixels</TokenIdentifier>
+			<Abstract type="html">offset of the frame in pixels</Abstract>
+			<DeclaredIn>CCSpriteFrame.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGPoint offsetInPixels</Declaration>
+			
+			
+			<Anchor>//api/name/offsetInPixels</Anchor>
+            <NodeRef refid="113"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteFrame/setOriginalSize:</TokenIdentifier>
+			<Abstract type="html">original size of the trimmed image in points</Abstract>
+			<DeclaredIn>CCSpriteFrame.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGSize originalSize</Declaration>
+			
+			
+			<Anchor>//api/name/originalSize</Anchor>
+            <NodeRef refid="113"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteFrame/originalSize</TokenIdentifier>
+			<Abstract type="html">original size of the trimmed image in points</Abstract>
+			<DeclaredIn>CCSpriteFrame.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGSize originalSize</Declaration>
+			
+			
+			<Anchor>//api/name/originalSize</Anchor>
+            <NodeRef refid="113"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCSpriteFrame/originalSize</TokenIdentifier>
+			<Abstract type="html">original size of the trimmed image in points</Abstract>
+			<DeclaredIn>CCSpriteFrame.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGSize originalSize</Declaration>
+			
+			
+			<Anchor>//api/name/originalSize</Anchor>
+            <NodeRef refid="113"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteFrame/setOriginalSizeInPixels:</TokenIdentifier>
+			<Abstract type="html">original size of the trimmed image in pixels</Abstract>
+			<DeclaredIn>CCSpriteFrame.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGSize originalSizeInPixels</Declaration>
+			
+			
+			<Anchor>//api/name/originalSizeInPixels</Anchor>
+            <NodeRef refid="113"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteFrame/originalSizeInPixels</TokenIdentifier>
+			<Abstract type="html">original size of the trimmed image in pixels</Abstract>
+			<DeclaredIn>CCSpriteFrame.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGSize originalSizeInPixels</Declaration>
+			
+			
+			<Anchor>//api/name/originalSizeInPixels</Anchor>
+            <NodeRef refid="113"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCSpriteFrame/originalSizeInPixels</TokenIdentifier>
+			<Abstract type="html">original size of the trimmed image in pixels</Abstract>
+			<DeclaredIn>CCSpriteFrame.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readwrite) CGSize originalSizeInPixels</Declaration>
+			
+			
+			<Anchor>//api/name/originalSizeInPixels</Anchor>
+            <NodeRef refid="113"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteFrame/setTexture:</TokenIdentifier>
+			<Abstract type="html">texture of the frame</Abstract>
+			<DeclaredIn>CCSpriteFrame.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readwrite) CCTexture *texture</Declaration>
+			
+			
+			<Anchor>//api/name/texture</Anchor>
+            <NodeRef refid="113"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteFrame/texture</TokenIdentifier>
+			<Abstract type="html">texture of the frame</Abstract>
+			<DeclaredIn>CCSpriteFrame.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readwrite) CCTexture *texture</Declaration>
+			
+			
+			<Anchor>//api/name/texture</Anchor>
+            <NodeRef refid="113"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCSpriteFrame/texture</TokenIdentifier>
+			<Abstract type="html">texture of the frame</Abstract>
+			<DeclaredIn>CCSpriteFrame.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readwrite) CCTexture *texture</Declaration>
+			
+			
+			<Anchor>//api/name/texture</Anchor>
+            <NodeRef refid="113"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteFrame/setTextureFilename:</TokenIdentifier>
+			<Abstract type="html">texture file name of the frame</Abstract>
+			<DeclaredIn>CCSpriteFrame.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *textureFilename</Declaration>
+			
+			
+			<Anchor>//api/name/textureFilename</Anchor>
+            <NodeRef refid="113"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteFrame/textureFilename</TokenIdentifier>
+			<Abstract type="html">texture file name of the frame</Abstract>
+			<DeclaredIn>CCSpriteFrame.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *textureFilename</Declaration>
+			
+			
+			<Anchor>//api/name/textureFilename</Anchor>
+            <NodeRef refid="113"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CCSpriteFrame/textureFilename</TokenIdentifier>
+			<Abstract type="html">texture file name of the frame</Abstract>
+			<DeclaredIn>CCSpriteFrame.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSString *textureFilename</Declaration>
+			
+			
+			<Anchor>//api/name/textureFilename</Anchor>
+            <NodeRef refid="113"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCSpriteFrame/frameWithImageNamed:</TokenIdentifier>
+			<Abstract type="html">Retrieves a sprite frame from the sprite frame cache, or if no such sprite frame is know, attempts to create a sprite frame from an image of the same name.</Abstract>
+			<DeclaredIn>CCSpriteFrame.h</DeclaredIn>
+			
+			<Declaration>+ (id)frameWithImageNamed:(NSString *)imageName</Declaration>
+			
+			
+			<Anchor>//api/name/frameWithImageNamed:</Anchor>
+            <NodeRef refid="113"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCSpriteFrame/frameWithTexture:rect:</TokenIdentifier>
+			<Abstract type="html">Create a CCSpriteFrame with a texture, rect in points.
+It is assumed that the frame was not trimmed.</Abstract>
+			<DeclaredIn>CCSpriteFrame.h</DeclaredIn>
+			
+			<Declaration>+ (id)frameWithTexture:(CCTexture *)texture rect:(CGRect)rect</Declaration>
+			
+			
+			<Anchor>//api/name/frameWithTexture:rect:</Anchor>
+            <NodeRef refid="113"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCSpriteFrame/frameWithTextureFilename:rect:</TokenIdentifier>
+			<Abstract type="html">Create a CCSpriteFrame with a texture filename, rect in points.
+It is assumed that the frame was not trimmed.</Abstract>
+			<DeclaredIn>CCSpriteFrame.h</DeclaredIn>
+			
+			<Declaration>+ (id)frameWithTextureFilename:(NSString *)filename rect:(CGRect)rect</Declaration>
+			
+			
+			<Anchor>//api/name/frameWithTextureFilename:rect:</Anchor>
+            <NodeRef refid="113"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCSpriteFrame/frameWithTexture:rectInPixels:rotated:offset:originalSize:</TokenIdentifier>
+			<Abstract type="html">Create a CCSpriteFrame with a texture, rect, rotated, offset and originalSize in pixels.
+The originalSize is the size in pixels of the frame before being trimmed.</Abstract>
+			<DeclaredIn>CCSpriteFrame.h</DeclaredIn>
+			
+			<Declaration>+ (id)frameWithTexture:(CCTexture *)texture rectInPixels:(CGRect)rect rotated:(BOOL)rotated offset:(CGPoint)offset originalSize:(CGSize)originalSize</Declaration>
+			
+			
+			<Anchor>//api/name/frameWithTexture:rectInPixels:rotated:offset:originalSize:</Anchor>
+            <NodeRef refid="113"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCSpriteFrame/frameWithTextureFilename:rectInPixels:rotated:offset:originalSize:</TokenIdentifier>
+			<Abstract type="html">Create a CCSpriteFrame with a texture filename, rect, rotated, offset and originalSize in pixels.
+The originalSize is the size in pixels of the frame before being trimmed.</Abstract>
+			<DeclaredIn>CCSpriteFrame.h</DeclaredIn>
+			
+			<Declaration>+ (id)frameWithTextureFilename:(NSString *)filename rectInPixels:(CGRect)rect rotated:(BOOL)rotated offset:(CGPoint)offset originalSize:(CGSize)originalSize</Declaration>
+			
+			
+			<Anchor>//api/name/frameWithTextureFilename:rectInPixels:rotated:offset:originalSize:</Anchor>
+            <NodeRef refid="113"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteFrame/initWithTexture:rect:</TokenIdentifier>
+			<Abstract type="html">Initializes a CCSpriteFrame with a texture, rect in points;
+It is assumed that the frame was not trimmed.</Abstract>
+			<DeclaredIn>CCSpriteFrame.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithTexture:(CCTexture *)texture rect:(CGRect)rect</Declaration>
+			
+			
+			<Anchor>//api/name/initWithTexture:rect:</Anchor>
+            <NodeRef refid="113"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteFrame/initWithTextureFilename:rect:</TokenIdentifier>
+			<Abstract type="html">Initializes a CCSpriteFrame with a texture filename, rect in points;
+It is assumed that the frame was not trimmed.</Abstract>
+			<DeclaredIn>CCSpriteFrame.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithTextureFilename:(NSString *)filename rect:(CGRect)rect</Declaration>
+			
+			
+			<Anchor>//api/name/initWithTextureFilename:rect:</Anchor>
+            <NodeRef refid="113"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteFrame/initWithTexture:rectInPixels:rotated:offset:originalSize:</TokenIdentifier>
+			<Abstract type="html">Initializes a CCSpriteFrame with a texture, rect, rotated, offset and originalSize in pixels.
+The originalSize is the size in pixels of the frame before being trimmed.</Abstract>
+			<DeclaredIn>CCSpriteFrame.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithTexture:(CCTexture *)texture rectInPixels:(CGRect)rect rotated:(BOOL)rotated offset:(CGPoint)offset originalSize:(CGSize)originalSize</Declaration>
+			
+			
+			<Anchor>//api/name/initWithTexture:rectInPixels:rotated:offset:originalSize:</Anchor>
+            <NodeRef refid="113"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCSpriteFrame/initWithTextureFilename:rectInPixels:rotated:offset:originalSize:</TokenIdentifier>
+			<Abstract type="html">Initializes a CCSpriteFrame with a texture, rect, rotated, offset and originalSize in pixels.
+The originalSize is the size in pixels of the frame before being trimmed.</Abstract>
+			<DeclaredIn>CCSpriteFrame.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithTextureFilename:(NSString *)filename rectInPixels:(CGRect)rect rotated:(BOOL)rotated offset:(CGPoint)offset originalSize:(CGSize)originalSize</Declaration>
+			
+			
+			<Anchor>//api/name/initWithTextureFilename:rectInPixels:rotated:offset:originalSize:</Anchor>
+            <NodeRef refid="113"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

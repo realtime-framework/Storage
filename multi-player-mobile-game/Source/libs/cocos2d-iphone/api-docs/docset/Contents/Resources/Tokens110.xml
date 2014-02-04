@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CCShaderCache.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CCShaderCache</TokenIdentifier>
+			<Abstract type="html">CCShaderCache
+Singleton that stores manages GL shaders</Abstract>
+			<DeclaredIn>CCShaderCache.h</DeclaredIn>
+            <Availability type="html">(
+    &quot;v2.0&quot;
+)</Availability>
+			
+			<NodeRef refid="110"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCShaderCache/sharedShaderCache</TokenIdentifier>
+			<Abstract type="html">returns the shared instance</Abstract>
+			<DeclaredIn>CCShaderCache.h</DeclaredIn>
+			
+			<Declaration>+ (CCShaderCache *)sharedShaderCache</Declaration>
+			
+			
+			<Anchor>//api/name/sharedShaderCache</Anchor>
+            <NodeRef refid="110"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CCShaderCache/purgeSharedShaderCache</TokenIdentifier>
+			<Abstract type="html">purges the cache. It releases the retained instance.</Abstract>
+			<DeclaredIn>CCShaderCache.h</DeclaredIn>
+			
+			<Declaration>+ (void)purgeSharedShaderCache</Declaration>
+			
+			
+			<Anchor>//api/name/purgeSharedShaderCache</Anchor>
+            <NodeRef refid="110"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCShaderCache/loadDefaultShaders</TokenIdentifier>
+			<Abstract type="html">loads the default shaders</Abstract>
+			<DeclaredIn>CCShaderCache.h</DeclaredIn>
+			
+			<Declaration>- (void)loadDefaultShaders</Declaration>
+			
+			
+			<Anchor>//api/name/loadDefaultShaders</Anchor>
+            <NodeRef refid="110"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCShaderCache/programForKey:</TokenIdentifier>
+			<Abstract type="html">returns a GL program for a given key</Abstract>
+			<DeclaredIn>CCShaderCache.h</DeclaredIn>
+			
+			<Declaration>- (CCGLProgram *)programForKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/programForKey:</Anchor>
+            <NodeRef refid="110"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CCShaderCache/addProgram:forKey:</TokenIdentifier>
+			<Abstract type="html">adds a CCGLProgram to the cache for a given name</Abstract>
+			<DeclaredIn>CCShaderCache.h</DeclaredIn>
+			
+			<Declaration>- (void)addProgram:(CCGLProgram *)program forKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/addProgram:forKey:</Anchor>
+            <NodeRef refid="110"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>
