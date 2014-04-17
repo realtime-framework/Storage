@@ -130,16 +130,16 @@
         if ([StorageManager sharedManager].nickName != nil && [[StorageManager sharedManager].nickName length] > 0 && [StorageManager sharedManager].storageRef) {
             
             _chatRoomsBtt.enabled = YES;
-			[_myActivityIndicator stopAnimating];
         }
         else {
             _chatRoomsBtt.enabled = NO;
         }
-    }
+	}
     else {
         _chatRoomsBtt.enabled = NO;
         _statusLabel.text = @"No Internet Connection Available!";
-    }
+	}
+	[_myActivityIndicator stopAnimating];
 }
 
 

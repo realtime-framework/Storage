@@ -39,7 +39,7 @@
 		6A95F8441834F5C900EF600F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A95F8261834F5C900EF600F /* RootViewController.m */; };
 		6A95F8451834F5C900EF600F /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A95F8271834F5C900EF600F /* RootViewController.xib */; };
 		6A95F8471834F5C900EF600F /* StorageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A95F82B1834F5C900EF600F /* StorageManager.m */; };
-		6AA1D244185A28C700DCC0C5 /* RealTimeCloudStorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AA44D0D1858B7DE00601571 /* RealTimeCloudStorage.framework */; };
+		6AB2F98618FFF376006FB821 /* RealTimeCloudStorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB2F98518FFF376006FB821 /* RealTimeCloudStorage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,7 +87,7 @@
 		6A95F8291834F5C900EF600F /* RTCS Chat-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RTCS Chat-Prefix.pch"; sourceTree = "<group>"; };
 		6A95F82A1834F5C900EF600F /* StorageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StorageManager.h; sourceTree = "<group>"; };
 		6A95F82B1834F5C900EF600F /* StorageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StorageManager.m; sourceTree = "<group>"; };
-		6AA44D0D1858B7DE00601571 /* RealTimeCloudStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealTimeCloudStorage.framework; path = "RTCS Chat/RealTimeCloudStorage.framework"; sourceTree = "<group>"; };
+		6AB2F98518FFF376006FB821 /* RealTimeCloudStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealTimeCloudStorage.framework; path = "RTCS Chat/RealTimeCloudStorage.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AA1D244185A28C700DCC0C5 /* RealTimeCloudStorage.framework in Frameworks */,
+				6AB2F98618FFF376006FB821 /* RealTimeCloudStorage.framework in Frameworks */,
 				6A150443182D157500F8EE56 /* SystemConfiguration.framework in Frameworks */,
 				6A150441182D150400F8EE56 /* QuartzCore.framework in Frameworks */,
 				6A2E1FBD182BE8DB00CEFF8E /* Security.framework in Frameworks */,
@@ -130,7 +130,7 @@
 		6A2E1F7F182BE3BE00CEFF8E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6AA44D0D1858B7DE00601571 /* RealTimeCloudStorage.framework */,
+				6AB2F98518FFF376006FB821 /* RealTimeCloudStorage.framework */,
 				6A150442182D157500F8EE56 /* SystemConfiguration.framework */,
 				6A150440182D150400F8EE56 /* QuartzCore.framework */,
 				6A2E1FBC182BE8DB00CEFF8E /* Security.framework */,
@@ -341,7 +341,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
+					"DEBUG=0",
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
@@ -354,7 +354,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-all_load";
-				PROVISIONING_PROFILE = "4839B657-84CA-4978-837D-5ACDE5A995CA";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -387,7 +387,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "-all_load";
-				PROVISIONING_PROFILE = "4839B657-84CA-4978-837D-5ACDE5A995CA";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -401,15 +401,17 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/RTCS\\\\\\ Chat",
-					"/Users/iosdev/svnProjects/realtime.ios/trunk/examples/RTCS\\ Chat/RTCS\\ Chat",
+					"$(SRCROOT)/RTCS\\ Chat/**",
+					"$(PROJECT_DIR)/RTCS",
+					Chat,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RTCS Chat/RTCS Chat-Prefix.pch";
 				INFOPLIST_FILE = "RTCS Chat/RTCS Chat-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/RTCS/**";
 				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = "RTCS Chat";
-				PROVISIONING_PROFILE = "4839B657-84CA-4978-837D-5ACDE5A995CA";
+				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = "arm64 armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
@@ -423,15 +425,17 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/RTCS\\\\\\ Chat",
-					"/Users/iosdev/svnProjects/realtime.ios/trunk/examples/RTCS\\ Chat/RTCS\\ Chat",
+					"$(SRCROOT)/RTCS\\ Chat/**",
+					"$(PROJECT_DIR)/RTCS",
+					Chat,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RTCS Chat/RTCS Chat-Prefix.pch";
 				INFOPLIST_FILE = "RTCS Chat/RTCS Chat-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/RTCS/**";
 				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = "RTCS Chat";
-				PROVISIONING_PROFILE = "4839B657-84CA-4978-837D-5ACDE5A995CA";
+				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = "arm64 armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};

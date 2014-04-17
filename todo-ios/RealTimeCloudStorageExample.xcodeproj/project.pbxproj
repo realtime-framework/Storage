@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6A4F4B041844FDD8004D62D2 /* RealTimeCloudStorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE144B1517E370B20053BC90 /* RealTimeCloudStorage.framework */; };
+		6AA58F61185B3CCE00A1D4BE /* RealTimeCloudStorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AA58F60185B3CCE00A1D4BE /* RealTimeCloudStorage.framework */; };
 		CE14470817E1E3F80053BC90 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE14470717E1E3F80053BC90 /* UIKit.framework */; };
 		CE14470A17E1E3F80053BC90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE14470917E1E3F80053BC90 /* Foundation.framework */; };
 		CE14470C17E1E3F80053BC90 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE14470B17E1E3F80053BC90 /* CoreGraphics.framework */; };
@@ -33,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6AA58F60185B3CCE00A1D4BE /* RealTimeCloudStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealTimeCloudStorage.framework; sourceTree = "<group>"; };
 		CE14470417E1E3F80053BC90 /* Storage Todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Storage Todo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE14470717E1E3F80053BC90 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CE14470917E1E3F80053BC90 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,7 +60,6 @@
 		CE14474117E1E5FB0053BC90 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		CE14474217E1E5FB0053BC90 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		CE14474317E1E5FB0053BC90 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		CE144B1517E370B20053BC90 /* RealTimeCloudStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealTimeCloudStorage.framework; sourceTree = "<group>"; };
 		CEA6627617E78BA5003EC749 /* Realtime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Realtime.png; sourceTree = "<group>"; };
 		CEA6627817E78BB5003EC749 /* Realtime_retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Realtime_retina.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A4F4B041844FDD8004D62D2 /* RealTimeCloudStorage.framework in Frameworks */,
+				6AA58F61185B3CCE00A1D4BE /* RealTimeCloudStorage.framework in Frameworks */,
 				CE14474717E1E60B0053BC90 /* CFNetwork.framework in Frameworks */,
 				CE14474817E1E60B0053BC90 /* libicucore.dylib in Frameworks */,
 				CE14474917E1E60B0053BC90 /* Security.framework in Frameworks */,
@@ -104,7 +104,7 @@
 		CE14470617E1E3F80053BC90 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CE144B1517E370B20053BC90 /* RealTimeCloudStorage.framework */,
+				6AA58F60185B3CCE00A1D4BE /* RealTimeCloudStorage.framework */,
 				CE14474117E1E5FB0053BC90 /* CFNetwork.framework */,
 				CE14474217E1E5FB0053BC90 /* libicucore.dylib */,
 				CE14474317E1E5FB0053BC90 /* Security.framework */,
