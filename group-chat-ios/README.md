@@ -13,7 +13,7 @@ This example uses the Realtime Cloud Storage iOS SDK to save and retrieve group 
 This example uses a table named RTCSChat with the following key schema:
 
 - Primary key: ChatRoom (string)
-- Secondary key: timeStamp (number)
+- Secondary key: timeStamp (string)
 
 ## About the Realtime Cloud Storage Service
 Part of the [The Realtime® Framework](http://framework.realtime.co), the Realtime Cloud Storage Service is a highly-scalable backend-as-a-service powered by Amazon DynamoDB. We've added real-time notifications to keep data synchronized between users of your application.
