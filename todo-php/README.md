@@ -1,5 +1,5 @@
 ## The Realtime Cloud Storage Todo example for PHP + JavaScript 
-This example, based on the [AngularJS TodoMVC architecture example](http://todomvc.com/architecture-examples/angularjs/#/), uses the Cloud Storage REST API in conjunction with the Realtime Cloud Storage JavaScript library. This sample can be used with the other samples, namely with the on-line demo at [http://storage-public.realtime.co/samples/todo-lbl](http://storage-public.realtime.co/samples/todo-lbl). 
+This example uses the Cloud Storage REST API in conjunction with the Realtime Cloud Storage JavaScript library and it can be used with the other samples, namely with the on-line demo at [http://storage-public.realtime.co/samples/todo-lbl](http://storage-public.realtime.co/samples/todo-lbl). 
 
 All data will be synchronized between apps.
 
