@@ -1,10 +1,8 @@
 //
-//  RealtimePushAppDelegate.h
-//  RealtimeCloudStorage
+//  AppDelegate.h
+//  OrtcClient
 //
-//	Version 1.0.5
-//
-//  Created by Realtime on 15/01/2014.
+//  Created by iOSdev on 9/20/13.
 //  Copyright (c) 2013 Realtime.co All rights reserved.
 //
 
@@ -20,9 +18,9 @@
  
  RealtimePushAppDelegate implements UIApplicationDelegate protocol.
  
- In order to use Realtime Cloud Storage with Apple Push Notifications Service, your Application Delegate must inherit from RealtimePushAppDelegate, you will also  need in `application:didFinishLaunchingWithOptions:` implementation call his super.
+ In order to use OrtcClient with Apple Push Notifications Service, your Application Delegate must inherit from RealtimePushAppDelegate, you will also  need in `application:didFinishLaunchingWithOptions:` implementation call his super.
  
- This class enables use of push notifications.
+ This class enables use of push notifications as well as forwards your messages to OrtcClient.
  
  Just chek the example code:
  
@@ -58,14 +56,16 @@ If for some reason, in your Application delegate, You implement:
  
  ``- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo``
  
- You must implement his super in order to get Realtime Cloud Storage functionalities.
+ You must implement his super in order to get OrtcClient functionalities.
+ 
+ 
  
  
  __See Also:__
 
- [_UIApplication Documentation_](http://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplication\_Class/index.html)
+ [_UIApplication Documentaion_](http://developer.apple.com/library/ios/documentation/UIKit/Reference/UIApplication\_Class/index.html)
 
- [_UIApplicationDelegate Documentation_](https://developer.apple.com/library/ios/documentation/uikit/reference/UIApplication\_Class/Reference/Reference.html)
+ [_UIApplicationDelegate Documentaion_](https://developer.apple.com/library/ios/documentation/uikit/reference/UIApplication\_Class/Reference/Reference.html)
  
  */
 
