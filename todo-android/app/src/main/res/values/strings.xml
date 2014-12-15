@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RealtimeCloudStorage TODO </string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="listLabel">List name:</string>
+    <string name="taskHint">What needs to be done?</string>
+    <string name="completeAll">Mark all task as completed</string>
+    <string name="all">All</string>
+    <string name="active">Active</string>
+    <string name="completed">Completed</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_section1">All</string>
+    <string name="title_section2">Active</string>
+    <string name="title_section3">Completed</string>
+    <string name="title_activity_teste">TesteActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+
+</resources>

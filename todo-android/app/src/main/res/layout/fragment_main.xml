@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.realtime.todo.MainActivity$PlaceholderFragment">
+
+    <TextView android:id="@+id/section_label" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editTextTableName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textView2"
+        android:ems="10"
+        android:imeOptions="actionDone"
+        android:inputType="textCapSentences" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editTextTableName"
+        android:layout_alignBottom="@+id/editTextTableName"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="@dimen/newDimension"
+        android:text="@string/listLabel"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editTextTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="48dp"
+        android:ems="12"
+        android:hint="@string/taskHint"
+        android:imeOptions="actionDone"
+        android:inputType="textCapSentences" >
+    </EditText>
+
+    <ImageButton
+        android:id="@+id/buttonCompleteAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignTop="@+id/editTextTask"
+        android:background="@drawable/check_all1"
+        android:contentDescription="@string/completeAll"
+        android:src="@drawable/check_all1" />
+
+    <ListView
+        android:id="@+id/listViewTasks"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/editTextTask">
+
+        <requestFocus>
+        </requestFocus>
+    </ListView>
+
+</RelativeLayout>

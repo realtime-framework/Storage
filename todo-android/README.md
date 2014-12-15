@@ -1,6 +1,8 @@
 ## The Realtime Cloud Storage Todo example for Android (Java) 
 This example uses the Realtime Cloud Storage Android SDK to save and retrieve todo lists from the cloud. This sample can be used with the JavaScript and iOS samples. All data will be synchronized between apps.
 
+*NOTE: This project was built using Android Studio*
+
 ## About the Realtime Cloud Storage Service
 Part of the [The Realtime® Framework](http://framework.realtime.co), the Realtime Cloud Storage Service is a highly-scalable backend-as-a-service powered by Amazon DynamoDB. We've added real-time notifications to keep data synchronized between users of your application.
 
