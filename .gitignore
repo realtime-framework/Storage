@@ -1,0 +1,15 @@
+
+todo-nodejs/node_modules/
+todo-nodejs/npm-debug.log
+
+todo-android/app/build/
+todo-android/.idea/libraries/
+todo-android/.gradle/
+todo-android/.idea/workspace.xml
+todo-android/build/generated/mockable-android-23.jar
+todo-android/build/intermediates/
+todo-android/local.properties
+
+todo-ios/RealTimeCloudStorageExample.xcodeproj/project.xcworkspace/xcuserdata/
+
+
