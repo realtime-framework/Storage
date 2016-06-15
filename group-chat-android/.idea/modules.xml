@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/StorageGroupChat.iml" filepath="$PROJECT_DIR$/StorageGroupChat.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/group-chat-android.iml" filepath="$PROJECT_DIR$/group-chat-android.iml" />
     </modules>
   </component>
 </project>
-
